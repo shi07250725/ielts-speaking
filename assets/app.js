@@ -272,7 +272,7 @@
     const items = (t.questions || []).concat(t.part3 || []);
     const total = items.length + (t.sampleAnswer ? 1 : 0);
     const done = items.filter((i) => i.a).length + (t.sampleAnswer ? 1 : 0);
-    if (total === 0 || done === 0) return `<span class="ans-tag none">暂无答案</span>`;
+    if (total === 0 || done === 0) return `<span class="ans-tag none">答案待更新</span>`;
     if (done === total) return `<span class="ans-tag ok">答案已更新</span>`;
     return `<span class="ans-tag partial">部分答案 ${done}/${total}</span>`;
   }
