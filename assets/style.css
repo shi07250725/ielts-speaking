@@ -140,7 +140,6 @@ body{
 .stag{font-size:11.5px;font-weight:600;padding:2px 8px;border-radius:6px;white-space:nowrap;flex:none}
 .st-new{background:var(--brand);color:#fff}
 .st-must{background:var(--accent);color:#fff}
-.st-adapt{background:var(--brand-soft);color:var(--brand);border:1px solid var(--brand-line)}
 .st-keep{background:var(--accent-soft);color:var(--accent-ink);border:1px solid transparent}
 .st-none{background:var(--line);color:var(--ink-3);border:1px solid transparent}
 
