@@ -2913,6 +2913,404 @@ window.QUESTION_BANK = {
           "a": "Parents frequently find themselves in situations when they need to convince their children to do things that they might not, at first, want to do. Some things like studies… going to school… duties and responsibilities like this that children initially find boring or challenging. Parents should find ways to try to persuade their children to do these things, according to the type of personality of their kids and how they respond to certain types of persuasion."
         }
       ]
+    },
+    {
+      "id": "p1-travelling",
+      "part": 1,
+      "category": "日常生活",
+      "status": "改编题",
+      "month": 9,
+      "date": "2026-09-01",
+      "title": "Travelling",
+      "titleCn": "旅行",
+      "questions": [
+        {
+          "q": "Do you prefer sitting by the window when you travel?"
+        },
+        {
+          "q": "Did you ever go on a long journey with your family when you were a child?"
+        }
+      ]
+    },
+    {
+      "id": "p1-computers",
+      "part": 1,
+      "category": "日常生活",
+      "status": "保留题",
+      "month": 9,
+      "date": "2026-09-01",
+      "title": "Computers",
+      "titleCn": "电脑",
+      "questions": [
+        {
+          "q": "In what conditions would you use a computer?"
+        },
+        {
+          "q": "When was the first time you used a computer?"
+        },
+        {
+          "q": "What will your life be like without computers?"
+        },
+        {
+          "q": "In what conditions would it be difficult for you to use a computer?"
+        }
+      ]
+    },
+    {
+      "id": "p1-collecting-things",
+      "part": 1,
+      "category": "日常生活",
+      "status": "保留题",
+      "month": 9,
+      "date": "2026-09-01",
+      "title": "Collecting things",
+      "titleCn": "收集物品",
+      "questions": [
+        {
+          "q": "Do you collect anything?"
+        },
+        {
+          "q": "Are there any things you keep from childhood?"
+        },
+        {
+          "q": "Where do you usually keep things you collect?"
+        }
+      ]
+    },
+    {
+      "id": "p1-street-market",
+      "part": 1,
+      "category": "日常生活",
+      "status": "保留题",
+      "month": 9,
+      "date": "2026-09-01",
+      "title": "Street market",
+      "titleCn": "街市",
+      "questions": [
+        {
+          "q": "What do street markets sell?"
+        },
+        {
+          "q": "Do you prefer to go shopping in the shopping mall or the street market?"
+        },
+        {
+          "q": "When was the last time you went to a street market?"
+        },
+        {
+          "q": "Are there many street markets in China?"
+        }
+      ]
+    },
+    {
+      "id": "p1-lost-and-found",
+      "part": 1,
+      "category": "日常生活",
+      "status": "保留题",
+      "month": 9,
+      "date": "2026-09-01",
+      "title": "Lost and found",
+      "titleCn": "失物招领",
+      "questions": [
+        {
+          "q": "What will you do if you find something lost by others?"
+        },
+        {
+          "q": "Have you ever lost anything?"
+        },
+        {
+          "q": "Will you post on social media if you lose your items?"
+        },
+        {
+          "q": "Have you ever lost your keys?"
+        }
+      ]
+    },
+    {
+      "id": "p1-tiredness",
+      "part": 1,
+      "category": "日常生活",
+      "status": "保留题",
+      "month": 9,
+      "date": "2026-09-01",
+      "title": "Tiredness",
+      "titleCn": "疲惫",
+      "questions": [
+        {
+          "q": "What things make you tired?"
+        },
+        {
+          "q": "What do you do when you feel tired?"
+        },
+        {
+          "q": "Who do you prefer to talk to when you feel tired, your friends or family members?"
+        },
+        {
+          "q": "Do you want to talk to strangers when you feel mentally tired?"
+        },
+        {
+          "q": "Do you often feel tired?"
+        }
+      ]
+    },
+    {
+      "id": "p1-rubbish",
+      "part": 1,
+      "category": "日常生活",
+      "status": "保留题",
+      "month": 9,
+      "date": "2026-09-01",
+      "title": "Rubbish",
+      "titleCn": "垃圾",
+      "questions": [
+        {
+          "q": "Do you think your city is clean?"
+        },
+        {
+          "q": "Would people just throw rubbish on the street?"
+        },
+        {
+          "q": "How do you feel when you see someone throw rubbish on the street?"
+        },
+        {
+          "q": "Do you think it's easy to teach people not to throw rubbish around?"
+        },
+        {
+          "q": "What do you do with garbage when you are on the street?"
+        },
+        {
+          "q": "How important do you think it is to keep the city clean?"
+        },
+        {
+          "q": "How do you recycle things like paper and plastic?"
+        }
+      ]
+    },
+    {
+      "id": "p1-shoes",
+      "part": 1,
+      "category": "日常生活",
+      "status": "保留题",
+      "month": 9,
+      "date": "2026-09-01",
+      "title": "Shoes",
+      "titleCn": "鞋子",
+      "questions": [
+        {
+          "q": "Do you like your shoes or, are you interested in shoes?"
+        },
+        {
+          "q": "Do you ever buy shoes online?"
+        },
+        {
+          "q": "Do you prefer comfortable shoes, or good-looking fashionable shoes?"
+        },
+        {
+          "q": "What kind of shoes do you like the most?"
+        },
+        {
+          "q": "How much money do you usually spend on shoes?"
+        }
+      ]
+    },
+    {
+      "id": "p1-politeness",
+      "part": 1,
+      "category": "日常生活",
+      "status": "新题",
+      "month": 9,
+      "date": "2026-09-01",
+      "title": "Politeness",
+      "titleCn": "礼貌",
+      "questions": [
+        {
+          "q": "How did you learn to be polite as a child?"
+        },
+        {
+          "q": "Do you think being polite is very important?"
+        }
+      ]
+    },
+    {
+      "id": "p2-a-person-you-only-met-once-and-want-to-know-more-about",
+      "part": 2,
+      "category": "人物",
+      "status": "保留题",
+      "month": 9,
+      "date": "2026-09-01",
+      "title": "Describe a person you only met once and want to know more about.",
+      "titleCn": "想要继续了解的人",
+      "card": "You should say:\n· Who he/she is\n· When you met him/her\n· Why you want to know more about him/her\n· And explain how you feel about him/her",
+      "part3": [
+        {
+          "q": "Is it important to have the same hobbies and interests when making friends?"
+        },
+        {
+          "q": "What qualities make true friends?"
+        },
+        {
+          "q": "On what occasions do people like to make friends?"
+        }
+      ]
+    },
+    {
+      "id": "p2-a-lesson-that-impressed-you-a-lot",
+      "part": 2,
+      "category": "物品",
+      "status": "保留题",
+      "month": 9,
+      "date": "2026-09-01",
+      "title": "Describe a lesson that impressed you a lot.",
+      "titleCn": "印象深刻的课程",
+      "card": "You should say:\n· What the lesson was about\n· Where you took the lesson\n· What you did in the lesson\n· And explain why it impressed you a lot",
+      "part3": [
+        {
+          "q": "Which can help you remember things better, words or photos?"
+        },
+        {
+          "q": "Why do some people have better memory?"
+        },
+        {
+          "q": "Can technology help people remember things better? How?"
+        }
+      ]
+    },
+    {
+      "id": "p2-a-gift-you-would-like-to-buy-for-your-friend",
+      "part": 2,
+      "category": "物品",
+      "status": "保留题",
+      "month": 9,
+      "date": "2026-09-01",
+      "title": "Describe a gift you would like to buy for your friend.",
+      "titleCn": "给朋友买的礼物",
+      "card": "You should say:\n· What gift you would like to buy\n· Who you would like to give it to\n· Why you want to buy this gift for him/her\n· And explain why you would like to choose that gift",
+      "part3": [
+        {
+          "q": "When do people send gifts to others?"
+        },
+        {
+          "q": "Do people give gifts or red packets on traditional festivals?"
+        },
+        {
+          "q": "Is it hard to choose a gift?"
+        },
+        {
+          "q": "Will people feel happy when receiving an expensive gift?"
+        }
+      ]
+    },
+    {
+      "id": "p2-a-happy-person-you-know",
+      "part": 2,
+      "category": "人物",
+      "status": "新题",
+      "month": 9,
+      "date": "2026-09-01",
+      "title": "Describe a happy person you know.",
+      "titleCn": "快乐的人",
+      "card": "You should say:\n· Who this person is\n· What he/she is like\n· How he/she shows happiness\n· And explain why you think he/she is a happy person",
+      "part3": [
+        {
+          "q": "Should teachers know what children are doing all the time?"
+        },
+        {
+          "q": "Do you think teachers are able to spot the unhappy children?"
+        },
+        {
+          "q": "How can the arts spread positive emotions in society?"
+        }
+      ]
+    },
+    {
+      "id": "p2-a-time-when-you-changed-an-important-decision-of-yours",
+      "part": 2,
+      "category": "事件",
+      "status": "改编题",
+      "month": 9,
+      "date": "2026-09-01",
+      "title": "Describe a time when you changed an important decision of yours.",
+      "titleCn": "改变重要决定的经历",
+      "card": "You should say:\n· When you changed the decision\n· What the original decision was\n· Why you changed it\n· And explain how you felt about the experience",
+      "part3": [
+        {
+          "q": "When do most children begin to make their own decisions?"
+        }
+      ]
+    },
+    {
+      "id": "p2-a-famous-person-in-your-local-area",
+      "part": 2,
+      "category": "人物",
+      "status": "新题",
+      "month": 9,
+      "date": "2026-09-01",
+      "title": "Describe a famous person in your local area.",
+      "titleCn": "本地名人",
+      "card": "You should say:\n· Who this person is\n· What he/she has done\n· Why he/she is popular\n· And explain how you feel about this person",
+      "part3": [
+        {
+          "q": "Is it always good to be a popular student at school?"
+        },
+        {
+          "q": "Why are some students popular?"
+        }
+      ]
+    },
+    {
+      "id": "p2-a-time-when-you-made-an-important-decision-and-were-happy-wi",
+      "part": 2,
+      "category": "事件",
+      "status": "新题",
+      "month": 9,
+      "date": "2026-09-01",
+      "title": "Describe a time when you made an important decision and were happy with the result.",
+      "titleCn": "对结果开心的重要决定",
+      "card": "You should say:\n· What the decision was\n· Why you made the decision\n· How easy it was for you to make the decision\n· And explain why you were happy with the result",
+      "part3": [
+        {
+          "q": "How can we tell the difference between an important and an easy decision?"
+        },
+        {
+          "q": "Do you think it is a good idea to make a small decision every day?"
+        },
+        {
+          "q": "What little decision do people make every day?"
+        },
+        {
+          "q": "What if people in a group have different opinions on a decision?"
+        },
+        {
+          "q": "Do you think most of people's decision are made in their 20s?"
+        },
+        {
+          "q": "Which is better, to make a decision quickly or slowly?"
+        }
+      ]
+    },
+    {
+      "id": "p2-a-city-you-have-been-to-and-would-like-to-visit-again",
+      "part": 2,
+      "category": "地点",
+      "status": "保留题",
+      "month": 9,
+      "date": "2026-09-01",
+      "title": "Describe a city you have been to and would like to visit again.",
+      "titleCn": "想再去一次的城市",
+      "card": "You should say:\n· Where it is\n· When you visited it\n· What you did there\n· And explain why you would like to visit it again",
+      "part3": [
+        {
+          "q": "What's the difference between the city and the countryside?"
+        },
+        {
+          "q": "Some people say that large cities are suitable for old people. What do you think of it?"
+        },
+        {
+          "q": "Do you think it is possible that all the people should move to cities?"
+        },
+        {
+          "q": "Do you think people in the countryside are friendlier than people in the city?"
+        }
+      ]
     }
   ]
 };

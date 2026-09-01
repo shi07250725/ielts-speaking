@@ -319,6 +319,12 @@
 
   /* ---------- 详情页 ---------- */
   function qBlock(item, idx) {
+    const ans = item.a
+      ? `<p class="a-label">范例回答</p>
+         <p class="a-text">${renderRich(item.a)}</p>
+         ${mediaHtml(item.media)}`
+      : `<p class="a-label">范例回答</p>
+         <p class="a-text pending">答案待更新…</p>`;
     return `<div class="q-block">
       <button class="q-head">
         <span class="q-num">${idx + 1}</span>
@@ -327,24 +333,21 @@
         }</span>
         <span class="q-arrow">▾</span>
       </button>
-      <div class="answer">
-        <p class="a-label">范例回答</p>
-        <p class="a-text">${renderRich(item.a || "")}</p>
-        ${mediaHtml(item.media)}
-      </div>
+      <div class="answer">${ans}</div>
     </div>`;
   }
 
   function sampleBlock(text) {
+    const body = text
+      ? `<p class="a-text">${renderRich(text)}</p>`
+      : `<p class="a-text pending">范文待更新…</p>`;
     return `<div class="q-block sample-block">
       <button class="q-head">
         <span class="q-num q-num-a">A</span>
         <span class="q-text">范例回答<span class="q-cn">2 分钟完整演讲范文</span></span>
         <span class="q-arrow">▾</span>
       </button>
-      <div class="answer">
-        <p class="a-text">${renderRich(text)}</p>
-      </div>
+      <div class="answer">${body}</div>
     </div>`;
   }
 
@@ -376,10 +379,10 @@
       mediaHtml(t.media);
 
     let main = "";
-    if (t.sampleAnswer) {
+    if (t.part === 2) {
       main =
         `<div class="section-title">题卡范文 · Sample Answer</div>` +
-        sampleBlock(t.sampleAnswer);
+        sampleBlock(t.sampleAnswer || "");
     } else if ((t.questions || []).length) {
       main =
         `<div class="section-title">${t.part === 2 ? "题卡问题 · Cue Questions" : "问题与范例回答"}</div>` +
