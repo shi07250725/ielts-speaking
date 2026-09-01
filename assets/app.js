@@ -441,6 +441,9 @@
   buildFilters();
   updateSeasonTag();
   applyTheme(state.theme);
+  $("#updatedTag").textContent =
+    `数据更新于 ${BANK.updated || "—"}　·　${YEAR} 年雅思口语题库（${TOPICS.length} 个话题）`;
+  $("#footNote").textContent = "　·　数据文件 data.js，按格式补充内容即可自动出现在目录中";
 
   $("#themes").addEventListener("click", (e) => {
     const btn = e.target.closest("[data-theme]");
