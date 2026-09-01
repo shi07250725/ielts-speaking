@@ -296,7 +296,8 @@
               ${statusTag(t.status)}
               ${t.part === 2 ? `<span class="cat">${escapeHtml(t.category || "")}</span>` : ""}
               <span class="tc-count">${countOf(t)} 题</span>${
-                t.date ? `<span class="tc-date" title="更新日期 ${escapeHtml(t.date)}">· 更新 ${shortDate(t.date)}</span>` : ""
+                t.date && t.status !== "保留题"
+                  ? `<span class="tc-date" title="更新日期 ${escapeHtml(t.date)}">· 更新 ${shortDate(t.date)}</span>` : ""
               }
             </div>
             <p class="tc-title">${escapeHtml(t.title)}</p>
@@ -364,7 +365,7 @@
           ${statusTag(t.status)}
           <span class="cat">${escapeHtml(t.category || "")}</span>
           <span class="tc-count">${countOf(t)} 题</span>
-          ${t.date ? `<span class="tc-date">${escapeHtml(t.date)} 更新</span>` : ""}
+          ${t.date && t.status !== "保留题" ? `<span class="tc-date">${escapeHtml(t.date)} 更新</span>` : ""}
         </div>
         <h2>${escapeHtml(t.title)}</h2>
         ${t.titleCn ? `<p class="detail-cn">${escapeHtml(t.titleCn)}</p>` : ""}
