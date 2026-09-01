@@ -223,13 +223,19 @@
       .map((o) => `<button class="pill${state.part === o.k ? " active" : ""}" data-part="${o.k}">${o.label}</button>`)
       .join("");
 
-    const cats = [...new Set(TOPICS.map((t) => t.category).filter(Boolean))];
-    const catPills = [{ k: "all", label: "不限类别" }].concat(
-      cats.map((c) => ({ k: c, label: c }))
-    );
-    $("#catPills").innerHTML = catPills
-      .map((o) => `<button class="pill${state.cat === o.k ? " active" : ""}" data-cat="${escapeHtml(o.k)}">${escapeHtml(o.label)}</button>`)
-      .join("");
+    // 类别筛选：仅在选中「Part 2 & 3」时显示；类别只取 Part 2 的（人物/物品/地点/事件）
+    const catRow = $("#catRow");
+    const showCat = state.part === "2";
+    catRow.hidden = !showCat;
+    if (showCat) {
+      const cats = [...new Set(TOPICS.filter((t) => t.part === 2).map((t) => t.category).filter(Boolean))];
+      const catPills = [{ k: "all", label: "不限类别" }].concat(
+        cats.map((c) => ({ k: c, label: c }))
+      );
+      $("#catPills").innerHTML = catPills
+        .map((o) => `<button class="pill${state.cat === o.k ? " active" : ""}" data-cat="${escapeHtml(o.k)}">${escapeHtml(o.label)}</button>`)
+        .join("");
+    }
 
     const used = STATUS.filter((s) => TOPICS.some((t) => t.status === s));
     const extra = [...new Set(TOPICS.map((t) => t.status))].filter(
@@ -288,7 +294,7 @@
             <div class="tc-top">
               <span class="badge p${t.part}">${partLabel(t.part)}</span>
               ${statusTag(t.status)}
-              <span class="cat">${escapeHtml(t.category || "")}</span>
+              ${t.part === 2 ? `<span class="cat">${escapeHtml(t.category || "")}</span>` : ""}
               <span class="tc-count">${countOf(t)} 题</span>${
                 t.date ? `<span class="tc-date" title="更新日期 ${escapeHtml(t.date)}">· 更新 ${shortDate(t.date)}</span>` : ""
               }
@@ -448,6 +454,7 @@
     const btn = e.target.closest("[data-part]");
     if (!btn) return;
     state.part = btn.dataset.part;
+    if (state.part !== "2") state.cat = "all"; // Part 1 / 全部 不涉及类别
     buildFilters();
     renderList();
   });
