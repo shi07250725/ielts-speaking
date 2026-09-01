@@ -35,25 +35,14 @@
     return PERIODS[PERIODS.length - 1].label;
   };
 
-  const THEMES = ["koolearn", "azure", "jade", "violet"];
-  const savedTheme = store.get("ielts-theme");
-
   const state = {
     q: "",
     period: defaultPeriod(),
     part: "all",
     cat: "all",
     status: "all",
-    practice: store.get("ielts-practice") === "1",
-    theme: THEMES.indexOf(savedTheme) > -1 ? savedTheme : "koolearn"
+    practice: store.get("ielts-practice") === "1"
   };
-
-  function applyTheme(name) {
-    document.body.setAttribute("data-theme", name);
-    document.querySelectorAll("#themes .dot").forEach((d) =>
-      d.classList.toggle("active", d.dataset.theme === name)
-    );
-  }
 
   /* ---------- 工具 ---------- */
   const escapeHtml = (s) =>
@@ -191,7 +180,7 @@
     return out;
   }
 
-  const partLabel = (p) => "Part " + p;
+  const partLabel = (p) => (p === 2 ? "Part 2 & 3" : "Part " + p);
 
   const statusTag = (s) =>
     `<span class="stag ${STATUS_CLS[s] || "st-none"}">${escapeHtml(s || "未标注")}</span>`;
@@ -214,8 +203,11 @@
     const seg = $("#periodSeg");
     seg.innerHTML = PERIODS.map((p) => {
       const n = TOPICS.filter((t) => periodOf(t.month) === p.label).length;
+      // 最后一个时间段标为「当季题库」
+      const hot = p === PERIODS[PERIODS.length - 1]
+        ? `<span class="hot-tag">当季题库</span>` : "";
       return `<button class="sbtn${state.period === p.label ? " active" : ""}" data-period="${escapeHtml(p.label)}">
-        ${escapeHtml(p.label)}<span class="cnt">${n}</span>
+        ${escapeHtml(p.label)}${hot}<span class="cnt">${n}</span>
       </button>`;
     }).join("");
   }
@@ -292,20 +284,18 @@
           .map((i) => `<li>${escapeHtml(i.q)}</li>`).join("");
         const more = qs.length > 3
           ? `<li class="more">还有 ${qs.length - 3} 个问题…</li>` : "";
-        const p3 = (t.part3 || []).length
-          ? `<li class="more">含 Part 3 · ${t.part3.length} 题</li>` : "";
         return `<button class="topic-card" data-id="${escapeHtml(t.id)}">
             <div class="tc-top">
               <span class="badge p${t.part}">${partLabel(t.part)}</span>
               ${statusTag(t.status)}
               <span class="cat">${escapeHtml(t.category || "")}</span>
               <span class="tc-count">${countOf(t)} 题</span>${
-                t.date ? `<span class="tc-date" title="录入日期 ${escapeHtml(t.date)}">· 录入 ${shortDate(t.date)}</span>` : ""
+                t.date ? `<span class="tc-date" title="更新日期 ${escapeHtml(t.date)}">· 更新 ${shortDate(t.date)}</span>` : ""
               }
             </div>
             <p class="tc-title">${escapeHtml(t.title)}</p>
             ${t.titleCn ? `<p class="tc-title-cn">${escapeHtml(t.titleCn)}</p>` : ""}
-            <ul class="tc-preview">${preview}${more}${p3}</ul>
+            <ul class="tc-preview">${preview}${more}</ul>
           </button>`;
       })
       .join("");
@@ -344,7 +334,7 @@
     return `<div class="q-block sample-block">
       <button class="q-head">
         <span class="q-num q-num-a">A</span>
-        <span class="q-text">范例回答<span class="q-cn">2 分钟完整演讲范文</span></span>
+        <span class="q-text">范例回答</span>
         <span class="q-arrow">▾</span>
       </button>
       <div class="answer">${body}</div>
@@ -368,7 +358,7 @@
           ${statusTag(t.status)}
           <span class="cat">${escapeHtml(t.category || "")}</span>
           <span class="tc-count">${countOf(t)} 题</span>
-          ${t.date ? `<span class="tc-date">${escapeHtml(t.date)} 录入</span>` : ""}
+          ${t.date ? `<span class="tc-date">${escapeHtml(t.date)} 更新</span>` : ""}
         </div>
         <h2>${escapeHtml(t.title)}</h2>
         ${t.titleCn ? `<p class="detail-cn">${escapeHtml(t.titleCn)}</p>` : ""}
@@ -440,18 +430,9 @@
   };
   buildFilters();
   updateSeasonTag();
-  applyTheme(state.theme);
   $("#updatedTag").textContent =
     `数据更新于 ${BANK.updated || "—"}　·　${YEAR} 年雅思口语题库（${TOPICS.length} 个话题）`;
   $("#footNote").textContent = "　·　数据文件 data.js，按格式补充内容即可自动出现在目录中";
-
-  $("#themes").addEventListener("click", (e) => {
-    const btn = e.target.closest("[data-theme]");
-    if (!btn) return;
-    state.theme = btn.dataset.theme;
-    store.set("ielts-theme", state.theme);
-    applyTheme(state.theme);
-  });
 
   $("#periodSeg").addEventListener("click", (e) => {
     const btn = e.target.closest("[data-period]");
