@@ -12,9 +12,9 @@
   };
 
   // 题目身份：顺序即筛选 pills 的顺序（也是排序优先级）
-  const STATUS = ["必备题", "新题", "改编题", "保留题"];
+  const STATUS = ["必备题", "新题", "保留题"];
   const STATUS_CLS = {
-    "必备题": "st-must", "新题": "st-new", "改编题": "st-adapt", "保留题": "st-keep"
+    "必备题": "st-must", "新题": "st-new", "保留题": "st-keep"
   };
 
   // 时间段：来自 data.js 的 periods，月份归属据此判断
