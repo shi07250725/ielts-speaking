@@ -3311,6 +3311,306 @@ window.QUESTION_BANK = {
           "q": "Do you think people in the countryside are friendlier than people in the city?"
         }
       ]
+    },
+    {
+      "id": "p1-study-9",
+      "part": 1,
+      "category": "日常生活",
+      "status": "必备题",
+      "month": 9,
+      "title": "Study",
+      "titleCn": "学习",
+      "questions": [
+        {
+          "q": "Do you work or are you a student?",
+          "a": "I'm a student at Tsinghua University in Beijing. I'm a student, and I'm a freshman in Tsinghua University. I'm a student, a high school student."
+        },
+        {
+          "q": "What subject are you studying?",
+          "a": "I'm studying for a Master's degree in Tsinghua University, specializing in the field of Math Studies."
+        },
+        {
+          "q": "Why did you choose that subject?",
+          "a": "I chose math because I liked it in high school. I was always strong in math and science, so it seemed like a natural progression. Also, I did some research on career opportunities, and it seemed to be a subject with a promising future."
+        },
+        {
+          "q": "What would you like to do in the future?",
+          "a": "I would love to be a teacher. Most of the women in my family are teachers, they have a huge impact on my life. I think it is wonderful to get to change people's lives by what I say or do on the stage. It requires a person to be responsible and caring, and I want to be such a person."
+        },
+        {
+          "q": "What are the most popular subjects in China?",
+          "a": "It's hard to say nowadays. You know, due to the globalization, our country is much more developed than ever. Every subject has something to offer to the society. Students just choose their subjects based on what they are interested in, which then, in turn, can become a trend."
+        },
+        {
+          "q": "Do you think it's important to choose a subject you like?",
+          "a": "Definitely! I think interest is the best motivator, if I choose something I'm keen on, I will be willing to sacrifice my leisure time because it is a worthwhile sacrifice to me. In addition, when I face some difficulties, I will do my best to overcome the problems. Quitting in the middle will never be an option. We should consider carefully our choice from the start, rather than carelessly choosing the wrong path, then regretting it."
+        },
+        {
+          "q": "Are you looking forward to working?",
+          "a": "I have been wanting to work full time, that's for sure. I can now imagine myself waking up early in the morning, getting my business attire on and sitting behind my office desk. I wonder how it feels to work with other professionals and with the boss always around… It could be stressful but interesting, I guess. The best part I would say would be to finally receive a salary and spend my own money. I would not have to bother my parents then. But, like most things in life, it really depends on what the job is and whether the environment is positive or not."
+        },
+        {
+          "q": "Do you like your subject? (Why? / Why not?)",
+          "a": "Honestly, I don't. I am halfway through my college career. But reality struck me when the material we learned in class was much more difficult and the assignments weren't fun. I'm thinking about changing my own major now."
+        },
+        {
+          "q": "Do you prefer to study in the mornings or in the afternoons?",
+          "a": "I am not a morning person, I'm afraid. But to be honest, studying in the afternoon is even worse. I get really sleepy from one to four in the afternoon. So, actually, my brain is at its best in the evening. It works better then. I can stay sharp even until very late at night."
+        },
+        {
+          "q": "Is your subject interesting to you?",
+          "a": "Absolutely. I find computer science really stimulating. Imagine creating something useful just using codes and numbers. It requires a good level of imagination and quite a good level of number skills, critical thinking and logic skills as well as a keen ability to solve problems."
+        },
+        {
+          "q": "Is there any kind of technology you can use in study?",
+          "a": "For studying I use a computer and my phone. I often download research papers and read them on my phone and make notes onto the notes section of my phone too. I use my computer to actually write essays and do other homework tasks."
+        },
+        {
+          "q": "What kind of learning method helps you?",
+          "a": "Well, I am not so familiar with different learning methods, but off the top of my head, I'd say that collaborative project work in groups with classmates is something that I really benefit from – more so than sitting at individual desks reciting stuff, anyway."
+        },
+        {
+          "q": "How many hours a week do you study for?",
+          "a": "I probably study alone, after university, for maybe around 15 hours a week, but it depends on the time of year. Closer to exams, I study more, during the summer, I study a lot less!"
+        },
+        {
+          "q": "Is there any difference between the study life of you and your parents?",
+          "a": "Well, I'm not entirely sure about what my parents' study life was like when they were in school, but I think it was a lot more traditional – they didn't have multimedia (like computers, or videos) in the classrooms, and they certainly had a stricter learning environment."
+        },
+        {
+          "q": "Where is your school?",
+          "a": "My school is located in the heart of Beijing, the capital of China. It's situated in a bustling area with convenient transportation, surrounded by many shops, restaurants and recreational facilities. The location is ideal for students as it provides easy access to various resources and opportunities in the city."
+        },
+        {
+          "q": "Do you like your school?",
+          "a": "Absolutely! I'm really fond of my school. It has top-notch facilities, a beautiful campus environment, and most importantly, a strong academic atmosphere. The faculty members are highly knowledgeable and supportive, always encouraging us to pursue our interests. Moreover, the school offers a wide range of extracurricular activities, allowing me to develop my skills and make life-long friends."
+        },
+        {
+          "q": "Is there anything you want to change about your school?",
+          "a": "While I'm quite satisfied with my school overall, there is one aspect I would like to see improved, which is the limited space in some classrooms. During peak hours, it can get a bit crowded and stuffy. If the school could expand some of the classrooms or better utilize the existing space, it would create a more comfortable learning environment for students."
+        },
+        {
+          "q": "Do you think your school is a good place to study?",
+          "a": "Yes, I believe my school is an excellent place to study. It offers a supportive learning environment, well-qualified teachers, and a wide range of resources that cater to diverse learning styles. Additionally, the emphasis on both academic and personal development prepares students effectively for future challenges."
+        },
+        {
+          "q": "What is the environment like at your school?",
+          "a": "The environment at my school is very supportive and encouraging. Students are motivated by both peers and teachers to strive for excellence while being provided with the guidance needed to reach their potential."
+        },
+        {
+          "q": "How important is interest in study?",
+          "a": "Interest in study is essential as it directly influences motivation and engagement. A genuine interest in what one is studying can lead to deeper understanding, increased productivity, and overall better academic results."
+        },
+        {
+          "q": "Which subject do you find challenging?",
+          "a": "I find Physics quite challenging, primarily due to its complex concepts and theories that require a strong grasp of both mathematics and abstract reasoning. However, overcoming these challenges is incredibly rewarding."
+        }
+      ],
+      "date": "2026-09-01"
+    },
+    {
+      "id": "p1-work-9",
+      "part": 1,
+      "category": "日常生活",
+      "status": "必备题",
+      "month": 9,
+      "title": "Work",
+      "titleCn": "工作",
+      "questions": [
+        {
+          "q": "What work do you do?",
+          "a": "I am a teacher at a high school. I started working there in Jan 2015 after graduating from college. I would say it is a pretty challenging job."
+        },
+        {
+          "q": "Why did you choose to do that type of job?",
+          "a": "Teaching is my passion. I don't view my career as a \"job\" per say. I see it more as my calling in life. It is my life's purpose."
+        },
+        {
+          "q": "Do you like your job?",
+          "a": "Definitely! I enjoy the variety and special projects where I can take ownership of the final product. My job provides me with both, so yes, it is a good job and I find it very rewarding. I'm not interested in my job… because it is so mundane and repetitive, two traits I despise and try to stay away from. I hope to find a better job that challenges me to aspire to new heights."
+        },
+        {
+          "q": "Do you miss being a student?",
+          "a": "I definitely do! Sometimes I just wonder what would have happened if I had studied harder when I was in university. I just miss the days when I had nothing to worry about but the exams. Now, all the pressure from work and family is difficult to deal with."
+        },
+        {
+          "q": "Is it very interesting?",
+          "a": "Most of the time, yes! The daily challenges from new projects provide constant opportunities to learn new things and to some extent re-invent myself. Every day is unique. My colleagues provide me with support but also healthy competition. I find my job most interesting when I am challenged to reach outside of my comfort zone."
+        },
+        {
+          "q": "Is there any kind of technology you use at work?",
+          "a": "I use mainly a laptop computer and my phone at work. Sometimes I also use a photocopier scanner, and a video camera if I'm making short promotional videos with my company. But mainly, I just use a computer."
+        },
+        {
+          "q": "Can you manage your time well when you work?",
+          "a": "Yes, I am a project manager in my office, so I am quite good at managing my time and the other people's time on the team. I've worked as an IT manager for several years now."
+        },
+        {
+          "q": "Who helps you most at work?",
+          "a": "My team members – I have a great team and they are all hardworking, supportive, smart and attentive to the needs of others and the project goals."
+        },
+        {
+          "q": "How many hours a week do you work for?",
+          "a": "I work for about 40 hours a week – at least that is what my contract stipulates, but in reality I would say that I work almost 60 hours a week because I do a lot of extra stuff for my team, and end up taking on more projects outside of my normal scope of work – pretty often, actually."
+        },
+        {
+          "q": "Do you currently have a good work environment?",
+          "a": "Yes, I'm fortunate to have a very supportive work environment. It is collaborative and encourages open communication, which I find essential for personal and professional growth. The management also prioritizes employee well-being, which enhances productivity and overall job satisfaction."
+        },
+        {
+          "q": "What do you think could be improved at your workplace?",
+          "a": "One area for improvement could be enhancing the flexibility of work hours and remote work options. Increasing flexibility could help accommodate the diverse needs of all employees, leading to improved work-life balance."
+        },
+        {
+          "q": "Have you ever thought about changing jobs?",
+          "a": "While I am generally satisfied with my current position, I have considered changing jobs to seek new challenges and opportunities for professional growth. Exploring different roles and industries can provide valuable experiences and broaden my skill set."
+        },
+        {
+          "q": "What do you think would be challenging when you start working in the future?",
+          "a": "Adapting to the rapid pace of technological change in the workplace will likely be a challenge. Keeping up with new tools, systems, and industry standards will require continuous learning and adaptability."
+        },
+        {
+          "q": "Is there a place in your company that makes you feel relaxed?",
+          "a": "Yes, we have a quiet lounge area that is filled with plants and comfortable seating. It's a great spot to take a break and recharge, away from the usual hustle and bustle of the office environment."
+        },
+        {
+          "q": "What are the advantages of a company having a relaxation room?",
+          "a": "A relaxation room in a company can significantly boost employee morale and productivity. It provides a space for employees to unwind and destress, which is crucial for maintaining mental health. Additionally, such spaces can enhance creativity, as taking breaks in a relaxed setting allows employees to return to their tasks with a fresh perspective and renewed energy."
+        }
+      ],
+      "date": "2026-09-01"
+    },
+    {
+      "id": "p1-hometown-9",
+      "part": 1,
+      "category": "日常生活",
+      "status": "必备题",
+      "month": 9,
+      "title": "Hometown",
+      "titleCn": "家乡",
+      "questions": [
+        {
+          "q": "Has your hometown changed much these years?",
+          "a": "Absolutely! Take traffic as an example, the most common transport facility used to be buses, it could be really crowded sometimes since people didn't have any other options. However, today, BRT and subway systems have made people's lives easier than ever."
+        },
+        {
+          "q": "Is that a big city or a small place?",
+          "a": "This city is so huge. I often get lost here. Like the other day, I travelled to a new neighborhood that had this restaurant people were raving about. I made a wrong turn and it took me 20 minutes to figure out where I was."
+        },
+        {
+          "q": "How long have you been living here?",
+          "a": "For about half my life, so that is about 10 years. I went to school here, and now I'm working in the same city. In fact, time has gone by really quickly because so there's so much to do here and I've been so active."
+        },
+        {
+          "q": "For you, what benefits are there living in a big city?",
+          "a": "Well, first of all, there are a great number of opportunities for both education and job-hunting in big cities, which explains why people from small cities, towns and villages are flooding to big cities nowadays. Plus, the fact that cities offer more modern facilities and conveniences makes them even more attractive to people."
+        },
+        {
+          "q": "Is there anything you dislike about it?",
+          "a": "Unfortunately, this city has a huge problem with pollution, especially air pollution. The air is so contaminated that we all have to wear masks every time we go out of the house. This problem has escalated to a serious level that it's been catching the attention of the international community. I hope that the government will be able to save this city before the problem gets worse."
+        },
+        {
+          "q": "What do you like most about your hometown?",
+          "a": "What I love the most about it is the mystery. I mean there are so many places inside this city that I have yet to explore. I could spend years checking out every restaurant and attraction Beijing has to offer."
+        },
+        {
+          "q": "Where in your country do you live?",
+          "a": "I live in Beijing. However, since the city is so big, it would take hours to even scratch the surface, but to sum it up, Beijing is the political and cultural heart, and one of the major economic centers of the world today."
+        }
+      ],
+      "date": "2026-09-01"
+    },
+    {
+      "id": "p1-accommodation-9",
+      "part": 1,
+      "category": "日常生活",
+      "status": "必备题",
+      "month": 9,
+      "title": "Accommodation",
+      "titleCn": "住所",
+      "questions": [
+        {
+          "q": "Are the transport facilities in your city very good?",
+          "a": "Honestly, I wish they were better. I have to walk 20 minutes to the bus stop, and the subway takes another 30 minutes when I get to work. My dream home is a house located right next to a bus stop or subway terminal."
+        },
+        {
+          "q": "Which room does your family spend most of the time in?",
+          "a": "My family loves to stay in the living room as this is the only place in the flat where we can do a lot of things together. We play board games, watch films and TV programs. We play cards sometimes and we spend time working on huge puzzles together."
+        },
+        {
+          "q": "Do you live in a house or a flat?",
+          "a": "I live in a flat, and my flat is situated in a quiet little neighborhood on the north side of city. My parents first moved there in 2000 when they wanted to start a new life and raise a family."
+        },
+        {
+          "q": "Do you plan to live here for a long time?",
+          "a": "Not really! I want to blaze my own trail and live in a place that forces me to reach out and meet new people. I was thinking about moving to Shanghai for a few days to gain a bit more cultural experience of the world."
+        },
+        {
+          "q": "Do you live alone or with your family?",
+          "a": "I'm a student at the moment, and I live with my parents. Actually I quite like it, because my mother is the best cook that I know - it's always wonderful to have a tasty meal after a day of school work. We also talk about our days with each other while we're enjoying dinner, it just feels good."
+        },
+        {
+          "q": "How long have you lived there?",
+          "a": "I've lived there for three years and I really love my place. Since it's on the 11th floor, it's well ventilated and there is plenty of sunshine. I love to sink into the soft sofa to watch TV and eat snacks. There's a large shopping centre within 5 minutes' walk so it's very convenient for me to go shopping, watch movies and eat out. I wish it was my apartment."
+        },
+        {
+          "q": "What do you usually do in your house/flat/room?",
+          "a": "At weekends, I spend most of my time studying and sleeping in my room. On weekdays, I spend time in the kitchen, baking some cakes or sweet stuff for my mother. Sometimes, we watch films in the living room. On Sundays, we usually clean the house and do some laundry."
+        },
+        {
+          "q": "Which is your favourite room in your home?",
+          "a": "I think it must be my bedroom. My bedroom is not that big but quite neat. There are some posters of Kobe Bryant on the wall because he is my favorite basketball player. My room is kind of a private space for me - I usually play some video games, do my homework and play the guitar in it."
+        },
+        {
+          "q": "What's the difference between where you are living now and where you lived in the past? (If you",
+          "a": "I have not moved home at all. I have lived in the same flat since I was born. I love our small place. I have a lot of good memories here, and I treasure them. I'd happily stay here for many more years."
+        },
+        {
+          "q": "What can you see when you look out the window of your room?",
+          "a": "I can see the whole community from my window. In the morning, people are going to school or work, everyone is in a hurry. However, in the evening, it is not that fast-paced anymore. I can see parents taking a walk after dinner and children playing games in the neighborhood."
+        },
+        {
+          "q": "Would you be willing to live in the countryside in the future?",
+          "a": "In the future, probably. There is a peacefulness I enjoy when visiting the countryside. People there are friendly and always willing to start a conversation. I think when I retire, living in the countryside is a nice option to me."
+        }
+      ],
+      "date": "2026-09-01"
+    },
+    {
+      "id": "p1-the-area-you-live-in-9",
+      "part": 1,
+      "category": "日常生活",
+      "status": "必备题",
+      "month": 9,
+      "title": "The area you live in",
+      "titleCn": "你居住的区域",
+      "questions": [
+        {
+          "q": "Do you like the area that you live in now?",
+          "a": "Yes, I like the area where I live. Since I have lived there for a long time it makes me feel comfortable. There is a saying: \"Home is where the heart is\". My family lives there and we enjoy each other's company so my heart is there. I like the phrase from one old movie: \"There's no place like home.\""
+        },
+        {
+          "q": "Do you think the area you live in now is suitable for people of all ages?",
+          "a": "Yes, most certainly. I think that I am very lucky to be living in a very central area of my city, close to great public transport facilities, and quite a few entertainment and leisure options too. There are a few malls nearby, with fantastic restaurants in, lots of shops, a gym, which I go to every day almost, a swimming centre which I attend with my family on weekends, and there's quite a few nice parks within a short walking distance too. So, yeah, it's a great area. In addition, the community I live in has a nice garden too."
+        },
+        {
+          "q": "Are people in your area friendly?",
+          "a": "I wouldn't say people in my area are especially friendly, or unfriendly, really. They are alright, I suppose. I thought they were relatively friendly, before I went to Spain on holiday and found how friendly and happy people seemed to be in service interactions, in the streets, on public transport, and so on, there in Spain. When I came back to my city and my area, I started to think that people were a bit rude, grumpy and not so helpful when you need them to be. So, I have a sort of neutral stance on this – I guess it depends on what you compare my area, my city or my culture with, as to whether you assess that the people are friendly or not."
+        },
+        {
+          "q": "How has your area changed in recent years?",
+          "a": "Some positive changes are that the pollution is getting better. It was a lot worse a few years ago. Recently, the government has made some changes to the factories nearby you see. This has had a positive effect on the air quality. Some negative changes are: first, there are too many public bikes such as OFO and Mobike. They clog the sidewalks and there isn't enough room for pedestrians to walk sometimes. Secondly, there are not enough taxis. It is very difficult to get a taxi if you are in a hurry or it is raining."
+        },
+        {
+          "q": "Do you know any famous people in your area?",
+          "a": "In my district of my city, I don't know any famous people. I think famous people tend to live away from the crowds in China, in places where they will be left alone and not bothered by people or the press."
+        },
+        {
+          "q": "Where do you like to go in your area?",
+          "a": "I like to go shopping and hang out with my friends. When the weather is nice, I like to go to the park and enjoy the nature. It makes me feel refreshed. When my friends go with me it is even better."
+        }
+      ],
+      "date": "2026-09-01"
     }
   ]
 };
