@@ -267,6 +267,16 @@
     }).sort((a, b) => rank(a) - rank(b));
   }
 
+  // 答案状态：全部有答案 → 已更新；部分 → 部分答案 n/m；全无 → 暂无答案
+  function ansTag(t) {
+    const items = (t.questions || []).concat(t.part3 || []);
+    const total = items.length + (t.sampleAnswer ? 1 : 0);
+    const done = items.filter((i) => i.a).length + (t.sampleAnswer ? 1 : 0);
+    if (total === 0 || done === 0) return `<span class="ans-tag none">暂无答案</span>`;
+    if (done === total) return `<span class="ans-tag ok">答案已更新</span>`;
+    return `<span class="ans-tag partial">部分答案 ${done}/${total}</span>`;
+  }
+
   function renderList() {
     const list = filtered();
     const qs = list.reduce((n, t) => n + countOf(t), 0);
@@ -295,14 +305,17 @@
               <span class="badge p${t.part}">${partLabel(t.part)}</span>
               ${statusTag(t.status)}
               ${t.part === 2 ? `<span class="cat">${escapeHtml(t.category || "")}</span>` : ""}
-              <span class="tc-count">${countOf(t)} 题</span>${
-                t.date && t.status !== "保留题"
-                  ? `<span class="tc-date" title="更新日期 ${escapeHtml(t.date)}">· 更新 ${shortDate(t.date)}</span>` : ""
-              }
+              <span class="tc-count">${countOf(t)} 题</span>
             </div>
             <p class="tc-title">${escapeHtml(t.title)}</p>
             ${t.titleCn ? `<p class="tc-title-cn">${escapeHtml(t.titleCn)}</p>` : ""}
             <ul class="tc-preview">${preview}${more}</ul>
+            <div class="tc-foot">
+              <span class="tc-date">${
+                t.date && t.status !== "保留题" ? `更新 ${shortDate(t.date)}` : ""
+              }</span>
+              ${ansTag(t)}
+            </div>
           </button>`;
       })
       .join("");
