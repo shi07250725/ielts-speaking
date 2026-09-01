@@ -153,6 +153,7 @@ body{
 /* 时段切换（segmented control） */
 .seg{display:inline-flex;background:var(--card);border:1px solid var(--line);border-radius:11px;padding:3px;gap:3px}
 .sbtn{
+  position:relative;
   border:none;background:none;font-family:inherit;font-size:14px;font-weight:600;
   color:var(--ink-2);padding:7px 20px;border-radius:8px;cursor:pointer;
   transition:background .16s, color .16s;
@@ -162,13 +163,15 @@ body{
 .sbtn .cnt{font-size:11.5px;font-weight:500;margin-left:4px;opacity:.85}
 .sbtn.active .cnt{opacity:1}
 
-/* 当季题库标志 */
+/* 当季题库 · 右上角角标 */
 .hot-tag{
-  display:inline-block;margin-left:6px;vertical-align:1px;
-  font-size:10.5px;font-weight:700;letter-spacing:.5px;
-  color:#fff;background:var(--brand);border-radius:999px;padding:1px 7px;
+  position:absolute;top:-7px;right:-9px;z-index:2;
+  font-size:9.5px;font-weight:700;letter-spacing:.5px;
+  color:#fff;background:var(--brand);border-radius:999px;
+  padding:1.5px 7px;white-space:nowrap;
+  box-shadow:0 1px 4px rgba(0,0,0,.18);
 }
-.sbtn.active .hot-tag{background:#fff;color:var(--brand)}
+.sbtn.active .hot-tag{background:#fff;color:var(--brand);box-shadow:0 1px 5px rgba(0,0,0,.22)}
 
 /* 月份计数 */
 .pill .cnt{font-size:11px;margin-left:3px;opacity:.8;font-variant-numeric:tabular-nums}
