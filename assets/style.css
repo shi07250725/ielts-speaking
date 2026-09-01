@@ -148,6 +148,7 @@ body{
 .filter-bar{display:flex;flex-direction:column;gap:10px;padding:26px 0 2px}
 .filter-row{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
 .flabel{flex:none;width:28px;font-size:12.5px;color:var(--ink-3);letter-spacing:1px}
+.filter-row[hidden]{display:none !important}
 .pills{display:flex;gap:8px;flex-wrap:wrap}
 
 /* 时段切换（segmented control） */
