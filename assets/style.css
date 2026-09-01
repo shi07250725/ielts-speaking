@@ -136,17 +136,6 @@ body{
 .practice-switch{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--ink-2);cursor:pointer;user-select:none;white-space:nowrap}
 .practice-switch input{accent-color:var(--brand);width:15px;height:15px;cursor:pointer}
 
-/* 配色切换 */
-.themes{display:flex;align-items:center;gap:7px;padding-left:2px}
-.dot{
-  width:18px;height:18px;padding:0;border:none;border-radius:50%;cursor:pointer;
-  background:linear-gradient(135deg,var(--d1),var(--d2));
-  box-shadow:0 0 0 1px rgba(0,0,0,.06);
-  transition:transform .15s, box-shadow .15s;
-}
-.dot:hover{transform:scale(1.12)}
-.dot.active{box-shadow:0 0 0 2px var(--bg), 0 0 0 4px var(--brand)}
-
 /* 题目身份标签：橙系=本季重点（新题实心、改编描边），绿系=必备/保留（实心 vs 浅底） */
 .stag{font-size:11.5px;font-weight:600;padding:2px 8px;border-radius:6px;white-space:nowrap;flex:none}
 .st-new{background:var(--brand);color:#fff}
@@ -172,6 +161,14 @@ body{
 .sbtn.active{background:var(--brand);color:#fff;box-shadow:0 4px 12px -4px var(--brand)}
 .sbtn .cnt{font-size:11.5px;font-weight:500;margin-left:4px;opacity:.85}
 .sbtn.active .cnt{opacity:1}
+
+/* 当季题库标志 */
+.hot-tag{
+  display:inline-block;margin-left:6px;vertical-align:1px;
+  font-size:10.5px;font-weight:700;letter-spacing:.5px;
+  color:#fff;background:var(--brand);border-radius:999px;padding:1px 7px;
+}
+.sbtn.active .hot-tag{background:#fff;color:var(--brand)}
 
 /* 月份计数 */
 .pill .cnt{font-size:11px;margin-left:3px;opacity:.8;font-variant-numeric:tabular-nums}
