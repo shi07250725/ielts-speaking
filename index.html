@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>雅思口语题库</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <div class="brand" id="brand">
+      <h1>雅思口语题库</h1>
+      <span class="season" id="seasonTag"></span>
+    </div>
+    <div class="header-tools">
+      <div class="search-box">
+        <svg viewBox="0 0 24 24" class="icon"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+        <input type="search" id="search" placeholder="搜索话题、问题或范文…" autocomplete="off">
+        <button class="clear-btn" id="clearSearch" title="清空">×</button>
+      </div>
+      <label class="practice-switch" id="practiceSwitch" title="隐藏范文，先自己答">
+        <input type="checkbox" id="practiceToggle">
+        <span>练习模式</span>
+      </label>
+      <div class="themes" id="themes">
+        <button class="dot" data-theme="koolearn" title="新东方橙绿" style="--d1:#ff6a00;--d2:#00a35a"></button>
+        <button class="dot" data-theme="azure"    title="晴空蓝"     style="--d1:#2563eb;--d2:#7c3aed"></button>
+        <button class="dot" data-theme="jade"     title="湖水青"     style="--d1:#0d9488;--d2:#65a30d"></button>
+        <button class="dot" data-theme="violet"   title="紫藤"       style="--d1:#7c3aed;--d2:#2563eb"></button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- 目录页 -->
+  <section id="pageList">
+    <div class="filter-bar">
+      <div class="filter-row">
+        <span class="flabel">时段</span>
+        <div class="seg" id="periodSeg"></div>
+      </div>
+      <div class="filter-row">
+        <span class="flabel">部分</span>
+        <div class="pills" id="partPills"></div>
+      </div>
+      <div class="filter-row">
+        <span class="flabel">类别</span>
+        <div class="pills pills-soft" id="catPills"></div>
+      </div>
+      <div class="filter-row">
+        <span class="flabel">题型</span>
+        <div class="pills pills-soft" id="statusPills"></div>
+      </div>
+    </div>
+    <p class="stat" id="stat"></p>
+    <div class="grid" id="topicGrid"></div>
+    <div class="empty" id="listEmpty" hidden>没有匹配的话题，换个关键词试试。</div>
+  </section>
+
+  <!-- 详情页 -->
+  <section id="pageDetail" hidden>
+    <button class="back-btn" id="backBtn">← 返回目录</button>
+    <article id="detailBody"></article>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">数据文件：<code>data.js</code>　·　按格式补充内容即可自动出现在目录中</div>
+</footer>
+
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

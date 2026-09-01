@@ -1,0 +1,519 @@
+/* 雅思口语题库 · 交互逻辑 */
+(function () {
+  const BANK = window.QUESTION_BANK || { topics: [] };
+  const TOPICS = BANK.topics || [];
+
+  const $ = (s) => document.querySelector(s);
+
+  // 以 file:// 打开时部分浏览器会禁用 localStorage，这里做降级保护
+  const store = {
+    get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
+    set(k, v) { try { localStorage.setItem(k, v); } catch (e) { /* 忽略 */ } }
+  };
+
+  // 题目身份：顺序即筛选 pills 的顺序（也是排序优先级）
+  const STATUS = ["必备题", "新题", "改编题", "保留题"];
+  const STATUS_CLS = {
+    "必备题": "st-must", "新题": "st-new", "改编题": "st-adapt", "保留题": "st-keep"
+  };
+
+  // 时间段：来自 data.js 的 periods，月份归属据此判断
+  const PERIODS = (BANK.periods && BANK.periods.length) ? BANK.periods : [
+    { label: "5-8月", months: [5, 6, 7, 8] },
+    { label: "9-12月", months: [9, 10, 11, 12] }
+  ];
+  const YEAR = BANK.year || new Date().getFullYear();
+  const periodOf = (m) => {
+    const p = PERIODS.find((x) => x.months.indexOf(Number(m)) > -1);
+    return p ? p.label : PERIODS[PERIODS.length - 1].label;
+  };
+  // 默认时段：定位到「最近一个有内容的时间段」，都没有则取最后一个
+  const defaultPeriod = () => {
+    for (let i = PERIODS.length - 1; i >= 0; i--) {
+      if (TOPICS.some((t) => periodOf(t.month) === PERIODS[i].label)) return PERIODS[i].label;
+    }
+    return PERIODS[PERIODS.length - 1].label;
+  };
+
+  const THEMES = ["koolearn", "azure", "jade", "violet"];
+  const savedTheme = store.get("ielts-theme");
+
+  const state = {
+    q: "",
+    period: defaultPeriod(),
+    part: "all",
+    cat: "all",
+    status: "all",
+    practice: store.get("ielts-practice") === "1",
+    theme: THEMES.indexOf(savedTheme) > -1 ? savedTheme : "koolearn"
+  };
+
+  function applyTheme(name) {
+    document.body.setAttribute("data-theme", name);
+    document.querySelectorAll("#themes .dot").forEach((d) =>
+      d.classList.toggle("active", d.dataset.theme === name)
+    );
+  }
+
+  /* ---------- 工具 ---------- */
+  const escapeHtml = (s) =>
+    String(s == null ? "" : s)
+      .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+
+  // [[英文|中文]] → 高亮 span
+  const HL_RE = /\[\[([^|\]]+)\|([^\]]+)\]\]/g;
+  function renderRich(text) {
+    return escapeHtml(text).replace(HL_RE, (_, en, cn) =>
+      `<span class="hl" tabindex="0" data-tip="${escapeHtml(cn)}">${en}</span>`
+    );
+  }
+  /* ---------- 录音 / 视频 ---------- */
+  const VIDEO_RE = /\.(mp4|mov|webm|m4v)$/i;
+  const ICON_PLAY =
+    '<svg viewBox="0 0 16 16" width="12" height="12" aria-hidden="true"><path d="M4.8 2.9 12.6 8 4.8 13.1z" fill="#fff"/></svg>';
+  const ICON_PAUSE =
+    '<svg viewBox="0 0 16 16" width="12" height="12" aria-hidden="true"><rect x="4.2" y="3" width="3" height="10" rx="1" fill="#fff"/><rect x="8.8" y="3" width="3" height="10" rx="1" fill="#fff"/></svg>';
+  const fmtTime = (s) => {
+    if (!isFinite(s) || s < 0) return "0:00";
+    const m = Math.floor(s / 60);
+    const ss = Math.floor(s % 60);
+    return m + ":" + String(ss).padStart(2, "0");
+  };
+
+  function normMedia(m) {
+    if (!m) return [];
+    const arr = Array.isArray(m) ? m : [m];
+    return arr
+      .map((x) => (typeof x === "string" ? { file: x } : x))
+      .filter((x) => x && x.file);
+  }
+
+  function playerHtml(item) {
+    const file = item.file;
+    const label = item.label || "播放录音";
+    if (VIDEO_RE.test(file)) {
+      return `<div class="player player-video">
+        <div class="p-name">${escapeHtml(label)}</div>
+        <video controls preload="metadata" src="${escapeHtml(file)}"></video>
+      </div>`;
+    }
+    return `<div class="player" data-src="${escapeHtml(file)}">
+      <button class="p-btn" type="button" title="播放 / 暂停">${ICON_PLAY}</button>
+      <div class="p-main">
+        <div class="p-row">
+          <span class="p-name">${escapeHtml(label)}</span>
+          <span class="p-time">0:00</span>
+        </div>
+        <div class="p-bar"><div class="p-fill"></div></div>
+      </div>
+    </div>`;
+  }
+
+  const mediaHtml = (m) => {
+    const list = normMedia(m);
+    if (!list.length) return "";
+    return `<div class="media-list">${list.map(playerHtml).join("")}</div>`;
+  };
+
+  function bindPlayers(root) {
+    let current = null; // 同时只播放一个
+
+    root.querySelectorAll(".player[data-src]").forEach((el) => {
+      const audio = new Audio(el.dataset.src);
+      audio.preload = "metadata";
+
+      const btn = el.querySelector(".p-btn");
+      const fill = el.querySelector(".p-fill");
+      const time = el.querySelector(".p-time");
+      const bar = el.querySelector(".p-bar");
+
+      btn.addEventListener("click", () => {
+        if (audio.paused) {
+          if (current && current !== audio) current.pause();
+          current = audio;
+          const p = audio.play();
+          if (p && p.catch) p.catch(() => markFailed());
+        } else {
+          audio.pause();
+        }
+      });
+
+      const markFailed = () => {
+        el.classList.add("failed");
+        time.textContent = "无法播放（文件缺失或格式不支持）";
+        btn.disabled = true;
+      };
+
+      audio.addEventListener("play", () => {
+        btn.innerHTML = ICON_PAUSE;
+        el.classList.add("playing");
+      });
+      audio.addEventListener("pause", () => {
+        btn.innerHTML = ICON_PLAY;
+        el.classList.remove("playing");
+      });
+      audio.addEventListener("loadedmetadata", () => {
+        time.textContent = "0:00 / " + fmtTime(audio.duration);
+      });
+      audio.addEventListener("timeupdate", () => {
+        if (!audio.duration) return;
+        fill.style.width = (audio.currentTime / audio.duration) * 100 + "%";
+        time.textContent = fmtTime(audio.currentTime) + " / " + fmtTime(audio.duration);
+      });
+      audio.addEventListener("ended", () => {
+        audio.currentTime = 0;
+        fill.style.width = "0%";
+      });
+      audio.addEventListener("error", markFailed);
+
+      let dragging = false;
+      const seek = (e) => {
+        const r = bar.getBoundingClientRect();
+        const p = Math.min(Math.max((e.clientX - r.left) / r.width, 0), 1);
+        if (audio.duration) audio.currentTime = p * audio.duration;
+      };
+      bar.addEventListener("pointerdown", (e) => {
+        dragging = true;
+        bar.setPointerCapture(e.pointerId);
+        seek(e);
+      });
+      bar.addEventListener("pointermove", (e) => { if (dragging) seek(e); });
+      bar.addEventListener("pointerup", () => { dragging = false; });
+    });
+  }
+
+  function extractPhrases(text) {
+    const out = [];
+    let m;
+    const re = new RegExp(HL_RE.source, "g");
+    while ((m = re.exec(text || "")) !== null) out.push({ en: m[1], cn: m[2] });
+    return out;
+  }
+
+  const partLabel = (p) => "Part " + p;
+
+  const statusTag = (s) =>
+    `<span class="stag ${STATUS_CLS[s] || "st-none"}">${escapeHtml(s || "未标注")}</span>`;
+
+  // "2026-09-01" → "09-01"；格式不对就原样显示
+  const shortDate = (d) => (/^\d{4}-\d{2}-\d{2}$/.test(d) ? d.slice(5) : d);
+  const countOf = (t) =>
+    (t.questions || []).length + ((t.part3 || []).length ? t.part3.length : 0) + (t.sampleAnswer ? 1 : 0);
+
+  function haystack(t) {
+    const bag = [t.title, t.titleCn, t.category, t.card];
+    (t.questions || []).forEach((i) => bag.push(i.q, i.qCn, i.a));
+    (t.part3 || []).forEach((i) => bag.push(i.q, i.qCn, i.a));
+    return bag.filter(Boolean).join(" ").toLowerCase();
+  }
+  TOPICS.forEach((t) => (t._hay = haystack(t)));
+
+  /* ---------- 目录页 ---------- */
+  function buildPeriodSeg() {
+    const seg = $("#periodSeg");
+    seg.innerHTML = PERIODS.map((p) => {
+      const n = TOPICS.filter((t) => periodOf(t.month) === p.label).length;
+      return `<button class="sbtn${state.period === p.label ? " active" : ""}" data-period="${escapeHtml(p.label)}">
+        ${escapeHtml(p.label)}<span class="cnt">${n}</span>
+      </button>`;
+    }).join("");
+  }
+
+  function buildFilters() {
+    buildPeriodSeg();
+
+    const parts = [...new Set(TOPICS.map((t) => t.part))].sort();
+    const partPills = [{ k: "all", label: "全部" }].concat(
+      parts.map((p) => ({ k: String(p), label: partLabel(p) }))
+    );
+    $("#partPills").innerHTML = partPills
+      .map((o) => `<button class="pill${state.part === o.k ? " active" : ""}" data-part="${o.k}">${o.label}</button>`)
+      .join("");
+
+    const cats = [...new Set(TOPICS.map((t) => t.category).filter(Boolean))];
+    const catPills = [{ k: "all", label: "不限类别" }].concat(
+      cats.map((c) => ({ k: c, label: c }))
+    );
+    $("#catPills").innerHTML = catPills
+      .map((o) => `<button class="pill${state.cat === o.k ? " active" : ""}" data-cat="${escapeHtml(o.k)}">${escapeHtml(o.label)}</button>`)
+      .join("");
+
+    const used = STATUS.filter((s) => TOPICS.some((t) => t.status === s));
+    const extra = [...new Set(TOPICS.map((t) => t.status))].filter(
+      (s) => s && STATUS.indexOf(s) === -1
+    );
+    const statusPills = [{ k: "all", label: "全部" }].concat(
+      used.concat(extra).map((s) => ({ k: s, label: s }))
+    );
+    $("#statusPills").innerHTML = statusPills
+      .map((o) => `<button class="pill${state.status === o.k ? " active" : ""}" data-status="${escapeHtml(o.k)}">${escapeHtml(o.label)}</button>`)
+      .join("");
+  }
+
+  // 排序：新题 → 改编题 → 保留题，同档内保持 data.js 里的书写顺序
+  const rank = (t) => {
+    const i = STATUS.indexOf(t.status);
+    return i === -1 ? 99 : i;
+  };
+
+  function filtered() {
+    const q = state.q.trim().toLowerCase();
+    return TOPICS.filter((t) => {
+      if (periodOf(t.month) !== state.period) return false;
+      if (state.part !== "all" && String(t.part) !== state.part) return false;
+      if (state.cat !== "all" && t.category !== state.cat) return false;
+      if (state.status !== "all" && (t.status || "未标注") !== state.status) return false;
+      if (q && t._hay.indexOf(q) === -1) return false;
+      return true;
+    }).sort((a, b) => rank(a) - rank(b));
+  }
+
+  function renderList() {
+    const list = filtered();
+    const qs = list.reduce((n, t) => n + countOf(t), 0);
+    const dist = STATUS.concat(["未标注"])
+      .map((s) => {
+        const n = list.filter((t) => (t.status || "未标注") === s).length;
+        return n ? `${s} ${n}` : "";
+      })
+      .filter(Boolean)
+      .join(" · ");
+    const scope = state.period;
+    $("#stat").innerHTML =
+      `<span class="stat-scope">${escapeHtml(scope)}</span>　共 <b>${list.length}</b> 个话题 · <b>${qs}</b> 道题` +
+      (dist ? `　（${dist}）` : "") +
+      `　题库总数 ${TOPICS.length}`;
+
+    $("#topicGrid").innerHTML = list
+      .map((t) => {
+        const qs = t.questions || [];
+        const preview = qs.slice(0, 3)
+          .map((i) => `<li>${escapeHtml(i.q)}</li>`).join("");
+        const more = qs.length > 3
+          ? `<li class="more">还有 ${qs.length - 3} 个问题…</li>` : "";
+        const p3 = (t.part3 || []).length
+          ? `<li class="more">含 Part 3 · ${t.part3.length} 题</li>` : "";
+        return `<button class="topic-card" data-id="${escapeHtml(t.id)}">
+            <div class="tc-top">
+              <span class="badge p${t.part}">${partLabel(t.part)}</span>
+              ${statusTag(t.status)}
+              <span class="cat">${escapeHtml(t.category || "")}</span>
+              <span class="tc-count">${countOf(t)} 题</span>${
+                t.date ? `<span class="tc-date" title="录入日期 ${escapeHtml(t.date)}">· 录入 ${shortDate(t.date)}</span>` : ""
+              }
+            </div>
+            <p class="tc-title">${escapeHtml(t.title)}</p>
+            ${t.titleCn ? `<p class="tc-title-cn">${escapeHtml(t.titleCn)}</p>` : ""}
+            <ul class="tc-preview">${preview}${more}${p3}</ul>
+          </button>`;
+      })
+      .join("");
+
+    $("#listEmpty").hidden = list.length > 0;
+    const periodHas = TOPICS.some((t) => periodOf(t.month) === state.period);
+    $("#listEmpty").textContent = periodHas
+      ? "没有匹配的话题，换个关键词或筛选条件试试。"
+      : `「${state.period}」暂时还没有题目，等你导入后就会显示在这里。`;
+  }
+
+  /* ---------- 详情页 ---------- */
+  function qBlock(item, idx) {
+    return `<div class="q-block">
+      <button class="q-head">
+        <span class="q-num">${idx + 1}</span>
+        <span class="q-text">${escapeHtml(item.q)}${
+          item.qCn ? `<span class="q-cn">${escapeHtml(item.qCn)}</span>` : ""
+        }</span>
+        <span class="q-arrow">▾</span>
+      </button>
+      <div class="answer">
+        <p class="a-label">范例回答</p>
+        <p class="a-text">${renderRich(item.a || "")}</p>
+        ${mediaHtml(item.media)}
+      </div>
+    </div>`;
+  }
+
+  function sampleBlock(text) {
+    return `<div class="q-block sample-block">
+      <button class="q-head">
+        <span class="q-num q-num-a">A</span>
+        <span class="q-text">范例回答<span class="q-cn">2 分钟完整演讲范文</span></span>
+        <span class="q-arrow">▾</span>
+      </button>
+      <div class="answer">
+        <p class="a-text">${renderRich(text)}</p>
+      </div>
+    </div>`;
+  }
+
+  function renderDetail(id) {
+    const t = TOPICS.find((x) => x.id === id);
+    if (!t) { location.hash = ""; return; }
+
+    const phrases = [];
+    [...(t.questions || []), ...(t.part3 || [])].forEach((i) => {
+      extractPhrases(i.a).forEach((p) => {
+        if (!phrases.some((x) => x.en === p.en)) phrases.push(p);
+      });
+    });
+
+    const head = `<div class="detail-head">
+        <div class="detail-meta">
+          <span class="badge p${t.part}">${partLabel(t.part)}</span>
+          ${statusTag(t.status)}
+          <span class="cat">${escapeHtml(t.category || "")}</span>
+          <span class="tc-count">${countOf(t)} 题</span>
+          ${t.date ? `<span class="tc-date">${escapeHtml(t.date)} 录入</span>` : ""}
+        </div>
+        <h2>${escapeHtml(t.title)}</h2>
+        ${t.titleCn ? `<p class="detail-cn">${escapeHtml(t.titleCn)}</p>` : ""}
+        ${t.note ? `<p class="detail-note">${escapeHtml(t.note)}</p>` : ""}
+      </div>`;
+
+    const cue = (t.card ? `<div class="cue-card">${escapeHtml(t.card)}</div>` : "") +
+      mediaHtml(t.media);
+
+    let main = "";
+    if (t.sampleAnswer) {
+      main =
+        `<div class="section-title">题卡范文 · Sample Answer</div>` +
+        sampleBlock(t.sampleAnswer);
+    } else if ((t.questions || []).length) {
+      main =
+        `<div class="section-title">${t.part === 2 ? "题卡问题 · Cue Questions" : "问题与范例回答"}</div>` +
+        (t.questions || []).map(qBlock).join("");
+    }
+
+    const p3 = (t.part3 || []).length
+      ? `<div class="section-title">Part 3 · 深入讨论</div>
+         ${t.part3.map(qBlock).join("")}`
+      : "";
+
+    const wl = phrases.length
+      ? `<div class="wordlist">
+           <h3>本话题高分表达 · ${phrases.length} 条</h3>
+           <div class="wl-grid">${phrases
+             .map((p) => `<div class="wl-item"><span class="wl-en">${escapeHtml(p.en)}</span><span class="wl-cn">${escapeHtml(p.cn)}</span></div>`)
+             .join("")}</div>
+         </div>`
+      : "";
+
+    $("#detailBody").innerHTML = head + cue + main + p3 + wl;
+    document.title = t.title + " · 雅思口语题库";
+
+    // 展开/折叠
+    $("#detailBody").querySelectorAll(".q-block").forEach((b) => {
+      if (state.practice) b.classList.add("collapsed");
+      b.querySelector(".q-head").addEventListener("click", () => {
+        b.classList.toggle("collapsed");
+      });
+    });
+
+    // 录音 / 视频播放
+    bindPlayers($("#detailBody"));
+  }
+
+  /* ---------- 路由 ---------- */
+  function route() {
+    const m = location.hash.match(/^#\/t\/(.+)$/);
+    if (m) {
+      $("#pageList").hidden = true;
+      $("#pageDetail").hidden = false;
+      renderDetail(decodeURIComponent(m[1]));
+      window.scrollTo(0, 0);
+    } else {
+      $("#pageDetail").hidden = true;
+      $("#pageList").hidden = false;
+      renderList();
+      document.title = "雅思口语题库";
+    }
+  }
+
+  /* ---------- 事件 ---------- */
+  const updateSeasonTag = () => {
+    $("#seasonTag").textContent = `${YEAR} 年 ${state.period}`;
+  };
+  buildFilters();
+  updateSeasonTag();
+  applyTheme(state.theme);
+
+  $("#themes").addEventListener("click", (e) => {
+    const btn = e.target.closest("[data-theme]");
+    if (!btn) return;
+    state.theme = btn.dataset.theme;
+    store.set("ielts-theme", state.theme);
+    applyTheme(state.theme);
+  });
+
+  $("#periodSeg").addEventListener("click", (e) => {
+    const btn = e.target.closest("[data-period]");
+    if (!btn) return;
+    if (state.period === btn.dataset.period) return;
+    state.period = btn.dataset.period;
+    buildFilters();
+    updateSeasonTag();
+    renderList();
+  });
+
+  $("#partPills").addEventListener("click", (e) => {
+    const btn = e.target.closest("[data-part]");
+    if (!btn) return;
+    state.part = btn.dataset.part;
+    buildFilters();
+    renderList();
+  });
+
+  $("#catPills").addEventListener("click", (e) => {
+    const btn = e.target.closest("[data-cat]");
+    if (!btn) return;
+    state.cat = btn.dataset.cat;
+    buildFilters();
+    renderList();
+  });
+
+  $("#statusPills").addEventListener("click", (e) => {
+    const btn = e.target.closest("[data-status]");
+    if (!btn) return;
+    state.status = btn.dataset.status;
+    buildFilters();
+    renderList();
+  });
+
+  const search = $("#search");
+  search.addEventListener("input", () => {
+    state.q = search.value;
+    search.parentElement.classList.toggle("has-value", !!search.value);
+    if (location.hash) location.hash = "";
+    renderList();
+  });
+  $("#clearSearch").addEventListener("click", () => {
+    search.value = "";
+    state.q = "";
+    search.parentElement.classList.remove("has-value");
+    renderList();
+    search.focus();
+  });
+
+  const toggle = $("#practiceToggle");
+  toggle.checked = state.practice;
+  toggle.addEventListener("change", () => {
+    state.practice = toggle.checked;
+    store.set("ielts-practice", state.practice ? "1" : "0");
+    if (location.hash.match(/^#\/t\//)) {
+      renderDetail(decodeURIComponent(location.hash.slice(4)));
+    }
+  });
+
+  $("#topicGrid").addEventListener("click", (e) => {
+    const card = e.target.closest("[data-id]");
+    if (card) location.hash = "#/t/" + encodeURIComponent(card.dataset.id);
+  });
+
+  $("#backBtn").addEventListener("click", () => { location.hash = ""; });
+  $("#brand").addEventListener("click", () => { location.hash = ""; });
+
+  window.addEventListener("hashchange", route);
+  route();
+})();
