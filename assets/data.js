@@ -3611,6 +3611,412 @@ window.QUESTION_BANK = {
         }
       ],
       "date": "2026-09-01"
+    },
+    {
+      "id": "p1-secondary-schools",
+      "part": 1,
+      "category": "日常生活",
+      "status": "新题",
+      "month": 9,
+      "date": "2026-09-02",
+      "title": "Secondary schools",
+      "titleCn": "中学",
+      "questions": [
+        {
+          "q": "Do you remember your first day at secondary school?"
+        },
+        {
+          "q": "Were there any subjects that you found difficult at secondary school?"
+        },
+        {
+          "q": "What was your favorite subject at secondary school?"
+        },
+        {
+          "q": "Is there anything you miss about your secondary school?"
+        }
+      ]
+    },
+    {
+      "id": "p1-emails",
+      "part": 1,
+      "category": "日常生活",
+      "status": "新题",
+      "month": 9,
+      "date": "2026-09-02",
+      "title": "Emails",
+      "titleCn": "电子邮件",
+      "questions": [
+        {
+          "q": "Do you often send emails?"
+        },
+        {
+          "q": "Is sending emails popular in China?"
+        },
+        {
+          "q": "Do you think sending emails will be more or less popular in the future?"
+        },
+        {
+          "q": "Did you receive any handwritten letters when you were a child?"
+        },
+        {
+          "q": "Which do you prefer, writing a letter or sending a message?"
+        }
+      ]
+    },
+    {
+      "id": "p1-growing-vegetables",
+      "part": 1,
+      "category": "日常生活",
+      "status": "新题",
+      "month": 9,
+      "date": "2026-09-02",
+      "title": "Growing vegetables",
+      "titleCn": "种蔬菜",
+      "questions": [
+        {
+          "q": "Are you interested in growing vegetables and fruits?"
+        },
+        {
+          "q": "Is growing vegetables popular in your country?"
+        },
+        {
+          "q": "Do many people grow vegetables in your city?"
+        },
+        {
+          "q": "Do you think it's easy to grow vegetables?"
+        },
+        {
+          "q": "Should schools teach students how to grow vegetables?"
+        },
+        {
+          "q": "Did you like eating vegetables when you were a child?"
+        }
+      ]
+    },
+    {
+      "id": "p1-paper",
+      "part": 1,
+      "category": "日常生活",
+      "status": "新题",
+      "month": 9,
+      "date": "2026-09-02",
+      "title": "Paper",
+      "titleCn": "纸",
+      "questions": [
+        {
+          "q": "Have you made any crafts with paper?"
+        },
+        {
+          "q": "Do you still write handwritten letters?"
+        },
+        {
+          "q": "Do people still keep handwritten letters today?"
+        },
+        {
+          "q": "Do you carry paper and pens with you when you go out?"
+        },
+        {
+          "q": "What did you like to do with paper as a child?"
+        }
+      ]
+    },
+    {
+      "id": "p1-advertisements",
+      "part": 1,
+      "category": "日常生活",
+      "status": "新题",
+      "month": 9,
+      "date": "2026-09-02",
+      "title": "Advertisements",
+      "titleCn": "广告",
+      "questions": [
+        {
+          "q": "What kinds of advertisements do you watch?"
+        },
+        {
+          "q": "Where can you see advertisements?"
+        },
+        {
+          "q": "Have you ever bought something because of its advertisement?"
+        },
+        {
+          "q": "Do you watch advertisements from the beginning to the end?"
+        },
+        {
+          "q": "Do you often see advertisements when you are on your phone or computer?"
+        },
+        {
+          "q": "Is there an advertisement that made an impression on you when you were a child?"
+        },
+        {
+          "q": "Do you see a lot of advertising on trains or other transport?"
+        },
+        {
+          "q": "Do you like advertisements?"
+        },
+        {
+          "q": "What kind of advertising do you like?"
+        }
+      ]
+    },
+    {
+      "id": "p2-a-time-when-someone-told-you-something-you-are-not-intereste",
+      "part": 2,
+      "category": "事件",
+      "status": "保留题",
+      "month": 9,
+      "date": "2026-09-02",
+      "title": "Describe a time when someone told you something you are not interested in.",
+      "titleCn": "听不感兴趣的话",
+      "card": "You should say:\n· When it happened\n· Where you heard it\n· What you talked about\n· And explain why you were not interested in it",
+      "part3": [
+        {
+          "q": "How does the Internet influence our daily communication?"
+        },
+        {
+          "q": "Do you think modern technology influences the jargon among youngsters?"
+        },
+        {
+          "q": "What would you do if someone didn't listen to your opinion?"
+        },
+        {
+          "q": "What kind of topics do young people like to talk about today?"
+        },
+        {
+          "q": "What would happen if the listener didn't listen carefully?"
+        },
+        {
+          "q": "How can we tell if a listener is listening carefully?"
+        }
+      ]
+    },
+    {
+      "id": "p2-a-person-you-know-who-really-likes-taking-photos",
+      "part": 2,
+      "category": "人物",
+      "status": "新题",
+      "month": 9,
+      "date": "2026-09-02",
+      "title": "Describe a person you know who really likes taking photos.",
+      "titleCn": "喜欢拍照的人",
+      "card": "You should say:\n· Who the person is\n· When and how you got to know him/her\n· Where he/she takes photos\n· And explain how you feel about him/her",
+      "part3": [
+        {
+          "q": "Why are some people keen on taking photos?"
+        },
+        {
+          "q": "What kind of photos do people often take?"
+        },
+        {
+          "q": "Do you think it's ok to take photos everywhere?"
+        },
+        {
+          "q": "Why do tourists like taking photos while they are travelling?"
+        }
+      ]
+    },
+    {
+      "id": "p2-a-new-skill-you-learned-when-you-were-a-child",
+      "part": 2,
+      "category": "物品",
+      "status": "新题",
+      "month": 9,
+      "date": "2026-09-02",
+      "title": "Describe a new skill you learned when you were a child.",
+      "titleCn": "小时候学到的技能",
+      "card": "You should say:\n· What the skill was\n· Who taught you this skill\n· How you learned it\n· And explain how you felt about learning the skill",
+      "part3": [
+        {
+          "q": "What skills should children learn before they go to school?"
+        },
+        {
+          "q": "What are the differences between learning in a group and learning by oneself?"
+        },
+        {
+          "q": "What are the differences between the way adults learn and the way children learn?"
+        },
+        {
+          "q": "Do you think it is easier for children to learn new skills than for adults?"
+        },
+        {
+          "q": "Is it important for everyone to have a specialized skill?"
+        }
+      ]
+    },
+    {
+      "id": "p2-a-natural-place-e-g-parks-mountains",
+      "part": 2,
+      "category": "地点",
+      "status": "保留题",
+      "month": 9,
+      "date": "2026-09-02",
+      "title": "Describe a natural place (e.g. parks, mountains).",
+      "titleCn": "自然之地",
+      "card": "You should say:\n· Where this place is\n· How you knew this place\n· What it is like\n· And explain why you like to visit it",
+      "part3": [
+        {
+          "q": "What kind of people like to visit natural places?"
+        },
+        {
+          "q": "What are the differences between a natural place and a city?"
+        },
+        {
+          "q": "Do you think that going to the park is the only way to get close to nature?"
+        },
+        {
+          "q": "What can people gain from going to natural places?"
+        },
+        {
+          "q": "Do you think it is a good idea to let animals stay in local parks for people to see?"
+        }
+      ]
+    },
+    {
+      "id": "p2-an-organized-person",
+      "part": 2,
+      "category": "人物",
+      "status": "新题",
+      "month": 9,
+      "date": "2026-09-02",
+      "title": "Describe an organized person.",
+      "titleCn": "有条理的人",
+      "card": "You should say:\n· Who this person is\n· How you knew this person\n· What he/she does to be organized\n· And explain how you feel about this person",
+      "part3": [
+        {
+          "q": "Why is it important for people to be organized?"
+        },
+        {
+          "q": "Do you think children should learn to be organized from a young age?"
+        },
+        {
+          "q": "Are organized people more likely to be successful at work or in their studies?"
+        },
+        {
+          "q": "What can people do to become more organized?"
+        }
+      ]
+    },
+    {
+      "id": "p2-a-time-when-you-interviewed-a-famous-person",
+      "part": 2,
+      "category": "事件",
+      "status": "新题",
+      "month": 9,
+      "date": "2026-09-02",
+      "title": "Describe a time when you interviewed a famous person.",
+      "titleCn": "采访名人",
+      "card": "You should say:\n· Who the famous person was\n· When and where you interviewed this person\n· What you talked about during the interview\n· And explain how you feel about the experience",
+      "part3": [
+        {
+          "q": "What kinds of people are usually interviewed?"
+        },
+        {
+          "q": "Why do some people dislike being interviewed?"
+        },
+        {
+          "q": "What should people do to prepare for a job interview?"
+        }
+      ]
+    },
+    {
+      "id": "p2-a-good-service-you-received",
+      "part": 2,
+      "category": "物品",
+      "status": "保留题",
+      "month": 9,
+      "date": "2026-09-02",
+      "title": "Describe a good service you received.",
+      "titleCn": "好的服务",
+      "card": "You should say:\n· What the service was\n· When you received it\n· Who you were with\n· And explain how you felt about it",
+      "part3": [
+        {
+          "q": "Why are shopping malls so popular in China?"
+        },
+        {
+          "q": "What are the advantages and disadvantages of shopping in small shops?"
+        },
+        {
+          "q": "Why do some people not like shopping in small shops?"
+        },
+        {
+          "q": "What are the differences between online shopping and in-store shopping?"
+        },
+        {
+          "q": "What are the advantages and disadvantages of shopping online?"
+        }
+      ]
+    },
+    {
+      "id": "p2-an-old-person-you-know-and-respect",
+      "part": 2,
+      "category": "人物",
+      "status": "保留题",
+      "month": 9,
+      "date": "2026-09-02",
+      "title": "Describe an old person you know and respect.",
+      "titleCn": "尊敬的长辈",
+      "card": "You should say:\n· Who this person is\n· How you know this person\n· What he or she is like\n· And explain why you respect this person",
+      "part3": [
+        {
+          "q": "What kind of things can young people learn from old people?"
+        },
+        {
+          "q": "What qualities does a person need to have when taking care of old people?"
+        },
+        {
+          "q": "Do you think old people should be taken care of at home?"
+        }
+      ]
+    },
+    {
+      "id": "p2-a-noisy-place-you-have-been-to",
+      "part": 2,
+      "category": "地点",
+      "status": "保留题",
+      "month": 9,
+      "date": "2026-09-02",
+      "title": "Describe a noisy place you have been to.",
+      "titleCn": "嘈杂之地",
+      "card": "You should say:\n· What it is\n· When you went there\n· What you did there\n· And explain why you feel it is a noisy place",
+      "part3": [
+        {
+          "q": "Do you think it is good for children to make noise?"
+        },
+        {
+          "q": "Should children not be allowed to make noise under any circumstances?"
+        },
+        {
+          "q": "Which do you think makes louder noise, cities or the countryside?"
+        },
+        {
+          "q": "What types of noise do you come across in daily life?"
+        },
+        {
+          "q": "How do people respond to noises in your country?"
+        }
+      ]
+    },
+    {
+      "id": "p2-a-time-when-you-saved-money-to-buy-an-expensive-gift-for-oth",
+      "part": 2,
+      "category": "物品",
+      "status": "保留题",
+      "month": 9,
+      "date": "2026-09-02",
+      "title": "Describe a time when you saved money to buy an expensive gift for others.",
+      "titleCn": "攒钱想要买的物品",
+      "card": "You should say:\n· What it was\n· Why you wanted to buy this gift\n· How long you saved money for it\n· And explain how you felt when you bought the gift",
+      "part3": [
+        {
+          "q": "Should schools teach children how to manage money from a young age?"
+        },
+        {
+          "q": "Should parents teach their children to save money?"
+        },
+        {
+          "q": "What kind of things do people usually save money for?"
+        }
+      ]
     }
   ]
 };
