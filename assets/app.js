@@ -445,6 +445,12 @@
   }
 
   /* ---------- 事件 ---------- */
+  // 百度统计事件埋点（统计点击次数等）
+  const track = (cat, act, label) => {
+    if (window._hmt && window._hmt.push) {
+      try { window._hmt.push(["_trackEvent", cat, act, label || ""]); } catch (e) { /* 忽略 */ }
+    }
+  };
   const updateSeasonTag = () => {
     $("#seasonTag").textContent = `${YEAR} 年 ${state.period}`;
   };
@@ -458,6 +464,7 @@
     const btn = e.target.closest("[data-period]");
     if (!btn) return;
     if (state.period === btn.dataset.period) return;
+    track("时段", "切换", btn.dataset.period);
     state.period = btn.dataset.period;
     buildFilters();
     updateSeasonTag();
@@ -467,6 +474,7 @@
   $("#partPills").addEventListener("click", (e) => {
     const btn = e.target.closest("[data-part]");
     if (!btn) return;
+    track("筛选", "部分", btn.dataset.part === "2" ? "Part 2 & 3" : btn.dataset.part);
     state.part = btn.dataset.part;
     if (state.part !== "2") state.cat = "all"; // Part 1 / 全部 不涉及类别
     buildFilters();
@@ -476,6 +484,7 @@
   $("#catPills").addEventListener("click", (e) => {
     const btn = e.target.closest("[data-cat]");
     if (!btn) return;
+    track("筛选", "类别", btn.dataset.cat);
     state.cat = btn.dataset.cat;
     buildFilters();
     renderList();
@@ -484,6 +493,7 @@
   $("#statusPills").addEventListener("click", (e) => {
     const btn = e.target.closest("[data-status]");
     if (!btn) return;
+    track("筛选", "题型", btn.dataset.status);
     state.status = btn.dataset.status;
     buildFilters();
     renderList();
@@ -494,12 +504,14 @@
     state.q = search.value;
     search.parentElement.classList.toggle("has-value", !!search.value);
     if (location.hash) location.hash = "";
+    track("搜索", "查询");
     renderList();
   });
   $("#clearSearch").addEventListener("click", () => {
     search.value = "";
     state.q = "";
     search.parentElement.classList.remove("has-value");
+    track("搜索", "清空");
     renderList();
     search.focus();
   });
@@ -508,6 +520,7 @@
   toggle.checked = state.practice;
   toggle.addEventListener("change", () => {
     state.practice = toggle.checked;
+    track("练习", toggle.checked ? "开启" : "关闭");
     store.set("ielts-practice", state.practice ? "1" : "0");
     if (location.hash.match(/^#\/t\//)) {
       renderDetail(decodeURIComponent(location.hash.slice(4)));
@@ -516,7 +529,10 @@
 
   $("#topicGrid").addEventListener("click", (e) => {
     const card = e.target.closest("[data-id]");
-    if (card) location.hash = "#/t/" + encodeURIComponent(card.dataset.id);
+    if (!card) return;
+    const t = TOPICS.find((x) => x.id === card.dataset.id);
+    track("话题", "查看", t ? t.title : card.dataset.id);
+    location.hash = "#/t/" + encodeURIComponent(card.dataset.id);
   });
 
   $("#backBtn").addEventListener("click", () => { location.hash = ""; });
