@@ -454,6 +454,14 @@
     `数据更新于 ${BANK.updated || "—"}　·　${YEAR} 年雅思口语题库（${TOPICS.length} 个话题）`;
   $("#footNote").textContent = "　·　数据文件 data.js，按格式补充内容即可自动出现在目录中";
 
+  // 浮动下载卡片：记住用户是否关闭
+  const floatQr = $("#floatQr");
+  if (floatQr && store.get("ielts-qr-closed") === "1") floatQr.hidden = true;
+  $("#qrClose").addEventListener("click", () => {
+    floatQr.hidden = true;
+    store.set("ielts-qr-closed", "1");
+  });
+
   $("#periodSeg").addEventListener("click", (e) => {
     const btn = e.target.closest("[data-period]");
     if (!btn) return;
