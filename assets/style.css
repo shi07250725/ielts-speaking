@@ -231,7 +231,7 @@ body{
 .ans-tag.partial{background:var(--brand-soft);color:var(--brand)}
 .ans-tag.none{background:var(--line);color:var(--ink-3)}
 
-/* 屏幕右侧浮动下载引导（精巧卡片） */
+/* 屏幕右侧浮动下载引导（精巧卡片，常驻不可关闭） */
 .float-qr{
   position:fixed;right:16px;top:55%;
   width:140px;background:#fff;border-radius:14px;
@@ -239,13 +239,6 @@ body{
   box-shadow:0 10px 32px rgba(15,30,60,.16),0 1px 3px rgba(15,30,60,.08);
   z-index:90;text-align:center;
 }
-.qr-close{
-  position:absolute;top:4px;right:6px;
-  width:20px;height:20px;padding:0;border:none;background:transparent;
-  color:var(--ink-3);font-size:16px;line-height:1;cursor:pointer;
-  border-radius:50%;font-family:inherit;
-}
-.qr-close:hover{background:var(--tint);color:var(--ink)}
 .qr-img-wrap{
   width:120px;height:120px;margin:4px auto 8px;padding:6px;
   border-radius:8px;background:#fff;border:1px solid var(--line);
