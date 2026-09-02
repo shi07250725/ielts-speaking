@@ -48,6 +48,16 @@ window.QUESTION_BANK = {
       ]
     }
   ],
+  "updates": [
+    {
+      "date": "2026-09-02",
+      "text": "新增 15 个话题（Part 1 五个 · Part 2&3 十个）"
+    },
+    {
+      "date": "2026-09-01",
+      "text": "上线 9-12 月题库，新增 22 个话题（含 5 个必备题）"
+    }
+  ],
   "topics": [
     {
       "id": "p1-study",
