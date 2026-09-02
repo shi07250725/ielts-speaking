@@ -460,6 +460,26 @@
     `数据更新于 ${BANK.updated || "—"}　·　${YEAR} 年雅思口语题库（${TOPICS.length} 个话题）`;
   $("#footNote").textContent = "　·　数据文件 data.js，按格式补充内容即可自动出现在目录中";
 
+  // 更新公告弹窗：仅当有比用户上次已读更新的版本时展示（点「我知道了」记住）
+  (function updateNotice() {
+    const UPDATES = (BANK.updates || []).slice().sort((a, b) => (a.date < b.date ? 1 : -1));
+    const latest = UPDATES.length ? UPDATES[0].date : "";
+    if (!latest) return;
+    if (store.get("ielts-update-seen") === latest) return;
+    const cnDate = (d) => {
+      const p = String(d).split("-");
+      return p.length === 3 ? Number(p[1]) + "月" + Number(p[2]) + "日" : d;
+    };
+    $("#updateList").innerHTML = UPDATES.map(
+      (u) => `<li><b>${escapeHtml(cnDate(u.date))}</b><span>${escapeHtml(u.text || "")}</span></li>`
+    ).join("");
+    $("#updateMask").hidden = false;
+    $("#updateClose").addEventListener("click", () => {
+      $("#updateMask").hidden = true;
+      store.set("ielts-update-seen", latest);
+    });
+  })();
+
   $("#periodSeg").addEventListener("click", (e) => {
     const btn = e.target.closest("[data-period]");
     if (!btn) return;
