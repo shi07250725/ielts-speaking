@@ -50,6 +50,10 @@ window.QUESTION_BANK = {
   ],
   "updates": [
     {
+      "date": "2026-09-03",
+      "text": "新增 7 个话题（Part 1 一个 · Part 2&3 六个）"
+    },
+    {
       "date": "2026-09-02",
       "text": "新增 15 个话题（Part 1 五个 · Part 2&3 十个）"
     },
@@ -4025,6 +4029,180 @@ window.QUESTION_BANK = {
         },
         {
           "q": "What kind of things do people usually save money for?"
+        }
+      ]
+    },
+    {
+      "id": "p1-names",
+      "part": 1,
+      "category": "日常生活",
+      "status": "保留题",
+      "month": 9,
+      "date": "2026-09-03",
+      "title": "Names",
+      "titleCn": "名字",
+      "questions": [
+        {
+          "q": "Do you think it is difficult to remember other people's names?"
+        },
+        {
+          "q": "How can you remember other people's names?"
+        },
+        {
+          "q": "How do you feel if others cannot remember your name?"
+        }
+      ]
+    },
+    {
+      "id": "p2-a-person-who-enjoys-learning-history",
+      "part": 2,
+      "category": "人物",
+      "status": "新题",
+      "month": 9,
+      "date": "2026-09-03",
+      "title": "Describe a person who enjoys learning history",
+      "titleCn": "喜欢历史的人",
+      "card": "You should say:\n· Who this person is\n· How he/she learns history\n· Why he/she loves history\n· And explain how you feel about him/her",
+      "part3": [
+        {
+          "q": "Do you think childern should begn learning history from the early age?"
+        },
+        {
+          "q": "How do children learn history before they attend school?"
+        },
+        {
+          "q": "Is it important to learn how people in the past lived in their lives?"
+        },
+        {
+          "q": "Do you think people should learn ancient history before learning modern history?"
+        },
+        {
+          "q": "Besides big historical events, what else is important when learning history?"
+        }
+      ]
+    },
+    {
+      "id": "p2-an-enjoyable-evening-you-had-with-your-friends",
+      "part": 2,
+      "category": "事件",
+      "status": "新题",
+      "month": 9,
+      "date": "2026-09-03",
+      "title": "Describe an enjoyable evening you had with your friends.",
+      "titleCn": "和朋友度过的美好夜晚",
+      "card": "You should say:\n· When and where it was\n· What you did\n· Who you spent the evening with\n· And explain why it was enjoyable",
+      "part3": [
+        {
+          "q": "How do people get along in a big family?"
+        },
+        {
+          "q": "How to make family relationships closer?"
+        },
+        {
+          "q": "Do old people and young people do the same things in their free time?"
+        }
+      ]
+    },
+    {
+      "id": "p2-a-person-who-likes-to-make-things-by-hand-e-g-toys-furniture",
+      "part": 2,
+      "category": "人物",
+      "status": "保留题",
+      "month": 9,
+      "date": "2026-09-03",
+      "title": "Describe a person who likes to make things by hand (e.g. toys, furniture).",
+      "titleCn": "做手工的人",
+      "card": "You should say:\n· Who this person is\n· What he/she makes\n· Why he/she likes to make things by hand\n· And explain how you feel about the person",
+      "part3": [
+        {
+          "q": "Are art classes important to children?"
+        },
+        {
+          "q": "Why do some children like to make crafts?"
+        },
+        {
+          "q": "What kind of impact does art-related construction have on society?"
+        },
+        {
+          "q": "Is it good to have creative people in team?"
+        }
+      ]
+    },
+    {
+      "id": "p2-a-crowded-place-you-went-to",
+      "part": 2,
+      "category": "地点",
+      "status": "保留题",
+      "month": 9,
+      "date": "2026-09-03",
+      "title": "Describe a crowded place you went to.",
+      "titleCn": "拥挤的地方",
+      "card": "You should say:\n· When you went there\n· Who you went there with\n· Why you went there\n· And how you felt about it",
+      "part3": [
+        {
+          "q": "Which cities are crowded in your country?"
+        },
+        {
+          "q": "Will there be more or less green space in cities in the future?"
+        },
+        {
+          "q": "Will people use bikes more or less in cities in the future?"
+        },
+        {
+          "q": "Why do people go to crowded places?"
+        },
+        {
+          "q": "Do you think there are some people who enjoy crowded places?"
+        },
+        {
+          "q": "Do you think it is a good trend to have more big cities?"
+        }
+      ]
+    },
+    {
+      "id": "p2-an-activity-you-usually-do-that-wastes-your-time",
+      "part": 2,
+      "category": "事件",
+      "status": "保留题",
+      "month": 9,
+      "date": "2026-09-03",
+      "title": "Describe an activity you usually do that wastes your time.",
+      "titleCn": "浪费时间的活动",
+      "card": "You should say:\n· What it is\n· When you usually do it\n· Why you do it\n· And explain why you think it wastes your time",
+      "part3": [
+        {
+          "q": "How do you balance life and work?"
+        },
+        {
+          "q": "Will you continue doing something when you aware that it's a waste of time?"
+        },
+        {
+          "q": "What kinds of things make people feel pressured?"
+        },
+        {
+          "q": "Why do some people refuse to abide by rules?"
+        }
+      ]
+    },
+    {
+      "id": "p2-an-exciting-book-that-you-enjoy-reading",
+      "part": 2,
+      "category": "物品",
+      "status": "保留题",
+      "month": 9,
+      "date": "2026-09-03",
+      "title": "Describe an exciting book that you enjoy reading.",
+      "titleCn": "令人兴奋的书",
+      "card": "You should say:\n· When you read it\n· What kind of book it is\n· What it is about\n· And explain why you think it is exciting",
+      "part3": [
+        {
+          "q": "Do you think it is important to read the book before watching the movie version of it?"
+        },
+        {
+          "q": "Do boys and girls like the same kinds of books?"
+        },
+        {
+          "q": "What kinds of books do Chinese people like reading?"
         }
       ]
     }
