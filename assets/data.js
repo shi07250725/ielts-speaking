@@ -3050,19 +3050,24 @@ window.QUESTION_BANK = {
       "titleCn": "疲惫",
       "questions": [
         {
-          "q": "What things make you tired?"
+          "q": "What things make you tired?",
+          "a": "Lots of things make me feel tired these days, honestly. It also depends on the time of year — I get more tired in the summer for some reason. But generally speaking, I get really tired from commuting or taking public transport. I also get tired if I have to stay up very late doing homework. I think people get tired for all sorts of different reasons though — from lack of sleep, to being too stressed out, to just being physically exhausted from too much work."
         },
         {
-          "q": "What do you do when you feel tired?"
+          "q": "What do you do when you feel tired?",
+          "a": "Well, when I feel tired, if I have the opportunity, I'll try to take a rest — but it's not always that simple, you know. We can't always rest when we feel tired, so sometimes we just have to keep going until we get the chance to sleep. But ideally, when I feel tired, I like to take a short walk first, then come back and lie down and maybe take a nap. That usually helps a lot."
         },
         {
-          "q": "Who do you prefer to talk to when you feel tired, your friends or family members?"
+          "q": "Who do you prefer to talk to when you feel tired, your friends or family members?",
+          "a": "Honestly, when I'm tired I prefer to just be on my own. But if I have to talk to anyone, I'd rather it be my friends. The thing is, my family members tend to worry a lot — they'll start asking whether I'm eating properly or sleeping enough, and then it turns into a whole conversation. With friends it's much more low-key — we can just chat about nothing in particular, or honestly not talk at all, and that's completely fine."
         },
         {
-          "q": "Do you want to talk to strangers when you feel mentally tired?"
+          "q": "Do you want to talk to strangers when you feel mentally tired?",
+          "a": "No, not really. I mean, if I'm wide awake and in a very social mood, I don't mind talking to strangers — I think I'm quite good with people actually. But if I'm really mentally tired, I just don't want to engage in small talk or make the effort to connect with someone I don't know. I think that kind of thing is best done when you've got a lot of energy, not when you're really really tired."
         },
         {
-          "q": "Do you often feel tired?"
+          "q": "Do you often feel tired?",
+          "a": "Yeah, quite often, especially when I have a lot of classes or assignments to deal with. And after a day like that, I'm literally stressed out and just want to lie down, watch something relaxing, and go to bed a bit earlier than usual."
         }
       ]
     },
@@ -3233,7 +3238,8 @@ window.QUESTION_BANK = {
         {
           "q": "How can the arts spread positive emotions in society?"
         }
-      ]
+      ],
+      "sampleAnswer": "A happy person I know is one of my closest friends from university. We met in our first year, and honestly, I've always thought she has a naturally positive personality. She's quite outgoing, easy to talk to, and she doesn't seem to get stressed out too easily. Of course, she has bad days like everyone else, but she usually bounces back quite quickly instead of staying upset for a long time. As for how she shows happiness, I'd say it's mostly through small, everyday things. She laughs a lot, sends funny stickers in our WeChat group, and gets excited about really simple things, like finding a lovely café, getting a good seat in class, or trying a new snack. Sometimes, she'll suddenly say, \"Today is such a good day,\" even when nothing particularly special has happened, which I find quite funny and sweet. I guess the main reason I see her as a happy person is that she doesn't need anything huge to lift her spirits. She seems to notice little enjoyable moments in daily life, and she's also genuinely grateful for what she has. I really enjoy being around her because her cheerful mood is quite contagious. If I'm tired or stressed, talking to her usually makes me feel a bit lighter. Sometimes, it simply comes from appreciating what is already around us."
     },
     {
       "id": "p2-a-time-when-you-changed-an-important-decision-of-yours",
@@ -3299,7 +3305,8 @@ window.QUESTION_BANK = {
         {
           "q": "Which is better, to make a decision quickly or slowly?"
         }
-      ]
+      ],
+      "sampleAnswer": "One of the most significant decisions I made was participating in an international English speech contest as a senior high school student, where I ended up taking first place. The main reason why I made the choice was that I wanted to step out of my comfort zone. Back then, I had always been a timid student, and the idea of speaking on stage just freaked me out. So when I saw the poster, I struggled a bit. It was quite tough for me to decide. Honestly, I kept thinking if I would freeze on stage or even faint in front of the audience, but I knew this might be the perfect opportunity for me to overcome my fear. Encouraged by my parents and teachers, I finally made up my mind to take a shot. I was thrilled to be informed that I bagged the first prize, because plenty of efforts were paid behind the scenes. Every time when I found it impossible to memorize the lines, I had countless doubts running around my head, thinking whether I was truly fit in this role. So, when the host announced my name, I felt like I was on top of the world, because all my hard work paid off. Now, whenever I am faced with challenges, this experience would pop into my mind, and I would just break into a big smile. I have never regreted making the decision to join the competition, and I will never forget all the way I've come along."
     },
     {
       "id": "p2-a-city-you-have-been-to-and-would-like-to-visit-again",
@@ -3718,19 +3725,24 @@ window.QUESTION_BANK = {
       "titleCn": "纸",
       "questions": [
         {
-          "q": "Have you made any crafts with paper?"
+          "q": "Have you made any crafts with paper?",
+          "a": "Yeah, I've loved making handcrafts with my best friends ever since I was little — you know, stuff like paper frogs. We'd sit there whispering and giggling, having little competitions and sharing ideas for hours. It's a good way to practise your hands, and honestly it just feels so satisfying when a plain piece of paper turns into something really cute. It's like making a little magical world out of paper."
         },
         {
-          "q": "Do you still write handwritten letters?"
+          "q": "Do you still write handwritten letters?",
+          "a": "To be honest, I hardly ever write letters by hand now that I'm older. I guess it just feels a bit old-fashioned these days — and it can take ages to write one properly. So instead I just send emails or messages to keep in touch with friends and colleagues. It's so much quicker and easier. That said, I do sometimes miss the feeling of actually writing something out on paper."
         },
         {
-          "q": "Do people still keep handwritten letters today?"
+          "q": "Do people still keep handwritten letters today?",
+          "a": "Well, I'm not really a letter person, but I do keep a few in my drawer — mostly birthday cards and thank-you notes. I'll flip through them sometimes and it just takes me back, you know? Everything's so digital these days, so those handwritten words feel kind of precious now."
         },
         {
-          "q": "Do you carry paper and pens with you when you go out?"
+          "q": "Do you carry paper and pens with you when you go out?",
+          "a": "To be frank, I don't really carry them with me that often anymore, except on special occasions, like for exams or note-taking. I guess I've just gotten so used to digital devices such as mobile phones and laptops. You know, instead of jotting down every single detail, taking a picture with your phone can be a smarter choice. Plus, it's way easier to get back to things when I have to search for them later."
         },
         {
-          "q": "What did you like to do with paper as a child?"
+          "q": "What did you like to do with paper as a child?",
+          "a": "Like every kid, I was really into painting. I'd imagine this whole fairytale world — you know, giraffes with short necks, elephants with tiny ears, that kind of thing. I'd just grab my pens and lose myself in it for hours. And whenever an idea popped into my head, I'd want to draw it straight away."
         }
       ]
     },
@@ -3908,7 +3920,8 @@ window.QUESTION_BANK = {
         {
           "q": "What can people do to become more organized?"
         }
-      ]
+      ],
+      "sampleAnswer": "Lucy is one of the most organized person I ever met. She's my best partner in university. We got to know each other during a science project, and she naturally took on the role of the team leader. Honestly, I was really impressed by how she managed to improve our team working efficiency. She would set up a weekly routine and send it in our WeChat group every Sunday. To make things fair, she frequently used online forms to get a sense of what everyone thought on the plan. Instead of leaving a whole new work schedule to her teammates, she was really good at breaking it down into smaller tasks to make our jobs easier. Rather than pressuring us on chasing the deadline, she genuinely cared about her partners' feelings. For example, she would create work forms to check out everyone's progress and send friendly reminders a few days before the due date. To me, she is an organized girl, because she not only values team working efficiency, but also has strong cooperation skills. She was extremely good at collecting and sorting out information, and has everything under control even though the situation seems a bit messy. I was kind of disorganized before we met, but watching her work actually inspires me to keep my own stuff in order."
     },
     {
       "id": "p2-a-time-when-you-interviewed-a-famous-person",
@@ -3930,7 +3943,8 @@ window.QUESTION_BANK = {
         {
           "q": "What should people do to prepare for a job interview?"
         }
-      ]
+      ],
+      "sampleAnswer": "Last summer, I interviewed He Hui, a well-known entrepreneur who founded an elderly care company. As a media intern at that time, I was both excited and nervous to interview someone famous for the first time. The interview took place at his own office in Beijing. We focused on his own life stories, and discussed several key topics. I can still vividly remember, he shared what inspired him to build such a corporation from scratch. He recalled his grandma falling at home. With nobody to take care of her, the elder lady struggled to recover on her own. After this painful experience, he was determined to create a center that can provide professional and prompt medical care for elder people. Then I asked him if there were any ups and downs along the way. He smiled tenderly, and he told me that it was kind of difficult to recruit suitable caregivers in the beginning, because many of them were discouraged by the heavy workload and limited salaries. To fix this, he made an effort in improving working conditions, and he offered to provide free training opportunities for young employees. Hearing his personal experience, I was deeply moved, you know, not just because of his passion for social well-being, but also his positive attitude towards life and difficulties. Determined to learn from him, I even registered as a volunteer in an elderly home next to my apartment. I believe the spirit of love and care is worth spreading."
     },
     {
       "id": "p2-a-good-service-you-received",
