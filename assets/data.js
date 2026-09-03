@@ -51,6 +51,10 @@ window.QUESTION_BANK = {
   "updates": [
     {
       "date": "2026-09-03",
+      "text": "为 6 个话题补充了范例答案"
+    },
+    {
+      "date": "2026-09-03",
       "text": "新增 7 个话题（Part 1 一个 · Part 2&3 六个）"
     },
     {
