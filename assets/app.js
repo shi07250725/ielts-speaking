@@ -460,23 +460,28 @@
     `数据更新于 ${BANK.updated || "—"}　·　${YEAR} 年雅思口语题库（${TOPICS.length} 个话题）`;
   $("#footNote").textContent = "　·　数据文件 data.js，按格式补充内容即可自动出现在目录中";
 
-  // 更新公告弹窗：仅当有比用户上次已读更新的版本时展示（点「我知道了」记住）
+  // 更新公告弹窗：按「已读条数」判断，新增题目或补充答案都会触发一次（点「我知道了」记住）
   (function updateNotice() {
-    const UPDATES = (BANK.updates || []).slice().sort((a, b) => (a.date < b.date ? 1 : -1));
-    const latest = UPDATES.length ? UPDATES[0].date : "";
-    if (!latest) return;
-    if (store.get("ielts-update-seen") === latest) return;
+    const UPDATES = (BANK.updates || []).slice().sort(
+      (a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0)); // 日期降序，同日保持插入序（最新插最前）
+    if (!UPDATES.length) return;
+    const seen = Number(store.get("ielts-update-seen")) || 0; // 旧版存日期字符串 → 视为 0（重看一次）
+    const total = UPDATES.length;
+    if (total <= seen) return;
+    const unread = Math.min(total - seen, 6); // 每次最多展示最近 6 条
     const cnDate = (d) => {
       const p = String(d).split("-");
       return p.length === 3 ? Number(p[1]) + "月" + Number(p[2]) + "日" : d;
     };
-    $("#updateList").innerHTML = UPDATES.map(
+    const html = UPDATES.slice(0, unread).map(
       (u) => `<li><b>${escapeHtml(cnDate(u.date))}</b><span>${escapeHtml(u.text || "")}</span></li>`
     ).join("");
+    $("#updateList").innerHTML =
+      html + (total - seen > unread ? `<li class="ud-more">…更早还有 ${total - seen - unread} 条</li>` : "");
     $("#updateMask").hidden = false;
     $("#updateClose").addEventListener("click", () => {
       $("#updateMask").hidden = true;
-      store.set("ielts-update-seen", latest);
+      store.set("ielts-update-seen", String(total));
     });
   })();
 
