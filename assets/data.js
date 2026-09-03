@@ -55,11 +55,11 @@ window.QUESTION_BANK = {
     },
     {
       "date": "2026-09-03",
-      "text": "新增 7 个话题（Part 1 一个 · Part 2&3 六个）"
+      "text": "新增 7 个话题（Part 1 1 个 · Part 2&3 6 个）"
     },
     {
       "date": "2026-09-02",
-      "text": "新增 15 个话题（Part 1 五个 · Part 2&3 十个）"
+      "text": "新增 15 个话题（Part 1 5 个 · Part 2&3 10 个）"
     },
     {
       "date": "2026-09-01",
