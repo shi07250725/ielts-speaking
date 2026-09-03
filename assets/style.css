@@ -410,3 +410,4 @@ body{
   cursor:pointer;font-family:inherit;transition:filter .15s;
 }
 .ud-btn:hover{filter:brightness(1.08)}
+.ud-list li.ud-more{color:var(--ink-3);font-size:12.5px;justify-content:center}
