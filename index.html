@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>雅思口语题库</title>
-<link rel="stylesheet" href="assets/style.css?v=202609033">
+<link rel="stylesheet" href="assets/style.css?v=202609034">
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -33,6 +33,10 @@ var _hmt = _hmt || [];
         <input type="checkbox" id="practiceToggle">
         <span>练习模式</span>
       </label>
+      <button class="help-btn" id="helpBtn" type="button" title="使用说明">
+        <svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"><circle cx="8" cy="8" r="7" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M6.2 6a1.9 1.9 0 1 1 2.6 1.8c-.6.3-.8.7-.8 1.4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="8" cy="12.2" r="1" fill="currentColor"/></svg>
+        <span class="help-label">使用说明</span>
+      </button>
     </div>
   </div>
 </header>
@@ -90,7 +94,21 @@ var _hmt = _hmt || [];
   </div>
 </div>
 
-<script src="assets/data.js?v=202609033"></script>
-<script src="assets/app.js?v=202609033"></script>
+<div class="help-mask" id="helpMask" hidden>
+  <div class="help-dialog">
+    <button class="dlg-x" id="helpClose" aria-label="关闭">×</button>
+    <h3 class="help-title">雅思口语题库 · 使用说明</h3>
+    <ul class="help-list">
+      <li><b>换题时间：</b>雅思口语每年 <em>1 月 / 5 月 / 9 月</em> 换题。本页「<b>9-12月</b>」为当前考试季最新题库，「5-8月」仅供补充参考。</li>
+      <li><b>适用考区：</b>题库按<b>中国大陆考区</b>机经整理，纸笔与机考通用。</li>
+      <li><b>复习顺序：</b>先<b>必备题</b>（Study / Work / Hometown 开场必考）→ 再<b>新题</b>（当季新题出题率高）→ 后<b>保留题</b>。</li>
+      <li><b>练习方法：</b>点开话题先开「练习模式」自答，再看范例回答；Part 2 计时练满 2 分钟。</li>
+    </ul>
+    <button class="help-ok" id="helpOk">我知道了</button>
+  </div>
+</div>
+
+<script src="assets/data.js?v=202609034"></script>
+<script src="assets/app.js?v=202609034"></script>
 </body>
 </html>
