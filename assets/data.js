@@ -51,6 +51,10 @@ window.QUESTION_BANK = {
   "updates": [
     {
       "date": "2026-09-04",
+      "text": "新增 52 个保留题（沿用 5-8 月新题及范例答案）"
+    },
+    {
+      "date": "2026-09-04",
       "text": "新增 3 个话题（Part 2&3 3 个）"
     },
     {
@@ -4302,6 +4306,1572 @@ window.QUESTION_BANK = {
           "q": "Why is self-discipline important when learning a new skill?"
         }
       ]
+    },
+    {
+      "id": "p1-public-gardens-and-parks-9",
+      "part": 1,
+      "category": "日常生活",
+      "status": "保留题",
+      "month": 9,
+      "title": "Public gardens and parks",
+      "titleCn": "公园",
+      "questions": [
+        {
+          "q": "Did you like going to parks as a child?",
+          "a": "Yeah, definitely! I used to go to the park near my home almost every weekend with my parents. We'd fly kites, have picnics, that kind of thing. It was really the highlight of my week back then — just running around outside with no worries at all."
+        },
+        {
+          "q": "Do you still like going to parks now?",
+          "a": "Yeah, I still do, though not as often. You know, life gets busy. But whenever I get the chance, I love just sitting on a bench, listening to the birds, maybe reading a book. It's a really good way to unwind, especially after a stressful week."
+        },
+        {
+          "q": "Would you like to see more parks in your city?",
+          "a": "Oh, absolutely. I think cities can feel really overwhelming sometimes, so having more green spaces would make a huge difference. It gives people a place to relax, exercise, or just breathe some fresh air. I feel like more parks would genuinely make the city a happier place to live."
+        },
+        {
+          "q": "Are there any parks you want to go to in the future?",
+          "a": "Well, I've actually heard a lot about Central Park in New York — it just looks incredible in photos and movies. I'd love to go for a walk there someday and see it for myself. There's also a bamboo forest park in Japan I came across online that looks really peaceful and beautiful."
+        },
+        {
+          "q": "Would you prefer to play in a personal garden or public garden?",
+          "a": "I'd probably go for a personal garden, honestly. It's just more peaceful — no crowds, no noise. You can do whatever you want without worrying about other people. But I get that not everyone has that luxury, so public parks are a great alternative too."
+        },
+        {
+          "q": "How are the parks today different from those you visited as a kid?",
+          "a": "I think they're much better now. There are more facilities — like outdoor gyms, better playgrounds, cleaner paths. When I was little, parks were pretty basic. Now they feel a lot more well-maintained and designed for all ages, not just kids."
+        },
+        {
+          "q": "What do you like to do when visiting a park?",
+          "a": "I usually just take a slow walk and enjoy the fresh air. Sometimes I'll bring a book and sit somewhere quiet. If I'm with friends, we might throw a frisbee or just sit on the grass and chat. It's my go-to way to unwind."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p1-cars-9",
+      "part": 1,
+      "category": "日常生活",
+      "status": "保留题",
+      "month": 9,
+      "title": "Cars",
+      "titleCn": "汽车",
+      "questions": [
+        {
+          "q": "Did you enjoy traveling by car when you were a kid?",
+          "a": "Yeah, I loved it! I'd sit by the window and watch everything go by. My parents would play music and we'd chat the whole way. It always felt like a little adventure, even for short trips."
+        },
+        {
+          "q": "What types of cars do you like?",
+          "a": "I'm not really a car person, but I do love SUVs — they're spacious and comfortable. I'm also into electric cars lately because of all the cool tech features. I guess I care more about comfort than looks, honestly."
+        },
+        {
+          "q": "Do you prefer to be a driver or a passenger?",
+          "a": "Definitely a passenger. I can just sit back, listen to music, or take a nap. Driving requires full concentration the whole time, which is pretty tiring. So yeah, being a passenger is just way more relaxing for me."
+        },
+        {
+          "q": "What do you usually do when there is a traffic jam?",
+          "a": "I usually put on some music or a podcast. Sometimes I'll just scroll through my phone or daydream a bit. It's annoying, but I've kind of learned to just accept it and make the most of the time."
+        },
+        {
+          "q": "Do you think car colours are important?",
+          "a": "Not hugely, but I think colour does reflect personality a bit. Like, a red car gives off a very different vibe from a white one. Personally, I'd go for dark blue or grey — it just looks clean and timeless."
+        },
+        {
+          "q": "Will you buy an expensive car in the future?",
+          "a": "Maybe, if I can afford it! I wouldn't make it a top priority though. I'd rather spend money on travel or experiences. But if I ever do buy one, I'd want something comfortable and reliable rather than just flashy. Practicality matters more to me than showing off, honestly."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p1-shopping-9",
+      "part": 1,
+      "category": "日常生活",
+      "status": "保留题",
+      "month": 9,
+      "title": "Shopping",
+      "titleCn": "购物",
+      "questions": [
+        {
+          "q": "Do you like shopping?",
+          "a": "Not really. I find shopping a bit of a drag to be honest. I don't like going around stores and shops looking at clothes and things. I much prefer to look at things casually on my phone and order things online, but even then I don't really enjoy it much. I'm not someone who gets much pleasure from shopping really."
+        },
+        {
+          "q": "How often do you go shopping?",
+          "a": "About once every couple of weeks, I think. Of course, to buy food, I will go to the supermarket or a market about once a week, but that's just to buy some essentials – but clothes shopping or shopping for pleasure, I don't do that often. Yes, about once a fortnight I'd say, on average."
+        },
+        {
+          "q": "Do you prefer online shopping or in-store shopping?",
+          "a": "Honestly, I prefer online shopping most of the time. It's just so convenient — you can browse and compare prices without leaving home. But for things like clothes or shoes, I'd rather try them on in store first. So I guess it really depends on what I'm buying."
+        },
+        {
+          "q": "Have you ever returned anything you bought online?",
+          "a": "Yeah, actually. I once ordered a jacket and it looked completely different from the photos — the colour was way off. So I had to send it back, which was kind of a hassle. Since then I've been a lot more careful about reading reviews before buying anything online."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p1-watches-9",
+      "part": 1,
+      "category": "日常生活",
+      "status": "保留题",
+      "month": 9,
+      "title": "Watches",
+      "titleCn": "手表",
+      "questions": [
+        {
+          "q": "Do you wear a watch?",
+          "a": "Yes, I wear a watch – I have a smart watch which I wear all the time. I use the watch to set calendar reminders, send short messages, make quick calls and make notes, as well as monitor my health stats and daily steps."
+        },
+        {
+          "q": "Have you ever got a watch as a gift?",
+          "a": "Yes, the smart watch that I wear almost all the time – this was a gift from my uncle a few years ago."
+        },
+        {
+          "q": "Why do some people wear expensive watches?",
+          "a": "Some people genuinely appreciate a fine, precision-made watch, and others enjoy the status symbol of having an expensive watch. Some people care about both!"
+        },
+        {
+          "q": "Do you think it is important to wear a watch? Why?",
+          "a": "Well, not really essential these days since everyone has a phone. But I do think watches are still nice to have — they look stylish and save you from constantly pulling out your phone. Some people also wear them as a fashion statement. So it depends on the person, I guess."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p1-websites-9",
+      "part": 1,
+      "category": "日常生活",
+      "status": "保留题",
+      "month": 9,
+      "title": "Websites",
+      "titleCn": "网站",
+      "questions": [
+        {
+          "q": "What kinds of websites do you usually use?",
+          "a": "I use a number of websites very regularly. These are usually online shopping websites - two in particular. I buy a lot of things online - from clothes and shoes, to kitchen accessories and food and snacks."
+        },
+        {
+          "q": "What is your favorite website?",
+          "a": "My favourite website is one I do not use that often. It's a website dedicated to trainers... to sneakers... you know, sporty shoes. I love trainers. So, when I need a new pair I always go to this particular website which has more unique styles and combinations of colours and designs."
+        },
+        {
+          "q": "Are there any changes about the websites you usually use?",
+          "a": "Websites have recently become a lot more user-friendly, slicker, smoother, easier to use and more secure in terms of how they protect your personal data."
+        },
+        {
+          "q": "What kinds of websites are popular in your country?",
+          "a": "Just like I mentioned, shopping websites. These are most certainly the most popular websites in my country. Everyone buys things online - it's convenient, reliable and you can buy pretty much anything you need from several online companies."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p1-tidiness-9",
+      "part": 1,
+      "category": "日常生活",
+      "status": "保留题",
+      "month": 9,
+      "title": "Tidiness",
+      "titleCn": "整洁",
+      "questions": [
+        {
+          "q": "Do you like to keep things tidy?",
+          "a": "Yeah, I'd say I'm a fairly tidy person. I feel kind of uncomfortable when my space is messy — it actually makes it hard to focus. So I try to clean up regularly, especially my desk. It just makes me feel a lot more relaxed and in control."
+        },
+        {
+          "q": "Did you use to keep your room tidy as a child?",
+          "a": "Honestly, not really! My room was a total mess most of the time. Clothes everywhere, toys on the floor — my mum would constantly tell me to clean up. I think I only started caring about tidiness when I got older and lived on my own."
+        },
+        {
+          "q": "How do you keep your work or study space tidy?",
+          "a": "I try to do a quick tidy-up at the end of each day — just putting things back where they belong and clearing my desk. I also have a rule: if I'm not using it, it goes away. It sounds simple but it really helps keep things from piling up."
+        },
+        {
+          "q": "Do you think that it is necessary to be tidy?",
+          "a": "I'd say yes, to a reasonable degree. A tidy space just helps you think more clearly and saves time looking for things. But I don't think you need to be obsessive about it either. As long as you know where everything is, that's good enough, I think."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p1-mirrors-9",
+      "part": 1,
+      "category": "日常生活",
+      "status": "保留题",
+      "month": 9,
+      "title": "Mirrors",
+      "titleCn": "镜子",
+      "questions": [
+        {
+          "q": "Do you like looking at yourself in the mirror?",
+          "a": "I am not sure whether I like it or not, but I do it every day before I go out of the house. I need to check my face, my hair and make sure I am looking as presentable as possible before I head out to the office."
+        },
+        {
+          "q": "Have you ever bought mirrors?",
+          "a": "Yes, I have often bought little mirrors to take in my handbag, so I can check myself sporadically during the day. Perhaps before a meeting or after lunch, or if I am going from work to a dinner or something like that."
+        },
+        {
+          "q": "Do you usually take a mirror with you?",
+          "a": "Yes, I usually take a small mirror with me. However, in more recent years, I don't use it. I tend to use my mobile phone - many people do these days - you know, you put the camera on selfie mode, and then you can look at yourself just as if you are looking in a mirror."
+        },
+        {
+          "q": "Would you use mirrors to decorate your room?",
+          "a": "I have never used mirrors to decorate my living space, but I think it's a good idea. If you put mirrors in certain places in your house they can make it look bigger, or lighter or change the space in a positive way. So, yes, I would use mirrors to decorate my room, certainly."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p1-teachers-9",
+      "part": 1,
+      "category": "日常生活",
+      "status": "保留题",
+      "month": 9,
+      "title": "Teachers",
+      "titleCn": "老师",
+      "questions": [
+        {
+          "q": "Do you remember your teachers from primary school?",
+          "a": "Yes, I remember most of them quite well. I remember the ones I really liked, and I also remember the ones I really disliked! The motivating, humorous and inspiring teachers, as well as the strict, serious and critical teachers!"
+        },
+        {
+          "q": "Do you have a favorite teacher?",
+          "a": "Yes, it was my mathematics teacher. She was really good at making the subject interesting and she always gave real-life examples, and not just boring repetition drills, so I found I remembered what we learned in class much easier."
+        },
+        {
+          "q": "Did you want to be a teacher when you were young?",
+          "a": "I didn't really, no. I didn't really think about it, actually. I always had aspirations to go into business or the medical field. I was not really interested in teaching, and neither did I like the idea of dealing with classrooms full of children."
+        },
+        {
+          "q": "What kinds of teacher do you prefer?",
+          "a": "I prefer teachers that seem to be very sincere and 'human' – you know, the kinds of teachers that make a subject really seem inspiring and worth learning about. A good teacher, who has a sense of humour and the ability to inspire interest, can change your whole attitude to school!"
+        },
+        {
+          "q": "Are you still in touch with your primary school teachers?",
+          "a": "Not really, to be honest. I've lost touch with most of them over the years. I do follow one or two on social media, but we don't really chat. I think it's just natural to drift apart after you move on to a new school."
+        },
+        {
+          "q": "In what way has your favourite teacher helped you?",
+          "a": "Well, my favourite teacher was really encouraging. Whenever I felt like giving up, she'd remind me that making mistakes is part of learning. That really stuck with me. I think she gave me a lot more confidence, both in her subject and just in general."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p1-social-media-9",
+      "part": 1,
+      "category": "日常生活",
+      "status": "保留题",
+      "month": 9,
+      "title": "Social media",
+      "titleCn": "社交媒体",
+      "questions": [
+        {
+          "q": "Have you ever posted anything on social media?",
+          "a": "Yeah, all the time! I mostly post photos from trips or just random things I find funny. I use Instagram the most — it's a great way to share moments with friends. I don't really care about getting loads of likes though, I just post things I genuinely want to remember."
+        },
+        {
+          "q": "When did you start to use social media?",
+          "a": "I began using social media during my teenage years, around the age of 14."
+        },
+        {
+          "q": "Do you think you spend too much time on social media?",
+          "a": "I strive to maintain a healthy balance, ensuring I don't spend excessive time on social media, and I prioritize other activities in my daily routine."
+        },
+        {
+          "q": "Do your friends use social media?",
+          "a": "Yes, most of my friends are active on social media, and it serves as a primary means of staying connected and sharing updates."
+        },
+        {
+          "q": "What do people do on social media?",
+          "a": "People engage in various activities on social media, including sharing personal updates, connecting with friends, consuming content, and participating in discussions or online communities."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p1-ambition-and-dreams-9",
+      "part": 1,
+      "category": "日常生活",
+      "status": "保留题",
+      "month": 9,
+      "title": "Ambition and dreams",
+      "titleCn": "志向与梦想",
+      "questions": [
+        {
+          "q": "What was your dream when you were a child?",
+          "a": "When I was a child I had simple and accessible dreams I'd say - I wanted to be a teacher. I loved the idea of teaching children and sharing my thoughts and experiences in life with them. I always had this dream as a youngster."
+        },
+        {
+          "q": "Are you the kind of person who never gives up on dreams?",
+          "a": "I am the kind of person who persists, yes, at least with certain things. Because I have realistic dreams I always feel they are obtainable, so I make sure I put the necessary effort into making them come true. I rarely aim for things that I know I'm unable to attain."
+        },
+        {
+          "q": "What is your main ambition in life now?",
+          "a": "My main ambition in life, to be honest, is to maintain a stable, secure and simple happy life. I don't want to do anything especially fancy or amazing really. I enjoy the simple things in life, I'd say. Nice food, family and good friends and company on the weekends."
+        },
+        {
+          "q": "Do you think you are an ambitious person?",
+          "a": "That's a good question....Actually, I don't think I am that ambitious really. Usually in life I choose to do things which I find to be predominantly stable and secure, rather than especially ambitious or adventurous things - you know, when it comes to career and work choices as well."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p1-music-9",
+      "part": 1,
+      "category": "日常生活",
+      "status": "保留题",
+      "month": 9,
+      "title": "Music",
+      "titleCn": "音乐",
+      "questions": [
+        {
+          "q": "Do you prefer sad or happy music?",
+          "a": "Honestly, it depends on my mood. When I'm relaxing or feeling a bit down, I actually enjoy sad, slow songs — they're somehow comforting. But when I'm working out or need some energy, I'll go for upbeat stuff. So I don't really have a strong preference either way."
+        },
+        {
+          "q": "Does happy music make you feel more excited?",
+          "a": "Yeah, definitely! You know, when an upbeat song comes on, I just naturally want to move. It's like the energy of the music gets into you without even trying. I sometimes put on happy music while getting ready in the morning — it really helps me start the day on a good note."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p1-science-9",
+      "part": 1,
+      "category": "日常生活",
+      "status": "保留题",
+      "month": 9,
+      "title": "Science",
+      "titleCn": "科学",
+      "questions": [
+        {
+          "q": "Do you like science?",
+          "a": "Yes, I really enjoy science because it helps us understand the world around us. Science has the ability to explain natural phenomena, drive technological advancements, and improve our quality of life. It's fascinating to see how scientific discoveries shape our understanding and future."
+        },
+        {
+          "q": "When did you start to learn about science?",
+          "a": "I started learning about science in school in my first year. We had basic science lessons, in which we learned a bit about biology mainly, and some physics."
+        },
+        {
+          "q": "Which science subject is interesting to you?",
+          "a": "My favourite subject is physics now. That's because I'm really interested in space and the universe and I'm particularly good at mathematics. There's a lot of complex math in astrophysics and I find it really exciting."
+        },
+        {
+          "q": "What kinds of interesting things have you done with science?",
+          "a": "I've participated in several interesting science-related activities, including conducting experiments in school labs and participating in science fairs. One memorable project involved building a simple electric circuit, which sparked my interest in electronics and how devices work."
+        },
+        {
+          "q": "Do you like watching science TV programs?",
+          "a": "Absolutely, I find science TV programs very engaging and informative. Shows like \"Cosmos\" and \"Planet Earth\" not only provide deep insights into scientific topics but are also visually stunning and well-produced, making learning both fun and interesting."
+        },
+        {
+          "q": "Do Chinese people often visit science museums?",
+          "a": "Yes, visiting science museums is quite popular among Chinese people, especially families with children and school groups. These museums are designed to be interactive and educational, making science accessible and interesting for everyone. Large cities in China, such as Beijing and Shanghai, have well-known science museums that are frequently visited by both locals and tourists."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p1-singing-9",
+      "part": 1,
+      "category": "日常生活",
+      "status": "保留题",
+      "month": 9,
+      "title": "Singing",
+      "titleCn": "唱歌",
+      "questions": [
+        {
+          "q": "Do you like singing?",
+          "a": "I love singing. I thoroughly enjoy going to KTVs and singing on my own at home to music, too."
+        },
+        {
+          "q": "Have you ever learnt how to sing?",
+          "a": "No, not really. To be honest, I'm not very good at singing – I think I might be tone deaf, even. In school plays and performances I was never chosen to be one of the leading singers, and in KTV with friends, I usually try to keep a low profile and mouth the words – I really can't sing well."
+        },
+        {
+          "q": "If you sing, who would you sing in front of?",
+          "a": "I wouldn't want to sing for anyone – I'd be way too embarrassed and self-conscious. As I said, I'm a terrible singer! I would find it uncomfortable, so no, I would not sing for, or in front of anyone, if I could avoid it."
+        },
+        {
+          "q": "Do you think singing can bring happiness to people?",
+          "a": "I understand that singing, if you're good enough at it, can make people feel very happy. The person singing as well as those listening. Singing is a great form of musical expression, and there's nothing more lovely than the human voice. So, yes, it can bring happiness for sure."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p1-outer-space-and-stars-9",
+      "part": 1,
+      "category": "日常生活",
+      "status": "保留题",
+      "month": 9,
+      "title": "Outer space and stars",
+      "titleCn": "外太空与星星",
+      "questions": [
+        {
+          "q": "Have you ever learnt about outer space and stars?",
+          "a": "Yes, in school we learnt the basic things about space and the solar system. Also, I've seen a number of documentaries about the universe on television. I find the topic quite inspiring."
+        },
+        {
+          "q": "Do you like science fiction movies? Why?",
+          "a": "Yes, I'd say so, yes. I enjoy sci-fi films, although I don't think there are many really good ones. I also have seen a few TV series set in space which I've enjoyed."
+        },
+        {
+          "q": "Do you want to know more about outer space?",
+          "a": "Absolutely, I'm fascinated by outer space! The vastness, the mysteries it holds, and the potential for undiscovered planets and life forms spark my curiosity. Each new discovery about outer space feels like a piece of a cosmic puzzle being placed, and I'm eager to see the picture it will eventually reveal. It's like a never-ending story with the universe itself as the narrator."
+        },
+        {
+          "q": "Do you want to go into outer space in the future?",
+          "a": "Haha, no I don't think so. I've heard that some millionaires have actually signed up to go into the lower regions of space in space crafts, or orbit the earth, but I don't really have much of a fascination with this. To be honest, I think I'd be scared! I don't like heights!"
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p1-clothes-9",
+      "part": 1,
+      "category": "日常生活",
+      "status": "保留题",
+      "month": 9,
+      "title": "Clothes",
+      "titleCn": "衣服",
+      "questions": [
+        {
+          "q": "What kind of clothes do you often wear in daily life?",
+          "a": "In my normal, everyday life, I usually wear jeans and a T-shirt, perhaps a skirt or a dress in summer. It really depends. But usually quite casual clothes – clean and presentable, but casual attire, normally."
+        },
+        {
+          "q": "Is there any difference between the clothes you wear on weekends and weekdays?",
+          "a": "Perhaps there's a bit of a difference, yes. During the week I tend to focus more on wearing conventional styles, because I have to go to work and must look a bit smarter. On weekends I tend to be more laid back and wear more casual clothes, perhaps even slightly more informal clothes. For example if I go to a party or something I might dress up in heels and sort of more striking-looking dresses, which I don't tend to wear in the office."
+        },
+        {
+          "q": "Is there any color you dislike when buying clothes?",
+          "a": "I don't really like yellow. I don't think this colour suits me. Also pastel shades don't really suit me, either. I prefer plain colours, subdued colours for work, and perhaps more bold colours if I go out on the weekend with friends."
+        },
+        {
+          "q": "Do you like wearing T-shirts?",
+          "a": "I wear T-shirts very often, in fact. Especially in summer when the weather is warm. I enjoy the freedom of wearing a T-shirt and I have quite a few different ones with all sorts of designs on them in fact – from sporty-style T-shirts with the classic sports logos, to more amusing T-shirts with funky designs and patterns on them."
+        },
+        {
+          "q": "Do you spend a lot of time choosing clothes?",
+          "a": "I usually spend about 10 to 15 minutes in the morning choosing my outfit for the day. I like to pick something comfortable and suitable for the weather, ensuring that it also matches the day's activities."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p1-headphones-9",
+      "part": 1,
+      "category": "日常生活",
+      "status": "保留题",
+      "month": 9,
+      "title": "Headphones",
+      "titleCn": "耳机",
+      "questions": [
+        {
+          "q": "Do you use headphones?",
+          "a": "I use headphones a lot. In fact, I really enjoy the sound of music on headphones. Today the quality is really good, and headphones have improved a lot in recent years and are more comfortable too."
+        },
+        {
+          "q": "When do you use headphones?",
+          "a": "I usually wear headphones when I am commuting to work, when I am in bed at night and want to listen to a podcast or some of my favourite music before sleep. I also use headphones when I am chatting on the phone sometimes."
+        },
+        {
+          "q": "What type of headphones do you use?",
+          "a": "I use the standard headphones that came with my mobile phone. They're pretty good quality. I know some people buy really special expensive headphones, but mine are a normal brand and I think they're really good."
+        },
+        {
+          "q": "In what occasions will you not use headphones?",
+          "a": "I don't use headphones when I'm hanging out with friends, or when I'm at work. I think that's a bit rude. Usually I only use headphones when I'm alone really. Yeah, I tend not to use headphones when I'm in the company of other people I have to, or want to, interact with."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p1-jokes-9",
+      "part": 1,
+      "category": "日常生活",
+      "status": "保留题",
+      "month": 9,
+      "title": "Jokes",
+      "titleCn": "笑话",
+      "questions": [
+        {
+          "q": "Are you good at telling jokes?",
+          "a": "Honestly, not really! I always mess up the timing or forget the punchline halfway through. My friends usually end up laughing at me rather than the joke itself. So I've kind of accepted that joke-telling is just not my thing."
+        },
+        {
+          "q": "Do your friends like to tell jokes?",
+          "a": "Yeah, I have one friend who's hilarious — he can make anyone laugh without even trying. The rest of us are pretty average though. We joke around a lot, but it's more just silly banter than actual proper jokes, you know."
+        },
+        {
+          "q": "Do you like to watch comedies?",
+          "a": "Yeah, I love them! After a long day, there's nothing better than putting on a funny show and just switching off. I don't have to think too hard and it always cheers me up. I think laughter is genuinely one of the best ways to de-stress."
+        },
+        {
+          "q": "Have you ever watched a live show?",
+          "a": "Yeah, once! A friend dragged me to a stand-up comedy show and I wasn't expecting much, but it was so funny. Laughing along with a whole crowd feels completely different from watching at home. I'd definitely go again if I got the chance."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p1-old-buildings-9",
+      "part": 1,
+      "category": "日常生活",
+      "status": "保留题",
+      "month": 9,
+      "title": "Old buildings",
+      "titleCn": "老建筑",
+      "questions": [
+        {
+          "q": "Have you ever seen some old buildings in your city?",
+          "a": "Yes, I've visited quite a few old buildings. I'm a big fan of history and so I enjoy going to the famous sights, but also when my family visit Chengdu to see us, I enjoy taking them to the most famous old examples of architecture and culture."
+        },
+        {
+          "q": "Do you think we should keep old buildings in cities?",
+          "a": "We should always strive to preserve our history. History is an important and meaningful part of a country's culture and heritage and it's important to renovate and preserve old buildings."
+        },
+        {
+          "q": "Would you prefer living in an old building or a modern house?",
+          "a": "I'd prefer to live in an old building, which has been modernized inside! So, I would like a bit of both! I like the charm of old buildings, but the functionality of modern living!"
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p1-history-9",
+      "part": 1,
+      "category": "日常生活",
+      "status": "保留题",
+      "month": 9,
+      "title": "History",
+      "titleCn": "历史",
+      "questions": [
+        {
+          "q": "Have you ever been to historical museums?",
+          "a": "Yes, I've been to several history museums. Some of them I've found really boring, and some I've found really interesting – it depends how the artefacts are exhibited. I tend to prefer natural history museums that house dinosaur skeletons and interactive experiences. Museums that just have lots relics, like ancient vases or jade stones in glass cabinets with lots of text to read, well… I find pretty boring to be honest. I like museums that have interesting displays that engage visitors and inspire us to take an interest in history."
+        },
+        {
+          "q": "Do you like history?",
+          "a": "I enjoy learning about aspects of history yes. I don't really like studying history in school – it's usually boring and full of dates and events that I don't find very interesting. But I do enjoy learning about certain aspects of history – like how different inventions came about, or how we evolved from apes and came to live in caves, or how the pyramids might have been built and why. These types of things are inspiring and interesting to me."
+        },
+        {
+          "q": "When was the last time you read about history?",
+          "a": "The last time I read about something in history was a book I had about tribes in Africa. It is fairly interesting actually. I quite like reading about how they hunted animals hundreds of years ago, and how certain tribes got along well, and got along badly with others, and things like this. I was very attracted to the colourful imagery in the book I was reading – the natural scenery in Africa as well as the way people lived there."
+        },
+        {
+          "q": "Did you like history when you were young?",
+          "a": "I didn't really. I liked certain fun facts, like I said earlier, like how the pyramids were built or about how dinosaurs lived and how they became extinct. But history lessons in school and the usual sort of national and political history I find uninteresting and uninspiring."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p1-cinema-9",
+      "part": 1,
+      "category": "日常生活",
+      "status": "保留题",
+      "month": 9,
+      "title": "Cinema",
+      "titleCn": "电影院",
+      "questions": [
+        {
+          "q": "Did you often go to the cinema when you were a child?",
+          "a": "I didn't really no. I went occasionally with my sister, but not very often to be honest."
+        },
+        {
+          "q": "Do you often go to the cinema with your friends?",
+          "a": "Nowadays I go to the cinema about once a month – there's a new cinema complex right near my home in a mall. It's a fantastic cinema and they have all the latest movies."
+        },
+        {
+          "q": "Do you still like the same kind of movie which you liked when you were a child?",
+          "a": "Pretty much. I've always liked fun, romantic and lighthearted films. I still enjoy a lot of animations and cartoons too."
+        },
+        {
+          "q": "What genres of films do you like?",
+          "a": "I have a diverse taste in films; I enjoy genres like action, drama, and science fiction. If I was to say which I really preferred, though, I would probably say action movies that are based around spy stories, secret agent thrillers and things like this – I prefer this genre to the superhero genre, most of the time. I find these films truly gripping."
+        },
+        {
+          "q": "Do you think going to the cinema is a good way to spend time with friends?",
+          "a": "Going to the cinema is an excellent way to spend quality time with friends, discussing the movie afterward enhances the experience, especially if you go for a meal and a few drinks and have time and the mood to chat about it. But this is only really fun if it's a good film that you all enjoy."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p1-evening-time-9",
+      "part": 1,
+      "category": "日常生活",
+      "status": "保留题",
+      "month": 9,
+      "title": "Evening time",
+      "titleCn": "晚间时光",
+      "questions": [
+        {
+          "q": "Do you like morning or evening?",
+          "a": "Personally, I prefer mornings to evenings.. The mornings are the times when I really can focus on my studies the best and my concentration is at its peak. That's mainly because I am someone who sleeps early and wakes up early feeling very refreshed."
+        },
+        {
+          "q": "What do you usually do in the evening?",
+          "a": "In the evenings I like to relax, basically. Just rest and listen to music on headphones, or watch a TV show or something like that. I have friends who always study in the evenings. Not me. I like to rest in the evenings. I don't even go out much."
+        },
+        {
+          "q": "Are there any differences between what you do in the evening now and what you did in the",
+          "a": "Yes, most certainly. When I was a bit younger I would have a much more active social life in the evenings, and I also used to try to study in bed at night too. Now, I have a much more organized life. I always get up early, get things done in the morning and in the day, and rest at night."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p2-a-person-who-has-chosen-a-career-in-the-medical-field-e-g-a-doct-9",
+      "part": 2,
+      "category": "人物",
+      "status": "保留题",
+      "month": 9,
+      "title": "Describe a person who has chosen a career in the medical field (e.g. a doctor, a nurse).",
+      "titleCn": "描述一个从事医疗行业的人（如医生/护士）",
+      "card": "You should say:\n· Who he/she is\n· What he/she does\n· Why he/she chose this career\n· And explain how you feel about him/her",
+      "sampleAnswer": "I'd like to talk about my cousin, Mei Ling, who recently became a nurse at a big hospital in Guangzhou. Mei Ling is 26 years old and graduated from nursing school two years ago. As a nurse, she works in the emergency department of the hospital. Her job involves a lot of different tasks. She helps doctors examine patients, gives medicines, changes bandages, and keeps an eye on patients' conditions. She also talks to patients and their families to explain treatments and give them comfort. Mei Ling chose this career for a few reasons. First, she's always been a caring person who likes to help others. When we were kids, she was always the one looking after anyone who got hurt during playtime. Second, her mom (my aunt) is also a nurse, so Mei Ling grew up hearing stories about hospital life and how rewarding it can be to help people get better. Lastly, she knew that nursing is a stable job with good career prospects, which was important to her. I feel really proud of Mei Ling. Being a nurse isn't easy – she often works long hours and has to deal with tough situations. But whenever I talk to her, I can tell she really loves her job. She always has interesting stories to share about the people she's helped. I also admire her dedication and bravery, especially during the COVID-19 pandemic. She worked extra shifts and put herself at risk to help others. It makes me see her as a kind of everyday hero. Mei Ling's choice to become a nurse has made me think more about the importance of healthcare workers. They do such important work, often without much recognition. Seeing how much Mei Ling cares about her patients and how hard she works has given me a new respect for people in the medical field.",
+      "part3": [
+        {
+          "q": "Do you think doctors and nurses are very important?",
+          "a": "Absolutely! Doctors and nurses are like the superheroes of our health system. They're the ones who look after us when we're sick or injured. Imagine if we didn't have them – who would we turn to when we're not feeling well? They work long hours, often in stressful situations, to keep us healthy. Nurses are there day and night, caring for patients, while doctors diagnose and treat illnesses. They're not just important; they're essential. During the pandemic, we saw just how crucial they were. They literally save lives every day. So yeah, I'd say they're incredibly important."
+        },
+        {
+          "q": "Who is more important, doctors or nurses?",
+          "a": "Oh, that's a tough one! I don't think we can say one is more important than the other. It's like asking whether your left or right hand is more important – you need both! Doctors and nurses work as a team. Doctors might diagnose illnesses and plan treatments, but nurses are the ones who provide constant care and monitor patients closely. Nurses often spend more time with patients, giving emotional support too. Without nurses, doctors couldn't do their job properly, and without doctors, nurses wouldn't know how to treat patients. They're both crucial parts of the healthcare system. It's their teamwork that makes healthcare work."
+        },
+        {
+          "q": "Do you think that doctors and nurses are not paid enough?",
+          "a": "That's a tricky question. In many places, I think they could be paid more, considering the vital work they do. They have to study for years and often work long, stressful hours. Nurses, especially, are often underpaid for the amount of care they provide. But it's not just about money – they need better working conditions too. Some countries pay their medical staff well, while others struggle to. It also depends on the specific job and location. Overall, given the importance of their work and the pressure they're under, I feel many doctors and nurses deserve higher pay. It's about valuing the people who keep us healthy."
+        },
+        {
+          "q": "Do you think it is necessary to learn first aid skills?",
+          "a": "Absolutely! I think everyone should learn basic first aid. You never know when you might need it – accidents can happen anywhere, anytime. Knowing first aid could mean the difference between life and death in an emergency. It's not just for big emergencies either; even small injuries can be handled better with first aid knowledge. Plus, it gives you confidence to help others. Imagine if someone collapses and you're the only one around – wouldn't you want to know what to do? Schools should teach it, I reckon. It's a life skill, like swimming or cooking. You might not use it often, but when you need it, you'll be glad you learned it."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p2-your-favorite-childhood-friend-9",
+      "part": 2,
+      "category": "人物",
+      "status": "保留题",
+      "month": 9,
+      "title": "Describe your favorite childhood friend.",
+      "titleCn": "描述你最喜欢的童年朋友",
+      "card": "You should say:\n· Who he/she is\n· Where you met each other\n· What you often did together\n· And explain what made you like him/her",
+      "sampleAnswer": "A childhood friend who I had a lot of fun with was a guy called Matthew. We met in school in the very first year. He lived in the street nearby, and we used to have great times together. You see, we lived in a small town then, by a really nice woodland – we would both go off and play in the woods almost every day, at least in the holidays. We'd make dens, play hide and seek, climb trees, and play imaginary fantasy games. We were the kind of kids who were not so into sports like football and basketball – we were more excited by riding bikes and having adventures in the countryside. Plus, when you grow up in a small town there are less entertainment options than in cities, so you end up using your imagination more, and bonding with your friends a lot more – because there are less distractions, and a lot of nature around. There was also a river, and Matthew had a small wooden boat his uncle had made him, sort of a raft really – and we used to go down the river on that and try to catch fish. Things like that. I enjoyed his company because he was funny, too. He had a very mischievous sense of humour and loved playing practical jokes – we enjoyed playing pranks on our parents. That was quite funny actually. So, yeah, I liked Matthew a lot, and we still keep in touch, from time to time on social media. He is in Shenzhen studying business in university. Occasionally, at Spring Festival we see each other in our home town, if we both are visiting at the same time.",
+      "part3": [
+        {
+          "q": "Why do people lose contact with their friends after graduation?",
+          "a": "People lose contact with some friends for a variety of reasons. One reason is that their paths in life diverge and their lives go in different directions. They lose common interests and goals, and life moves on, their ambitions change and their priorities differ. This is not always the case, but sometimes is what happens, often gradually over time. It's a common reason anyway. Another reason might be that you end up losing your friends' contact details, though today this is less common because people are often connected quite extensively with many friends and friends of friends via various online social media accounts."
+        },
+        {
+          "q": "How does modern technology influence friendship?",
+          "a": "Modern technology influences friendships by enabling people to keep in touch all the time with friends and families, enabling people to see each other's daily updates on things like WeChat Moments and other social utilities and platforms, and also enabling people to make new friends through online friends and dating sites. Also, there are a lot of online forums where people can post comments, opinions, ideas and share their experiences around specific or general topics and themes – often those that get along or share similar views on these forums, can make friends with each other and then develop those friendships. So, modern technology, mostly internet-based technology and software, has a huge impact on friendships and relationships. From enabling people to nurture existing friendships, to helping people make new friends."
+        },
+        {
+          "q": "Do you think people's relationship with friends will change when they get older?",
+          "a": "I think that friendships do evolve and change over time, and as we get older we have slightly different relationships with our friends, yes. It really depends. One example might be that as people get older maybe they have less time to spend with friends, and more responsibilities, so they might stay in touch with less friends, or be more selective about the friends they do spend time with. Children tend to play with a wider variety of friends, also because they are less discerning and have less prejudices. As we get older we take stronger likes and dislikes to people and also have less time for people who we might not immediately get along with or share common ground with. Evolving friendships are different too – adults who really want to maintain friendships will make efforts to develop them and be emotionally supportive of friends, and as the years go by, that can make friendships stronger, and last into old age. These are arguably the most valuable friendships."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p2-a-person-you-know-who-loves-to-grow-plants-e-g-vegetables-fruits-9",
+      "part": 2,
+      "category": "人物",
+      "status": "保留题",
+      "month": 9,
+      "title": "Describe a person you know who loves to grow plants (e.g. vegetables/fruits/ flowers etc.).",
+      "titleCn": "描述一个喜欢种植植物的人",
+      "card": "You should say:\n· Who this person is\n· What he/she grows\n· Where he/she grows those vegetable/fruits\n· And explain why he/she enjoys this activity",
+      "sampleAnswer": "A person I know who loves to grow plants is a lady I met in Scotland when I was in university. In fact she was my neighbour. I was living in a shared house in Bruford Road in Edinburgh, and next door lived a fairly old, but very energetic lady, called Nan. Nan was always changing her hair style, always wore long flowing dresses, and was quite moody, but a lovely lady, nevertheless. She had a small front garden and a quite long back garden. In the front garden she had wonderful flower beds of brightly coloured flowers, and a small lawn with a stone bird bath on it. And in the back garden she had bushes and a vegetable patch and some more leafy plants. I don't remember the names of all these plants in English, to be honest! Anyway, she spent quite a bit of time in her garden carefully looking after her plants, tilling the soil around the vegetables, watering them during the dry summer months and pruning the rose bushes. Because that summer I stayed there and spent a lot of time reading in the garden I would talk to her over the low fence which divided our gardens and we became quite good friends. She told me a lot about her love for plants and flowers and it seemed like this was a hobby that really kept her positive and happy in life. She wasn't so into people, or doing social things, but she did enjoy her garden. We chatted a lot that summer, and I think a learned a thing or two from her about how to appreciate nature and the simpler things in life. I think tending to her garden was really good for her mental and physical health, actually.",
+      "part3": [
+        {
+          "q": "What are the advantages of growing vegetables or flowers at home?",
+          "a": "Well, I think the biggest advantage is that you know exactly what goes into your food — no pesticides or artificial stuff, which is great for your health. And for flowers, having greenery around the house just makes the space feel so much more relaxing. There's also something really satisfying about growing things yourself, you know? It's a good way to de- stress after a long day. Plus, it can actually save you a bit of money on groceries in the long run."
+        },
+        {
+          "q": "Do many people grow vegetables or flowers at home in your country?",
+          "a": "Hmm, I'd say it's becoming more popular, especially among older generations. A lot of retired people in China grow vegetables on balconies or in small garden plots — it's kind of a lifestyle thing for them. Younger people are starting to get into it too, mostly for aesthetic reasons, like keeping houseplants or growing herbs in the kitchen. It's not super common yet, but I think the trend is definitely picking up."
+        },
+        {
+          "q": "Is it easy to grow plants at home?",
+          "a": "Well, it really depends on what you're trying to grow. Some plants, like herbs or succulents, are pretty low-maintenance and hard to kill, so they're great for beginners. But vegetables can be trickier — you need to think about sunlight, watering schedules, and soil quality. I think a lot of people give up early because they don't see results quickly enough. Starting with something simple is probably the best way to go if you're new to it."
+        },
+        {
+          "q": "Why do some people prefer to grow their own fruits and vegetables instead of buying them from",
+          "a": "I think it mainly comes down to trust and quality. A lot of people worry about chemicals or preservatives in supermarket produce, so growing their own feels much safer. There's also the freshness factor — homegrown stuff just tastes better, honestly. And beyond that, I think some people genuinely enjoy the process itself. It gives them a sense of achievement and a way to slow down, which is something a lot of us need these days."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p2-a-successful-business-person-you-admire-9",
+      "part": 2,
+      "category": "人物",
+      "status": "保留题",
+      "month": 9,
+      "title": "Describe a successful business person you admire.",
+      "titleCn": "描述一个你钦佩的成功商人",
+      "card": "You should say:\n· Who this person is\n· What kind of business this person does\n· Why this person is successful\n· And explain why you admire this person",
+      "sampleAnswer": "A business person I really admire is my auntie, actually. She started a small clothing company in our home city about twenty years ago. She had some connections with designers in France, and imported unique boutique garments and accessories. Initially she sold these items in a very tasteful shop, but as the internet became a popular way of doing business she started an online store. She gradually started to expand the product range that she sold, while maintaining a consistent company image and brand image. She really displayed a great head for business. I think one of the reasons she became quite successful in her small business was her capacity to adapt to the changing times and changing trends, both in the online shopping world, and in terms of the kinds of designs that she chose. She didn't just sell anything she could sell – she chose the items very carefully and established herself as an exclusive boutique outlet. I admire her because I think she combined a good head for business, strategy and management, and a great passion for fashion and design. She wasn't too greedy or attracted to selling anything just to make money. I haven't seen my auntie since I left our home city, and I haven't maintained that much contact with her, so I am not exactly sure what she's doing now, but I guess she's still running the business, both her physical shop in the city and her online store. I should get back in touch with her and see how she's doing, actually!",
+      "part3": [
+        {
+          "q": "What do you think is the retirement age for men and women?",
+          "a": "The retirement age for men is currently set at 60 years old and women, I think, at 55 years old. However, I think that this is going to change soon, and they might increase the retirement age by 5 years for men and women. That's because people are generally living longer and the cost of living is increasing, so people need to work longer in order to raise families, pay mortgages and things like this."
+        },
+        {
+          "q": "What kinds of qualities should a successful businessman have?",
+          "a": "A successful business person should, to be honest, be quite assertive, quite dominant in some ways, and know how to talk to a variety of people in the right ways. There are moments to be very dogmatic and firm, there are moments to be soft and diplomatic – a good business person should be able to gauge the different situations and adopt the correct attitude to suit what is best for the company. Being decisive is another quality that is important in a business person who wants to succeed and do well. Sometimes you have to make decisions, the best decisions possible, in a very short time – so being able to think fast, evaluate things quickly and be decisive, is very important."
+        },
+        {
+          "q": "What are important factors in making a company successful?",
+          "a": "There are a number of key factors that contribute to making a company successful. Firstly I think the owners, the founders or main managers need to have a sense of vision, a strong self-confidence and an ambitious personality. I also think that a company needs the right kind of employees. The managers need to have a good sense of who and who not to recruit. They also need to treat the employees well, give them fair salaries and other benefits and holidays that will ensure they will be loyal to the company and work as hard as possible."
+        },
+        {
+          "q": "If you had the opportunity to run your own business, what business would it be? Why?",
+          "a": "I would run a business related to food. I love cooking and I have mastered all sorts of different dishes over the years. Mainly Chinese cuisine from different regions. I'd start a small restaurant. I'd run it as a fairly expensive restaurant and specialize in dishes that are perhaps less common and less mainstream. I like innovative and inventive cuisine, and I would enjoy the experience of designing menus, designing the restaurant itself, and training the staff. I've always liked this idea. I doubt I'll actually do it, but still, it's nice to think about from time to time."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p2-a-person-who-is-good-at-learning-and-speaking-new-languages-9",
+      "part": 2,
+      "category": "人物",
+      "status": "保留题",
+      "month": 9,
+      "title": "Describe a person who is good at learning and speaking new languages.",
+      "titleCn": "描述一个擅长学外语的人",
+      "card": "You should say:\n· How you got to know him/her\n· How he/she learns a new language\n· What languages he/she can speak\n· And explain how you feel about him/her",
+      "sampleAnswer": "The person I want to talk about is actually one of my closest friends from university — I've known her for about three years now, ever since we ended up in the same class in our first semester. She's honestly one of those people who just has a thing for languages. Right now she speaks Mandarin, English, and Japanese fluently, and she's been picking up some Spanish on the side as well. Which, you know, makes the rest of us feel a little bit inadequate, but in a mostly admirable way. What's interesting is how she actually goes about learning. She doesn't really rely on textbooks that much — she told me once that the way she learns is just by throwing herself into it. Like, when she was learning Japanese, she started watching shows without subtitles way earlier than she probably should have, just to force her brain to adjust. She also makes a point of talking to native speakers whenever she gets the chance, even when she's not confident yet. She said the embarrassment is part of the process, which I thought was a pretty brave way to look at it. Honestly, what I admire most about her isn't just that she's good at it — it's how fearless she is. Most people, including me, are too worried about making mistakes to even try. She just doesn't seem to have that fear. And watching her makes me want to be a bit more like that.",
+      "part3": [
+        {
+          "q": "Are there many people who can speak foreign languages in your country?",
+          "a": "Hmm, I'd say English is pretty widely studied since it's part of the school curriculum, but actually speaking it fluently is a different story. Most people have some basic knowledge, but genuine fluency is still relatively rare outside of big cities. You'll find more confident speakers among younger generations and people working in international companies. So yeah, the numbers are growing, but there's still quite a gap between studying a language and actually using it comfortably."
+        },
+        {
+          "q": "Does speaking other languages help at work?",
+          "a": "Oh, definitely. In a lot of industries — like business, tourism, or tech — being able to communicate in another language opens up so many more opportunities. It can make you stand out when applying for jobs, and it's just really useful when working with international clients or colleagues. Even knowing a few basics in someone's language shows respect, you know? I think as the world gets more connected, language skills are becoming more and more valuable in almost any field."
+        },
+        {
+          "q": "Do people learn any languages other than English?",
+          "a": "Yeah, increasingly so. Japanese and Korean have become really popular, especially among younger people who are into anime or K-pop culture. Spanish is also gaining interest because of how widely it's spoken globally. And in business circles, some people are picking up languages like German or French. I think social media and streaming platforms have made learning these languages feel more fun and accessible, which is probably why more people are giving it a go these days."
+        },
+        {
+          "q": "Why is it easier for children to learn new things than for adults?",
+          "a": "Well, I think the biggest reason is that children's brains are just more flexible at that stage, you know? They absorb information naturally without overthinking it. Adults tend to get in their own way — worrying about making mistakes or feeling embarrassed. Kids just dive in without that fear. They also have more time and fewer responsibilities, so they can practice constantly. And honestly, when you're young, everything is new anyway, so picking up new things just feels normal."
+        },
+        {
+          "q": "How do people learn new things?",
+          "a": "I think it varies a lot depending on the person. Some people prefer watching videos or taking online courses because it fits around their schedule. Others learn best by actually doing things hands-on and just figuring it out as they go. Having someone experienced to guide you also makes a big difference — like a teacher or mentor. And I think consistency matters more than anything, honestly. Even just spending a little time on something every day adds up way faster than people expect."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p2-a-kind-of-food-people-eat-during-the-special-event-9",
+      "part": 2,
+      "category": "物品",
+      "status": "保留题",
+      "month": 9,
+      "title": "Describe a kind of food people eat during the special event.",
+      "titleCn": "描述一种节日吃的食物",
+      "card": "You should say:\n· What the food is\n· What event people usually eat it\n· How it is cooked\n· And explain why it is for the special event.",
+      "sampleAnswer": "I'd like to talk about Chinese dumplings. In Chinese we have lots of different words for the many different varieties of dumplings – so it's not always easy to find an equivalent English word. In Chinese there's one kind of dumpling that we call 'Jiaozi' and these are a very popular dish during the Chinese New Year season. The recipe for these dumplings varies by region but they typically consist of a minced meat and a vegetable filling wrapped into a thinly rolled piece of dough, which is then sealed by pressing the edges together. They are cooked by either boiling, steaming or my favourite by pan-frying. We traditionally serve them with a black vinegar and other sauces. Even though we eat these dumplings throughout the year, at Chinese New Year we make them by hand, at home with our relatives. So for most Chinese people these dumplings are closely linked to the idea of Spring Festival traditions. Personally I'm a huge fan of these dumplings and every Chinese New Year I get really excited about the prospect of sitting down with my relatives to make them. We spend hours making them and we often make jokes about who can make the best ones – the technique is a bit fiddly so sometimes they turn out wrong and this is always quite funny.",
+      "part3": [
+        {
+          "q": "Why do some people grow their own food these days?",
+          "a": "Growing your own food has become trendy for several reasons. It ensures fresh, organic produce without chemicals, which is healthier and more environmentally friendly. It's also a great way to save money on groceries. Many find gardening therapeutic and stress-relieving, providing a sense of accomplishment. It's a fun hobby that connects people with nature and the food production process. Some do it to reduce their carbon footprint or to have control over what they eat. Overall, it's a rewarding activity that combines health, environmental, and personal benefits."
+        },
+        {
+          "q": "Is there any traditional food in your country?",
+          "a": "Oh, absolutely! China's bursting with traditional foods. We've got dumplings - little pockets of joy that show up at every Spring Festival. Then there's Peking duck - it's like the rock star of Chinese cuisine, crispy and juicy in all the right places. Hot pot's a big deal too - imagine a bubbling pot of soup where you cook your own food. It's like a DIY dinner party! And don't forget regional specialties. Sichuan dishes will make your taste buds do a spicy dance, while Cantonese dim sum is like a parade of bite-sized delights. From mooncakes to hand-pulled noodles, our traditional food's a real flavour adventure!"
+        },
+        {
+          "q": "What can be the reasons that some young people prefer foreign food to traditional food?",
+          "a": "Young people might prefer foreign food for several reasons. First, it's exciting to try new flavors and cuisines, offering a sense of adventure. Social media and globalization have exposed the youth to diverse food cultures, making foreign dishes trendy. Some see it as more sophisticated or cosmopolitan. As young people travel more, they develop tastes for international cuisines. Fast-paced lifestyles might also make some foreign fast foods more appealing. However, this doesn't mean they've abandoned traditional food entirely – many still enjoy it, especially during special occasions or family gatherings."
+        },
+        {
+          "q": "Which food is generally popular in your country?",
+          "a": "In my country, popular foods include a mix of traditional and modern dishes. Fast food like burgers and pizza are widely enjoyed, especially among younger people. Traditional rice dishes with various meat and vegetable combinations remain staples in many households. Street food is incredibly popular, with vendors selling local snacks and quick meals in urban areas. International cuisines, particularly Italian and Asian, have gained significant popularity in recent years. Seafood dishes are favorites in coastal regions, while hearty meat stews are more common inland."
+        },
+        {
+          "q": "Will there be more and more people planting food in the future?",
+          "a": "I believe more people will grow their own food in the future. Rising concerns about food quality, environmental impact, and self-sufficiency are driving this trend. Urban gardening solutions like vertical gardens and community allotments are making it feasible even in cities. Advances in technology, such as smart indoor growing systems, are making it easier for anyone to grow food regardless of space or climate. As people become more health-conscious and environmentally aware, home gardening will likely become more widespread, potentially changing our relationship with food production and consumption."
+        },
+        {
+          "q": "What are the differences between everyday food and festival food?",
+          "a": "Well, I think the biggest difference is just how much effort goes into it. On a normal day, most people want something quick and easy, right? But festival food is a whole different thing — families spend hours preparing special dishes, and everything feels more meaningful. There's also the social side of it. Everyday meals are often eaten alone or in a rush, while festival food is almost always about sitting down together and enjoying the moment."
+        },
+        {
+          "q": "Are there any differences between the food people eat today and the food people ate in the past?",
+          "a": "Definitely, yeah. In the past, people mostly ate simple, home-cooked meals made from fresh local ingredients. These days, processed food and takeaways are a huge part of people's diets, which is convenient but probably not as healthy. I think variety has increased a lot too — you can eat cuisine from all over the world without leaving your city, which people in the past couldn't even imagine. So it's better in some ways, worse in others."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p2-a-new-law-you-would-like-to-introduce-in-your-country-9",
+      "part": 2,
+      "category": "物品",
+      "status": "保留题",
+      "month": 9,
+      "title": "Describe a new law you would like to introduce in your country.",
+      "titleCn": "描述一条你想推行的新法律",
+      "card": "You should say:\n· What law it is\n· What changes this law brings\n· Whether this new law will be popular\n· And explain how you feel about this",
+      "sampleAnswer": "If I had the opportunity to introduce a new law in my country, it would undoubtedly be a comprehensive environmental protection law specifically aimed at drastically reducing single-use plastics. This proposed law would mandate a phased ban on single-use plastics, starting with items like plastic bags, straws, and cutlery, eventually encompassing a wider array of products. Additionally, it would require businesses to transition to sustainable alternatives and provide subsidies and support to local industries developing biodegradable options. The changes brought about by this law would be significant. First, it would greatly decrease the amount of plastic waste that pollutes our oceans, landscapes, and cities, which is crucial for preserving natural ecosystems and biodiversity. Second, by fostering a demand for eco-friendly products, the law would stimulate innovation and growth in the green technology and materials sectors, potentially positioning our country as a leader in environmental sustainability. Although implementing such a law might face initial resistance due to convenience and cost concerns, I believe it would gain popularity over time. Public awareness of environmental issues is rising, and many citizens are already advocating for stronger measures to protect our planet. The shift in consumer preferences towards sustainability supports this trend. The idea for this law came from witnessing the detrimental impact of plastic pollution firsthand during a beach cleanup event. The sight of wildlife entangled in plastic debris was profoundly disturbing and served as a catalyst for my advocacy for change. Personally, I feel deeply passionate about this law. It represents a concrete step towards a sustainable future and aligns with my values of environmental conservation and responsibility. Introducing such a law would not only improve the quality of life in my country but also contribute positively to global environmental efforts, an achievement that would fill me with immense pride and hope.",
+      "part3": [
+        {
+          "q": "What rules should students follow at school?",
+          "a": "Children should follow rules at home related to their safety, like not playing with sharp objects or using the stove unsupervised. It's equally important to enforce rules regarding respect, such as using polite language and cleaning up after oneself. These rules create a secure and respectful environment within the household, helping children understand the boundaries of safety and courtesy."
+        },
+        {
+          "q": "Do people often violate rules or laws in China?",
+          "a": "I don't know if people in China violate laws more than any other country to be honest. It's hard to say. On the one hand Chinese people can be very obedient, but on the other hand they can also flaunt rules and ignore regulations if they are not imposed strictly, and if they are not penalized by the authorities for breaking them. In this way I'd say the Chinese are quite childish – they will follow rules if the authorities punish them for not following them. But if they are not threatened with punishments or loss of face, they might just totally ignore them and not even think about the consequences of their own actions on society. But, having said this, I think a lot of people in the world are like this. I'm not sure it's right to compare."
+        },
+        {
+          "q": "What kinds of behavior are considered as good behavior?",
+          "a": "Good behavior generally includes actions and attitudes that are considerate, respectful, and constructive. This encompasses being honest, responsible, kind, and cooperative. Good behavior in a social context also involves respecting others' rights and privacy, adhering to societal norms, and contributing positively to the community."
+        },
+        {
+          "q": "Do you think children can learn about the law outside of school?",
+          "a": "Yes, children can certainly learn about the law outside of school. Parents, guardians, and community leaders can play pivotal roles in teaching children about the law through daily interactions and real-life examples. Media, books, and educational programs also provide opportunities for children to learn about legal principles and the importance of following laws."
+        },
+        {
+          "q": "What are the benefits for people to obey rules?",
+          "a": "Obeying rules provides a stable and predictable environment, which is essential for societal function and personal well- being. It helps prevent chaos and conflicts, protects rights and properties, and ensures fairness and justice in society. On a personal level, following rules can lead to a positive reputation, better opportunities, and the ability to live in harmony with others."
+        },
+        {
+          "q": "How can parents teach children to obey rules?",
+          "a": "Honestly, I think the most effective way is leading by example. Kids notice everything, so if parents follow rules themselves, children naturally pick that up. Setting clear and consistent boundaries matters too — if rules keep changing, kids just get confused. Explaining the reasoning behind rules also helps a lot, you know? Children are more likely to follow something when they actually understand why it exists. And positive reinforcement works way better than punishment — praising good behavior tends to stick a lot longer."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p2-an-interesting-video-9",
+      "part": 2,
+      "category": "物品",
+      "status": "保留题",
+      "month": 9,
+      "title": "Describe an interesting video.",
+      "titleCn": "描述一个有趣的视频",
+      "card": "You should say:\n· When and where you watched it\n· What it is about\n· Why you watched it\n· And explain how you feel about it",
+      "sampleAnswer": "So, the video I want to talk about is one that basically took over my entire social media feed back in April. It's a travel documentary on Bilibili by this incredibly talented photographer called Linksphotograph, and it features the actor Li Xian — and the two of them went all the way to northern Norway, inside the Arctic Circle, to climb a snow mountain called Senja. I watched it the evening it dropped, purely because everyone around me was talking about it and I had serious FOMO. I sat down thinking I'd watch maybe ten minutes — and then suddenly it was midnight and I'd watched the whole fifty-five minutes without moving. What makes it so special is that the whole thing is completely unscripted — no filters, no dramatic reality-show edits, nothing. You just watch two guys genuinely struggling through wind and snow, with their faces going red from the cold, and it feels incredibly real. There's this one moment where Li Xian reaches the summit and says something like, \"Why does everything in life have to have a meaning? Just go and experience it.\" And I don't know why, but that really hit me. I think what I loved most was how honest it felt. In a world where so much online content is polished and performed, watching something this raw and genuine was almost refreshing. It reminded me that the best stories don't need a script — they just need two people brave enough to show up.",
+      "part3": [
+        {
+          "q": "What kind of videos do people in your country like to watch?",
+          "a": "Well, I'd say people in my country enjoy a pretty wide range of videos. Short-form content is super popular right now — things like funny clips, food vlogs, and life hacks on platforms like Douyin. Drama series and variety shows are also huge, especially among older audiences. And you know, with so many people working out these days, fitness tutorials have really taken off too. I think entertainment and practical content tend to do the best overall."
+        },
+        {
+          "q": "Which is more helpful, watching videos or reading books?",
+          "a": "Hmm, that's a tough one. I think it really depends on what you're trying to learn. For picking up practical skills — like cooking or coding — videos are way more useful because you can actually see how things are done step by step. But for deep understanding or critical thinking, books are probably better since they push you to focus and process information more carefully. Personally, I think combining both is the smartest approach."
+        },
+        {
+          "q": "What skills can people learn from watching videos?",
+          "a": "Oh, quite a lot actually. I think the most common ones are cooking and DIY stuff — you know, people just follow along with tutorial videos and pick things up really quickly. Language learning is another big one, especially through shows or YouTube channels. And creative skills like drawing, photography, even music — there's so much free content out there now. Videos make it easy to learn at your own pace, which is a huge advantage."
+        },
+        {
+          "q": "Are there any differences between the videos that young people and old people like to watch?",
+          "a": "Definitely, yeah. Young people tend to go for fast-paced content — short videos, gaming streams, influencer stuff — basically anything that's quick and entertaining. Older people, on the other hand, usually prefer longer formats like news programs, historical dramas, or cooking shows. I think it comes down to habits and lifestyle, you know? Younger generations grew up with smartphones, so they're used to consuming content in short bursts, while older folks are more comfortable with traditional TV-style viewing."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p2-an-advertisement-with-a-famous-person-in-it-9",
+      "part": 2,
+      "category": "物品",
+      "status": "保留题",
+      "month": 9,
+      "title": "Describe an advertisement with a famous person in it.",
+      "titleCn": "描述一则名人代言的广告",
+      "card": "You should say:\n· Who the person is\n· Where you can see it\n· What the advertisement is about\n· And explain how you feel about the advertisement",
+      "sampleAnswer": "Right, so the advertisement I want to talk about is Adidas's campaign featuring Li Xian, who's a really well-known Chinese actor. I first saw it earlier this year — it kept popping up on my social media feed, and then I started noticing it on big screens outside shopping malls too, so it was kind of hard to miss. The ad is basically built around this idea of just getting out there and moving — running, hiking, being outdoors, that kind of thing. And what makes it work so well is that Li Xian genuinely lives like that in real life. Like, this is a guy who goes on fifteen-hour hikes in Tibet and climbs snow mountains in Norway in his free time — so when he shows up in a sports ad, it doesn't feel like he's just there for the paycheck. It actually feels believable, which, you know, is not something you can say about every celebrity advertisement out there. I think what I like most about it is how unforced it feels. There's no over-the-top slogan, no dramatic slow-motion moment that makes you cringe — it's just him, looking very comfortable doing active stuff, which I suppose is exactly what a sports brand wants. Honestly, it made me want to go buy a pair of trainers and go for a run, which I didn't actually do — but the fact that I thought about it probably means the ad did its job pretty well.",
+      "part3": [
+        {
+          "q": "What are the advantages and disadvantages of advertisements?",
+          "a": "Well, on the plus side, advertising helps people discover products they might genuinely need, and it keeps competition healthy between companies. But the downsides are pretty real too. A lot of ads are misleading or just create unnecessary pressure to spend money. And honestly, when you're bombarded with ads everywhere you go, it gets exhausting. I think advertising works well when it's honest and relevant, but a lot of it these days just feels pushy and annoying."
+        },
+        {
+          "q": "Why are many advertisements endorsed by celebrities? How useful are they?",
+          "a": "I think it comes down to trust and attention, you know? People already like and follow these celebrities, so seeing them recommend something naturally makes it more appealing. It's a shortcut to grabbing people's attention. As for how useful they are — it depends. Younger audiences tend to respond well, but a lot of people are becoming more skeptical because everyone knows celebrities are just paid to say nice things. So the impact is probably less powerful than it used to be."
+        },
+        {
+          "q": "What is the most important factor in an advertisement?",
+          "a": "Hmm, I'd say relatability. If an ad makes you feel like it actually understands your life or your problems, you're way more likely to pay attention. A clever concept helps, and good visuals matter too. But at the end of the day, if the message doesn't connect with people emotionally, none of that really matters. The best ads are the ones you remember not because they were loud or flashy, but because they made you feel something."
+        },
+        {
+          "q": "Why are some advertisements boring?",
+          "a": "Honestly, I think it's because a lot of companies play it too safe. They just list product features or repeat the same tired format everyone else uses. There's no personality, no story, nothing that makes you stop scrolling. Sometimes the target audience is also too broad, so the message ends up feeling generic and flat. Good advertising takes creativity and a bit of risk, and not every company is willing to go there. The result is a lot of forgettable content."
+        },
+        {
+          "q": "Is advertising important for a company? Why?",
+          "a": "Yeah, absolutely. Even if your product is amazing, people need to know it exists, right? Advertising builds awareness and keeps a brand in people's minds. For new businesses especially, it's almost impossible to grow without some form of promotion. It also helps companies stay competitive — if your rivals are advertising and you're not, you'll just fade into the background. I think the key is spending wisely though, because bad advertising can actually do more harm than good."
+        },
+        {
+          "q": "Which is more effective, online advertising or offline advertising?",
+          "a": "For most businesses today, online advertising is probably more effective — you can target specific audiences, track results in real time, and adjust quickly if something isn't working. Offline ads like billboards or TV commercials still have their place though, especially for building brand awareness on a bigger scale. I think the honest answer is it depends on who you're trying to reach. Older audiences might respond better to traditional formats, while younger people are almost entirely online."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p2-a-tv-show-online-program-you-have-watched-recently-9",
+      "part": 2,
+      "category": "物品",
+      "status": "保留题",
+      "month": 9,
+      "title": "Describe a TV show/online program you have watched recently.",
+      "titleCn": "描述一个最近看的电视/网络节目",
+      "card": "You should say:\n· What it is\n· What it is about\n· How often you watch it\n· And explain how you feel about it",
+      "sampleAnswer": "So, the show I've been watching recently is called Chengfeng 2026 — it's a music competition reality show on Mango TV, and honestly it's been taking up way more of my evenings than I'd like to admit. The basic idea is that over thirty women — actresses, singers, athletes, all kinds — come together to compete in live performance stages. And what makes this season really different from before is that everything is completely live. No editing, no pitch correction, nothing. What you see is literally what's happening in that moment, which is, um, a bold choice, and one that does not always go smoothly — but that's kind of the point. I've been watching it pretty much every week since it started in April. My friends and I usually watch together and then spend the next hour arguing about who performed best, which I think says a lot about how much we care. There was this one moment where Li Xiaoran performed this really upbeat song called Xinyuan Biantie, and it just completely blew up online overnight. I watched the clip probably four or five times, which is not something I do very often. What I love most about it is how real it feels. You can see the nerves, the mistakes, the genuine excitement — and somehow that makes it so much more watchable than a perfectly polished show. It's messy in the best possible way, and I think that's exactly why people can't stop talking about it.",
+      "part3": [
+        {
+          "q": "What are the differences between the TV programs young people like to watch and those old",
+          "a": "Well, the gap is pretty noticeable. Young people tend to go for fast-paced content — reality shows, short dramas, gaming streams, that kind of thing. They're used to consuming content quickly and switching between things. Older people generally prefer slower, more traditional formats like news programs, historical dramas, or cooking shows. I think it comes down to habits more than anything. Older generations grew up with scheduled TV, while younger people just watch whatever they want, whenever they want."
+        },
+        {
+          "q": "What makes a popular TV or online program?",
+          "a": "Hmm, I think the biggest factor is whether people can connect with it emotionally — a relatable story, a lovable character, something that makes you feel something. Good pacing matters too, you know? If a show is slow to get going, people just switch off. Word of mouth is huge these days as well — if something is trending on social media, curiosity alone drives millions of views. Ultimately though, it comes down to whether people feel it's worth their time."
+        },
+        {
+          "q": "What kinds of TV or online programs are popular in your country?",
+          "a": "Short dramas are absolutely massive right now in China — like bite-sized episodes you can finish in minutes. Romance and historical costume dramas have always had a huge following too. Variety shows with celebrity guests are popular across all age groups. And recently, documentary-style content about food and travel has really taken off. I think people want either pure entertainment to switch off after work, or something visually beautiful they can enjoy without thinking too hard."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p2-a-story-book-with-animals-in-it-9",
+      "part": 2,
+      "category": "物品",
+      "status": "保留题",
+      "month": 9,
+      "title": "Describe a story/book with animals in it.",
+      "titleCn": "描述一个有关动物的故事/书",
+      "card": "You should say:\n· What animals are in it\n· What the story/book is about\n· Why you read the story/book\n· And explain what you think of this story/book",
+      "sampleAnswer": "So, the book I want to talk about is The Little Prince, which I first read when I was maybe thirteen or fourteen. My mum actually gave it to me — she said it was one of her favourite books when she was young, and that I'd understand it better as I got older. I didn't really know what she meant at the time, but honestly, she was completely right. The story follows this little boy who lives on a tiny planet all by himself, and he travels across the universe meeting all kinds of strange characters. There are quite a few animals in it, but the one that really stayed with me is the fox. There's this scene where the fox asks the little prince to \"tame\" him — which in the book basically means forming a real connection with someone, making them special to you and you to them. And then the fox says something like, you become responsible for the things you've tamed. Which, um, hit me a lot harder than I expected from a children's book. I think what I love most about it is that it works on completely different levels depending on how old you are. When I was thirteen I thought it was a sweet little story. Reading it again last year, it felt more like something about loneliness, and love, and how easy it is to lose sight of what actually matters. It's one of those books that's very easy to finish in one sitting and then just sit quietly for a while afterwards.",
+      "part3": [
+        {
+          "q": "Should schools teach children about animals?",
+          "a": "Definitely, yeah. Learning about animals helps kids develop empathy and a sense of responsibility from a young age. It also connects them to the natural world, which a lot of children growing up in cities don't really get exposed to. Understanding ecosystems and wildlife is also just genuinely useful knowledge. I think when kids care about animals, they naturally grow up caring more about the environment too. So it's really about building a broader awareness, not just memorizing animal facts."
+        },
+        {
+          "q": "Some people think pets should not be kept in cities. What do you think?",
+          "a": "I get where that argument comes from — cities are noisy, crowded, and apartments are small. But I don't think it's fair to ban pets altogether. Plenty of city dwellers give their animals a perfectly happy life with enough attention and exercise. The real issue is irresponsible ownership — people who don't clean up after their pets or keep them in unsuitable conditions. I think better regulation makes more sense than an outright ban honestly."
+        },
+        {
+          "q": "Many people regard pets as members of their family. What do you think?",
+          "a": "Honestly, I think it makes complete sense. Pets are emotionally present in a way that's hard to explain unless you've had one. They pick up on your moods, they're always happy to see you, and you genuinely grieve when they're gone. That's not so different from how we feel about family, right? Some people might think it's going too far, but I think the bond between a person and their pet is very real and deserves to be taken seriously."
+        },
+        {
+          "q": "Do many people keep pets in your country?",
+          "a": "Yeah, pet ownership has grown massively in China over the past decade. Dogs and cats are by far the most popular, and there's a whole industry around pet food, grooming, and healthcare that's boomed alongside it. Younger generations especially treat their pets like family and spend quite a lot on them. I think as more people live alone or delay starting families, pets fill that emotional gap in a really meaningful way. It's become a proper lifestyle choice rather than just a hobby."
+        },
+        {
+          "q": "What are the advantages of keeping a pet?",
+          "a": "Well, the companionship is the obvious one — pets are great at reducing loneliness, especially for people living alone. There's also evidence that owning a pet lowers stress levels, which makes sense because they kind of force you to slow down and be present. Dog owners especially tend to be more active since walks are non-negotiable. And for families with kids, having a pet teaches children responsibility and empathy in a very hands-on way. It's genuinely good for your wellbeing overall."
+        },
+        {
+          "q": "Why do people always tell children stories with animals?",
+          "a": "I think animals make perfect story characters for kids because they're already familiar and lovable. A talking fox or a brave little mouse is just way more engaging than a human character doing the same thing, you know? Animals also let storytellers tackle big themes — like courage or kindness — in a way that feels safe and relatable for young audiences. And honestly, there's something timeless about it. These kinds of stories have worked for thousands of years across every culture, which says a lot."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p2-something-that-helped-you-learn-a-foreign-language-9",
+      "part": 2,
+      "category": "物品",
+      "status": "保留题",
+      "month": 9,
+      "title": "Describe something that helped you learn a foreign language.",
+      "titleCn": "描述一个帮你学外语的东西",
+      "card": "You should say:\n· What it was\n· What language you learnt\n· Why you chose to learn that language\n· And explain how this thing helped you",
+      "sampleAnswer": "The language I learned was English because it was a core subject in school, but the lessons in school were a bit boring. I chose English simply because that was the only option at the time, so I guess you could say I didn't really choose it! Something that really helped me learn that foreign language was a TV series I watched when I was in school. It was a series called Science Adventures, and it was all in English, with subtitles in both English and Chinese. It was hosted by a really entertaining girl who spoke with a slight American accent and was really inspiring. I used to watch every episode of it. In each episode, they did a different science experiment, with a lot of fun stories related to the topic. It wasn't too heavy on scientific language or vocabulary, and everything they talked about was related to our everyday lives and fun and interesting facts about everyday scientific phenomena, like why water swirls in a certain direction when you take the plug out of the bath, or why the sun burns you when it's hot in summer, and stuff like this. So, in fact, it was excellent for picking up everyday English. It was also quite modern, so I learned quite a few new phrases and expressions, which were more useful than the rather dry, old-fashioned, stuffy things we learned in school textbooks. So, all around, this TV series exposed me to a wide range of vocabulary and expressions, helped me polish my grammar, and presented everything in a fun and interesting context.",
+      "part3": [
+        {
+          "q": "What difficulties do people face when learning a language?",
+          "a": "There's a number of difficulties people encounter when learning another language. Firstly, it's harder at first, and without the right motivation and learning context. Then having the inspiration to study is quite tough. So, first and foremost it's important to be inspired and interested in learning the language. Secondly, having the discipline to learn the boring parts – the rules, the grammar, the things that are not necessarily so interesting at first. Learning all this requires a sense of discipline and regular study."
+        },
+        {
+          "q": "Do you think language learning is important?",
+          "a": "I think it is to some extent, but it largely depends on what field you wish to go into in the future. If you want to work in a local company, in a local capacity, then no, learning another language is not always helpful or useful. If you want to work in a more international context, then learning another language is essential – in business, in education or in international relations. So, it really depends on which direction in life you wish to go in and what you aspire to do in the future."
+        },
+        {
+          "q": "Is studying abroad a good way to learn a foreign language?",
+          "a": "Most certainly it is, but it also depends on your attitude when you study and live overseas. If you go overseas and really make an effort to mix with people from that country, spend time with them, develop relationships with them and talk a lot, your confidence and language ability will certainly grow."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p2-a-law-or-regulation-about-environmental-protection-9",
+      "part": 2,
+      "category": "物品",
+      "status": "保留题",
+      "month": 9,
+      "title": "Describe a law or regulation about environmental protection.",
+      "titleCn": "描述一条环保相关的法规",
+      "card": "You should say:\n· What it is\n· How you first learned about it\n· Who benefits from it\n· And explain how you feel about this law or regulation",
+      "sampleAnswer": "A law relating to environmental pollution that I think is excellent, but should be made even stricter, is the law to reduce private cars on the roads by restricting the number plates that are allowed on the roads each day. It means that only number plates ending in certain numbers can drive on the roads on certain days. This results in there being much less traffic on the road at any given time, and people have to alternate they days they drive, and the days they take public transport. It's quite a fair law really, and means that everyone, rich or poor, must limit the amount of driving they do in the city, which, in turn, means that the air pollution is kept a little lower than it otherwise would be, and of course, helps to ease some of the traffic congestion too. The problem with this law is that rich people who have two cars, end up just changing the car they use each day, so that they are actually driving every day anyway. This is the problem with a lot of laws in my country, and in most countries, actually, if you're really rich you can always find ways around them! Generally I am very supportive of all types of environmental laws because I think that now is the time when we should all be making a lot of effort to help preserve the natural environment, reduce air pollution and emissions, and save water and resources. The planet needs our help in this regard, and it benefits us in the long-run, to take care of the planet by abiding by environmental laws as well as making our own individual efforts to be responsible – recycle plastic bottles, use less water, try to take public transport more, use less plastic bags if we go to the market – things like this.",
+      "part3": [
+        {
+          "q": "What kind of rules do schools in China have?",
+          "a": "Schools in China have all sorts of rules. Pretty much like schools anywhere I guess. Children cannot wear scruffy or outrageous clothes or fashions, or dangling earrings or dyed hair, and things like this. Those are dress-code rules. There are other rules, too, like you aren't allowed to take mobile phones into the classroom, you can't run or shout in the hallways, and you can't be seen kissing or engaging in romantic activities in public places. I can't think of any more off the top of my head, but there are, indeed, lots of little rules to govern how students behave on the school premises."
+        },
+        {
+          "q": "What should teachers do to make students obey rules?",
+          "a": "Teachers should set good examples for students, and they should also remind students of the rules, by explaining the context and reasons for them. I think this method works better than simply scolding or bossing students around. So, the personality and way that a teacher disciplines pupils and students is key to getting them to listen, understand and obey rules. If, of course, some especially unruly students persist in breaking the rules, teachers should dish out punishments to deter them from breaking the rules again, and deter other students from doing the same."
+        },
+        {
+          "q": "Are there any laws about education in China?",
+          "a": "Yes, in China education is compulsory from age six to around age fifteen – there's nine years in total, I think, of compulsory education. There is also a national curriculum with a number of compulsory subjects that we must study, and a number of elective subjects. We also must do a certain amount of physical education and sports, and also learn about good social behavior in a series of social studies classes. So, yes, there are a number of basic laws which govern the education system and how schools should conform with national standards of both curriculum and disciplinary issues."
+        },
+        {
+          "q": "What are the rules people should obey at work?",
+          "a": "Well, the basics are pretty universal — showing up on time, meeting deadlines, and communicating respectfully with colleagues. Beyond that, I think maintaining confidentiality is really important, especially in professional settings where sensitive information is involved. Following safety procedures matters too, depending on the industry. But honestly, the most important unwritten rule is just being reliable and pulling your weight. Nobody wants to work with someone who constantly lets the team down, you know?"
+        },
+        {
+          "q": "What is the purpose of punishment?",
+          "a": "Hmm, I think it serves a few different purposes depending on the context. The most obvious one is deterrence — making people think twice before breaking rules again. But I think the more meaningful purpose is actually correction, helping someone understand what they did wrong and how to do better. Pure punishment without any lesson attached doesn't really change behavior long term. Ideally, it should feel fair and proportionate too, otherwise people just feel resentful rather than genuinely reflecting on their actions."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p2-an-ambition-that-you-have-had-for-a-long-time-9",
+      "part": 2,
+      "category": "物品",
+      "status": "保留题",
+      "month": 9,
+      "title": "Describe an ambition that you have had for a long time.",
+      "titleCn": "描述一个长久以来的志向",
+      "card": "You should say:\n· What it is\n· What you can do for it\n· When you can achieve it\n· And explain why you have this as an ambition",
+      "sampleAnswer": "An ambition I have had for a very long time now is to learn to drive a car and go on a long road trip. As you know, China is a large and diverse country, and there is a lot to see, and a lot of interesting cultures, societies and different landscapes to enjoy. I once saw a documentary of a guy who bought a really cool four-wheel drive vehicle and went on a road trip all around the country. I would love to do the same. I don't think it would actually be that hard, but it would involve a certain amount of investment and planning. I would ideally like to do this after I finish my postgraduate overseas. Before embarking on a proper career, let's say. I'd choose a summer holiday for sure, so that I could go to the colder regions of my country without it being too cold, and travel to the other places too. I'd definitely go south to Yunan, because I love the tropical areas and the food and culture there, but I'd also travel through Xinjiang and western desert regions too, as well as heading way up north to the areas which have some Russian influence and culture. There's a lot of places I'd like to go to, and I'd have to plan the route very carefully, and also get a vehicle which could easily be repaired if it broke down along the way. I think this kind of trip would combine my lust for adventure, with my interest in culture, topography and photography. So, all in all, I'm really hoping I can do this, and that a couple of good friends who share similar interests as me would also be prepared to join me on such a trip.",
+      "part3": [
+        {
+          "q": "What kinds of ambitions do people have?",
+          "a": "People have all sorts of ambitions. Most people have ambitions related to earning money, developing their careers, buying a nice house and things like this. Ambitions are often connected to the social pressures we have for our families and children too, this is why often ambitions seem to be related to money and career. Though, those that have already achieved a certain basis in financial security usually entertain ambitions related to travel, culture, hobbies and interests as well. So it depends on how much basic security a person feels they have or can achieve, as to what ambitions they aim for in the future."
+        },
+        {
+          "q": "Why should parents encourage children to have ambitions?",
+          "a": "Having ambitions is something that motivates us and it's important that children see that their efforts now (in things like studies and so on) will eventually pay off in the future. Studies and things like this can be quite boring, and children often don't really see why they are important, so lose motivation. If parents encourage children to have ambitions, then they will have end goals to aim for that are appealing and this will help to keep up motivation and interest in the short- term. It's always important that people, not just children, have some kind of goal or ambition for the future."
+        },
+        {
+          "q": "Should parents interfere with their children's ambitions?",
+          "a": "Parents should play a role in children's ambitions, most certainly, but only to a certain extent. I mean, parents should certainly act as guides and help children nurture and develop positive and constructive ambitions for the future, and try to steer them away from ambitions which may not be healthy or advisable. Some parents, admittedly, interfere too much with what their children want to do in the future, whilst other parents might be too laid-back about it. Like a lot of things in life there should be a balance between giving children freedom, and controlling them too much. A parent's role should be that of a fairly strict, but understanding 'guide' in life, I believe."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p2-your-favorite-city-that-you-have-visited-9",
+      "part": 2,
+      "category": "地点",
+      "status": "保留题",
+      "month": 9,
+      "title": "Describe your favorite city that you have visited.",
+      "titleCn": "描述你去过的最喜欢的城市",
+      "card": "You should say:\n· Where it is\n· How you knew it\n· When you visited it\n· And explain why it is your favourite city",
+      "sampleAnswer": "So, the city I want to talk about is Chengdu, which is in southwest China — the capital of Sichuan province. I'd heard about it for years, you know, people always going on about the food and the pandas and how relaxed the whole vibe is. So I was kind of curious about it for a long time before I actually went. I visited about two years ago with a couple of friends, and we stayed for around five days. Um, we did all the classic things — we went to the Giant Panda Base in the morning, which, honestly, was worth every second of the early wake-up. We ate so much hotpot that I genuinely lost count after the second day. We also just walked around a lot, sat in teahouses, and did basically nothing — which sounds boring but actually felt really, really good. And I think that's exactly why it's my favourite city. Like, Chengdu has this quality where nobody seems to be in a rush. People sit outside drinking tea at ten in the morning on a weekday, and somehow that feels completely normal there. Coming from a city where everything moves so fast, that was honestly kind of a shock — but a good one. I left feeling weirdly calm and already wanting to go back. And I think that says everything about a place, you know?",
+      "part3": [
+        {
+          "q": "Which is more suitable for young people, urban life or rural life, and which is more suitable for",
+          "a": "Well, I think cities are generally a better fit for young people — there are more job opportunities, better social life, and just a lot more going on. Rural areas can feel a bit limiting when you're ambitious and starting out. For older people though, I think the countryside makes more sense. It's quieter, less stressful, and closer to nature, which is great for health. So yeah, I'd say it's kind of a natural shift as people get older."
+        },
+        {
+          "q": "How do people choose a city to travel to?",
+          "a": "Hmm, I think it varies a lot by person. Some people go straight to social media for inspiration — if a place looks amazing on Instagram, that's enough reason to visit. Others care more about practical stuff like flight prices or visa requirements. Food is also a big factor for a lot of travelers, you know? And some people specifically look for cultural experiences or historical sites. I think most people end up balancing all these things when making a decision."
+        },
+        {
+          "q": "Do you think a tourist city is also a good place to live? Why?",
+          "a": "Honestly, not always. Tourist cities are great to visit, but living there is a different story. The cost of living tends to be higher, and popular areas can get really crowded and noisy. That said, there are some upsides — good infrastructure, plenty of restaurants and entertainment options. I think it depends on your lifestyle. If you enjoy a buzzing environment, it could work, but for most people, the downsides outweigh the benefits long-term."
+        },
+        {
+          "q": "Do most people prefer to travel in a modern city or a historical city?",
+          "a": "Well, I think it really depends on the traveler's personality. Some people love the energy of modern cities — the skyline, the shopping, the food scene. But a lot of travelers, especially those going somewhere for the first time, are drawn to historical cities because they offer something you can't find at home, you know? That sense of stepping back in time is really unique. Personally, I think historical cities tend to leave a stronger impression overall."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p2-a-boring-place-9",
+      "part": 2,
+      "category": "地点",
+      "status": "保留题",
+      "month": 9,
+      "title": "Describe a boring place.",
+      "titleCn": "描述一个无聊的地方",
+      "card": "You should say:\n· Where it is\n· Who you went there with\n· What you did there\n· And explain why you think it is a boring place",
+      "sampleAnswer": "So, the place I want to talk about is this lake area my parents took me to a couple of summers ago. They'd been going on about it for weeks — like, \"oh it's so beautiful, you have to see it, the photos are incredible.\" You know how parents get when they're excited about something. So I went with my mum, my dad, and my aunt. We drove for about two hours to get there, which, um, should probably have been a warning sign. And when we actually arrived... it was just a lake. Like, just a normal, nothing-special lake with some concrete paths around it and a few trees that honestly looked a bit tired. We walked around it once, took some photos, had some really overpriced noodles from a little stall nearby, and then just kind of stood there not really knowing what to do next. I think the main reason it felt so boring was, well, the gap between what we expected and what we actually got. My parents had talked it up so much that even a pretty nice place would've struggled — and this was, you know, not exactly a pretty nice place. The most exciting thing that happened the whole day was a duck walked past us. And I remember actually feeling grateful for that duck. Which, honestly, says it all.",
+      "part3": [
+        {
+          "q": "Why do most children think education is boring?",
+          "a": "Well, I think it's mainly because classroom learning feels disconnected from real life. Kids are sitting there memorizing facts, and they just can't see why any of it matters. Plus, when everything's focused on passing exams, it kind of kills their natural curiosity. Traditional teaching doesn't leave much room for creativity or fun. I think if lessons were more interactive and hands-on, children would actually enjoy school a lot more."
+        },
+        {
+          "q": "Why aren't young people willing to listen to the experiences of older people?",
+          "a": "Hmm, I think it mostly comes down to the feeling that times have changed so much. Young people feel like the world their grandparents grew up in is totally different — different technology, different social norms, you know? So the advice can feel outdated and not really applicable. There's also that natural desire to figure things out on your own. But honestly, I think some of that older wisdom is still pretty valuable if you're open to it."
+        },
+        {
+          "q": "What can people do when they feel bored?",
+          "a": "Well, there are quite a few options. Some people go for something physical — like a walk or a workout — which does wonders for your mood. Others might pick up a hobby, watch something, or just call a friend for a chat. Personally, I think the best thing is to do something slightly productive but still enjoyable, like reading or trying a new recipe. Boredom is actually a good reminder to mix things up a little."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p2-a-tall-building-in-your-city-you-like-or-dislike-9",
+      "part": 2,
+      "category": "地点",
+      "status": "保留题",
+      "month": 9,
+      "title": "Describe a tall building in your city you like or dislike.",
+      "titleCn": "描述一座你喜欢/不喜欢的城市高楼",
+      "card": "You should say:\n· Where it is\n· What it is used for\n· What it looks like\n· And explain why you like or dislike it",
+      "sampleAnswer": "A tall building in my city that I like is a huge tower, the financial building. Although it is called the financial building, in fact it has a lot of shops, restaurants and malls on the lower floors. It's a fantastic building, actually, and is designed by a famous French architect, whose name I forgot. It is, like most modern buildings, made of glass and metal and designed in interesting curving shapes. It's a fascinating building and the interior is really interesting too. Some people think it looks like how they imagine a space ship might look like - slick, white metal and glass, sweeping curves and lines and perfect lighting. I like it because it combines the best of functional design, with aesthetic beauty, and it's really relaxing to be inside. Somehow, even when it gets busy, it's a really nice relaxing space, and you always feel good there, you feel comfortable there, you feel that you can relax. There is a really nice coffee shop in the lobby with all sorts of modern art pieces on the walls, and a stunning range of interesting coffees and snacks. A lot of people go there to work in their break times, as there are comfy sofas, power-points for laptops and great service. So, I can see that they've made a lot of effort with the design of the building as well as with the businesses and commercial outlets inside the building. I enjoy going there, also because it is nearby a few places that I often need to go to for work - it's in the heart of the CBD.",
+      "part3": [
+        {
+          "q": "What are the advantages of living in a tall building?",
+          "a": "Well, personally I don't like living in a tall building really because I think the modern ones tend to be cramped and don't even have balconies normally. I don't know why. But the advantages might be that there are always better views if you have an apartment at the top, on the higher floors, of a tall building. That's the main advantage I'd say, so you can feel a sense of peace being high up above the city and you get a magnificent view."
+        },
+        {
+          "q": "Do you think there will be more tall buildings in the future?",
+          "a": "I think that there will. Tall buildings are primarily designed to save space, because you fit more people and more businesses in a smaller ground space. So, given that cities in China are so big, there is a desperate need to be economical with space, so the answer to this is to build very tall buildings."
+        },
+        {
+          "q": "Why aren't there many tall buildings in the countryside?",
+          "a": "There isn't such a need for tall buildings in the countryside. Tall buildings are built to save space in cities. That is their primary function. So, in the countryside you don't have this problem with high population and a restricted space to build things. So, there is basically no need for skyscrapers and tall buildings in countryside towns."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p2-a-place-you-would-like-to-visit-in-your-free-time-9",
+      "part": 2,
+      "category": "地点",
+      "status": "保留题",
+      "month": 9,
+      "title": "Describe a place you would like to visit in your free time.",
+      "titleCn": "描述一个空闲时想去的地方",
+      "card": "You should say:\n· Where it is\n· What you will do there\n· How long you will stay there\n· And explain why you would like to visit it",
+      "sampleAnswer": "So, the place I'd love to visit in my free time is actually this little coffee shop I've been eyeing for a while now. It's in a quiet side street not far from the city centre — the kind of street where you'd probably walk past it without noticing if you weren't looking. I first came across it on Xiaohongshu, and, um, something about the photos just got me. It looked so cozy — wooden shelves, warm lighting, plants everywhere, the whole thing. I haven't been yet, which is a bit embarrassing honestly because it's not even that far from where I live. But I think I've been saving it, you know? Like, waiting for a day when I actually have time to just... sit there and do nothing useful. If I went, I'd probably stay for two or three hours at least. I'd order something I've never tried before, bring a book I've been meaning to read for months, and just completely switch off for a bit. No deadlines, no notifications, nothing. I think the reason it appeals to me so much is that it represents the kind of slow, quiet afternoon I almost never let myself have. It's not about the coffee, really — it's more about giving myself permission to stop for a while. And honestly, that sounds like the best kind of free time to me.",
+      "part3": [
+        {
+          "q": "Why do you think some people choose not to travel abroad?",
+          "a": "Well, I think the most obvious reason is money — international travel can be really expensive once you factor in flights, accommodation, and daily costs. Some people also have family or work commitments that make it hard to take time off. And then there's the language barrier, which genuinely puts a lot of people off, you know? Some folks just feel more comfortable staying somewhere familiar. I don't think it's necessarily a bad choice — domestic travel can be just as rewarding honestly."
+        },
+        {
+          "q": "Do you think a gap period in life is important?",
+          "a": "Hmm, I think it can be really valuable, yeah. Taking a break — whether it's between school and university or after a long stretch of work — gives you time to reflect and figure out what you actually want. A lot of people rush from one stage of life to the next without stopping to breathe, and that can lead to burnout. That said, I think the key is using that time meaningfully, not just drifting. Traveling, volunteering, or picking up new skills can make a gap period genuinely worthwhile."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p2-a-place-in-your-country-that-you-would-like-to-recommend-to-trav-9",
+      "part": 2,
+      "category": "地点",
+      "status": "保留题",
+      "month": 9,
+      "title": "Describe a place in your country that you would like to recommend to travelers.",
+      "titleCn": "描述一个想推荐给游客的本国景点",
+      "card": "You should say:\n· Where it is\n· What it is\n· What people can do there\n· And explain why you would like to recommend it to travelers",
+      "sampleAnswer": "There's a place in Fujian province called Xiamen – I'm sure you've heard of it. This is where I'd recommend to travelers to China. It's a great place, by the coast, with a fantastic climate and lovely, warm, friendly people, great food, and interesting cultural things to do and see. And, if you're into Chinese tea, there's a lot of really good Chinese tea shops that are still family-run, friendly, and interesting. The tourist sights I would recommend are the Gulangyu island of pianos – this is really interesting – it's an island, a small island, just a boat ride away, where there are literally pianos in every house, and a piano museum. It's fantastic and quite unique. Also, the island trip makes a nice little day out, and there are friendly restaurants and eateries on the island too, and great views out to sea. Secondly, I'd go to see Hakka people's round houses just outside Xiamen in the countryside. They are called the Fujian Hakka Tulou, and they are quite large circular buildings, with a central courtyard and hundreds of living quarters inside. They date back centuries and were a traditional way to live in the days when you had to protect yourself from invaders – these roundhouses look fantastic and are incredibly interesting, and people still live in them today. It's a fascinating and unique aspect of the culture in that area of China. So, yes, these are the main places around Xiamen that I'd recommend – and make sure you go when it's a nice time of year, not too hot – in summer it gets really hot and humid. I'd go around, or just before, spring to be honest.",
+      "part3": [
+        {
+          "q": "Where do people in your country often go for holidays?",
+          "a": "Well, domestic travel is huge in China. Places like Sanya, Chengdu, and Yunnan are really popular because they offer beautiful scenery and great food without the hassle of going abroad. Coastal cities are always busy during summer too. That said, international travel has picked up a lot recently — Southeast Asia is a favorite because it's affordable and not too far. I think most people just want somewhere they can properly switch off and enjoy good food."
+        },
+        {
+          "q": "Where do young people in your country often go for holidays?",
+          "a": "Honestly, young people these days are pretty adventurous. A lot of them go for trendy destinations they've seen on social media — like Chongqing for its unique architecture or Xinjiang for the landscapes. Internationally, Japan and Thailand are super popular because they're easy to get to and really affordable. I think young travelers care a lot about having Instagrammable experiences, you know? The destination almost needs to look good in photos to make the list these days."
+        },
+        {
+          "q": "What is the ideal length for a holiday?",
+          "a": "Um, I'd say around one to two weeks is probably the sweet spot for most people. A few days feels too rushed — you barely settle in before it's time to leave. But anything longer than two weeks and people sometimes start missing home or feeling restless. I think seven to ten days gives you enough time to actually explore a place properly and come back feeling genuinely refreshed rather than exhausted from all the traveling itself."
+        },
+        {
+          "q": "How do people usually plan holidays?",
+          "a": "Most people start by scrolling through social media or travel apps for inspiration, then move on to comparing flight prices and reading reviews. Group chats are huge for coordinating with friends — everyone throws in suggestions and you somehow reach a decision eventually. I think younger travelers tend to leave things a bit more flexible, while families with kids plan everything down to the last detail. Booking accommodation and transport early is pretty standard now though, especially during peak seasons."
+        },
+        {
+          "q": "Is it important to plan a holiday ahead?",
+          "a": "I think some level of planning is definitely worth it, yeah. Booking flights and hotels early usually saves a lot of money, and it means you're not scrambling at the last minute. But over-planning can take the fun out of it too — sometimes the best moments happen when you just wander around without a schedule. So I'd say plan the basics, like transport and where you're staying, but leave enough room to be spontaneous. That balance tends to make for the best trips honestly."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p2-a-friend-s-home-you-visited-but-you-don-t-want-to-live-there-9",
+      "part": 2,
+      "category": "地点",
+      "status": "保留题",
+      "month": 9,
+      "title": "Describe a friend's home you visited but you don't want to live there.",
+      "titleCn": "描述一个拜访过但不想住的友人家",
+      "card": "You should say:\n· Where the home is\n· Who this person is\n· What kind of home it is\n· And explain why you don't want to live there",
+      "sampleAnswer": "I had a friend in university called Roy. He was a nice, pleasant and intelligent man, actually. A bit older than me. He lived in a flat not far from campus. I used to visit him often because we shared similar interests in books, music and sports. He also helped me a lot with my studies, as he was really smart and enjoyed helping others. But his home was so messy and dirty – it was unbelievable really how messy and dirty it was. He knew it too, and admitted it, and said he just couldn't organise himself and hated cleaning. It was an interesting home, I must say, with loads of books, ornaments and old paintings and wall hangings and things. I did enjoy my visits to Roy's house, just that it was so unclean and dusty I was always sneezing when I was there. He also had two cats, a certain breed of cat that always leaves a lot of hair on the chairs and carpet. They were constantly molting. He didn't seem to care, but I think this might have been the reason I was sneezing a lot – a sort of allergy to cat fur maybe. Anyway, I liked the design of the flat, it had high ceilings, wooden floors, a huge balcony with plants on it, and a very spacious and functional kitchen – except he never did any washing up so it was impossible to cook in it! So, all in all, you can see why I didn't want to live there and would never live in an apartment like that or with someone so messy.",
+      "part3": [
+        {
+          "q": "Do Chinese people like to visit others' homes?",
+          "a": "To be honest, I don't really think so. I think we tend to feel we are imposing on others if we visit their homes. We don't have this kind of casual relationship with people, really. There are a couple of friends in my life who I've visited in their homes, but as a general rule we tend to meet people outdoors, do things together like dining in a restaurant or walking in the park or going shopping, rather than hanging out chatting in someone's home."
+        },
+        {
+          "q": "What do Chinese people do when they visit others?",
+          "a": "Usually when you visit someone's home you take a bottle of wine, some snacks, some juice, things like this. You always take off your shoes at the door, and often the host will give you a pair of slippers. I found it strange when I was in the UK that people don't do this, and even walk around the house in their shoes! It's quite interesting how cultures are different in this way. I would say that Chinese people are a bit more formal when visiting other people's homes, than Europeans, anyway, which is both good and bad. Sometimes it can create a more uptight atmosphere, which isn't so relaxing. This is the downside of this formality."
+        },
+        {
+          "q": "What kind of place do people in your country like to live in?",
+          "a": "When choosing a place of residence people usually consider three things: firstly the location and area of the city, in relation to where they work. Secondly, the actual building or community that fits your taste and preferences – whether you'd like it to have a garden, or a good management office, and things like this. Thirdly, the price in relation to your budget. These are the main considerations to take into account when choosing a place to live."
+        },
+        {
+          "q": "What's the difference between homes in cities and those in the countryside?",
+          "a": "Well, not really, at least not the buildings themselves. Like in the city centre, you have older and newer communities or apartment blocks. Sometimes residences on the outskirts are more spacious, and more affordable – they're often cheaper because they are further out and not so close to public services and amenities. Generally speaking most people prefer to live nearer to the city centre, because it provides a lot more in the way of entertainment, too. Sports centres, restaurants, malls, and these kinds of things are much more varied and interesting in the city centre compared to the outskirts."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p2-an-important-river-lake-in-your-country-9",
+      "part": 2,
+      "category": "地点",
+      "status": "保留题",
+      "month": 9,
+      "title": "Describe an important river/lake in your country.",
+      "titleCn": "描述本国一条重要的河流/湖泊",
+      "card": "You should say:\n· Where it is\n· How big/long it is\n· What it looks like\n· And explain why it is important",
+      "sampleAnswer": "An important lake in my country is Qinghai Lake. It's actually the largest lake in China and it is located in Xining, well… outside Xining actually, in the hollow of the Tibetan plateau. It's a very famous lake in my country. I know the lake fairly well because I am from that province, from a town not too far from the lake. I am not sure exactly how big the lake is, but I'd say it was about 3,000 or 4000km square. It's massive! It's really massive and pretty deep too. It looks pretty impressive to be honest. It's an iconic symbol of the area, and it's located in an area of stunning natural beauty. The lake is important for the area as it used to be the one and only real source of fresh water, a key fishing area, and a natural attraction. People in the villages nearby also believe the lake has a strong power… I guess you'd call it a lucky power. There are a lot of older, superstitious people in my town and they all seem to believe that the lake houses some powerful spirits or something like that. I'm not sure I believe that, but I can imagine that in the past many people told mysterious and magical stories about the place. For me, however, the lake is important for different reasons – it's the first place I ever went fishing with my father, and also it's the very first place I learned to swim!! With my uncle!! So, as well as being an incredibly important feature for the province and the surrounding towns and villages, it's also got a special significance for me. Maybe the lake is enchanted, after all!",
+      "part3": [
+        {
+          "q": "How can rivers/lakes benefit local people?",
+          "a": "Lakes have been incredibly important since the dawn of time. They have been a major source of water and of fish for people for centuries, millennia in fact. Today, they continue to be important for local communities for the same reasons, but tourism has taken off in the past few decades, and this offers a good source of revenue for the local community. Hotels have sprung up in towns and villages near large famous lakes, boat trips can be arranged, and walking tours and hikes nearby. These all bring fame and a certain amount of money to the local areas."
+        },
+        {
+          "q": "How do rivers/lakes affect local tourism?",
+          "a": "The downside of the tourism that lakes attract is the damage to the environment. Especially in a country where there are so many people and tourist sites are inevitably packed with crowds – and often crowds that are not necessarily that respectful to the natural environment. So, although lakes have a huge effect on local tourism, attract thousands of people who want to see them, fish in them, go on boat trips on them, and bring great revenue to an area, the lakes and the area itself can be negatively impacted from an ecological standpoint, which is a shame."
+        },
+        {
+          "q": "Are rivers/lakes useful for transport?",
+          "a": "Yes, of course – rivers mainly. There are a number of famous rivers in China which are all still used today for transporting goods and people from one place to another. Transport along rivers takes longer, but most certainly is a fairly common and reliable means of taking heavy loads from one place to another – especially through areas where the roads are bad or snaking through high mountain passes. Rivers provide a stable, reliable, if not slightly slow, means of transporting goods. And, of course, tourists – some tourists go on river cruises!"
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p2-a-time-when-you-got-up-early-9",
+      "part": 2,
+      "category": "事件",
+      "status": "保留题",
+      "month": 9,
+      "title": "Describe a time when you got up early",
+      "titleCn": "描述一次早起的经历",
+      "card": "You should say:\n· When it was\n· What you did\n· Why you got up early\n· And explain how you felt about it",
+      "sampleAnswer": "Oh, there's lots of times when I have had to get up early, but the last time I remember very clearly was when I was on holiday on the Yangtze River on a sort of boat cruise with my school. It was a really cool trip actually, and each day we travelled down the river on the boat, and stopped off at different places along the way. For sightseeing in China, you usually have to get up really early, you see, so every morning they woke us up just after dawn, which was around 5am. I wasn't very happy about this, to be honest, because I hate waking up early, and also because we all sat up late in the bunk beds drinking beer and playing cards, which made it even more difficult to get up early in the morning and go around the villages and temples and places. So, each and every morning on this Yangtze cruise we had to get up at the crack of dawn, and it was quite awful in many ways. However, I must say that once we were up and had had breakfast and got going it wasn't so bad, and there were less tourists at the destinations, because we were often the first to be there! So, all in all, it was probably a good idea that we were made to get up so early, even though we didn't really enjoy it at first. I'm not much of an early bird to be honest, so always find it difficult to get up at 7am, let alone at 5am like on this trip! But, hey, that's often what you have to do on these kind of trips if you want to miss the crowds.",
+      "part3": [
+        {
+          "q": "Why do some people like to get up early?",
+          "a": "I know a lot of people who enjoy getting up early. They're usually older people, actually. My grandparents get up really early, and they go to bed really early too. Also, my friend, John, always gets up early – he's quite young – and he has the habit of sleeping only a short time, but strangely he seems to always be full of energy every morning. So, I suppose some people are just like this!"
+        },
+        {
+          "q": "Why do people get up early?",
+          "a": "Some people get up early because they enjoy making the most of the day and getting out of bed in the morning. Others have to go to work, so they must get up early – most people, actually. And almost all school children have to get up early, obviously because they have to get dressed and ready for school, then get to school. So, there are a number of fairly typical reasons why people might get up early."
+        },
+        {
+          "q": "What kinds of occasions need people to arrive early?",
+          "a": "Well, a lot of important things in life start in the mornings. Like school, work and things like this. There are other occasions when people must arrive early in the morning – like if they have an appointment, an interview, or an important examination. Most of these things are often scheduled in the mornings so that people can go to work afterwards."
+        },
+        {
+          "q": "Why do some people like to stay up late?",
+          "a": "Some people enjoy the nights. Nighttime, especially if you live in a big city, is the only time when life seems to calm down, traffic dies down, and the city becomes quieter. I have a number of friends who really enjoying staying up late because they feel this is the only really peaceful time of day in the city – where they can lie and read a book, listen to music, and just feel relaxed and away from the hustle and bustle of daytime life. I can understand this, actually, although I'm not much of a night owl myself. I can see why some people choose night time, and staying up late, to spend time alone at peace."
+        },
+        {
+          "q": "Is it good to arrive early in any situation?",
+          "a": "Well, not necessarily in every situation, I think. In professional settings — like job interviews or business meetings — arriving early definitely shows respect and gives you time to prepare. But socially, it can actually be a bit awkward. Like, if you show up to a party way too early, the host might not be ready yet. So I think it really depends on the context. Generally speaking though, being punctual or slightly early is a good habit to have — it just shows you value other people's time."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p2-a-time-when-you-worked-in-a-group-9",
+      "part": 2,
+      "category": "事件",
+      "status": "保留题",
+      "month": 9,
+      "title": "Describe a time when you worked in a group",
+      "titleCn": "描述一次团队合作的经历",
+      "card": "You should say:\n· What you did\n· Who you worked with\n· What problems you faced\n· And explain why you worked in the group",
+      "sampleAnswer": "Actually, the first thing that comes to mind is a group project I did back in my second year of university. It was for one of our core modules, and we had to put together a full presentation on a marketing campaign — from research all the way to the final pitch. Our group had five people in total, and, um, let's just say we were not exactly a dream team from the start. The biggest problem we ran into was honestly just getting everyone on the same page. Like, two people in the group had completely different ideas about the direction we should take, and for a while every single meeting just turned into the same argument going in circles. It was exhausting. At one point I remember thinking, I could've just done this alone in half the time. But we kind of had no choice — the whole point of the assignment was that it had to be a group effort, and our grade depended on it. So eventually we just had to sit down, be a bit more flexible, and figure out how to make everyone's ideas work together somehow. And weirdly, the final presentation actually went really well. We ended up getting a pretty decent grade, and I think the disagreements along the way kind of pushed us to think harder than we would have otherwise. Didn't make the process any less stressful though, if I'm being honest.",
+      "part3": [
+        {
+          "q": "Why do some people prefer to work by themselves?",
+          "a": "I guess it comes down to personality, really. Some people just find group settings distracting — too many opinions, too much back-and-forth. When you work alone, you move at your own pace and make decisions without having to compromise. Introverts especially tend to do their best thinking in quiet environments. There's also a sense of ownership, you know? If something goes well, it's entirely your effort. That feeling can be really motivating for certain people."
+        },
+        {
+          "q": "What should a leader do to make team members want to follow him or her?",
+          "a": "Honestly, I think the most important thing is making people feel heard. Nobody wants to follow someone who just barks orders without listening. A good leader communicates clearly, gives credit where it's due, and stays calm under pressure. Trust is huge — if team members feel respected and supported, they'll naturally be more motivated. It's less about authority and more about creating an environment where everyone feels like they actually matter."
+        },
+        {
+          "q": "Should students learn to do group work?",
+          "a": "Absolutely, I think it's essential. School isn't just about academic knowledge — it's about preparing for real life, and almost every workplace involves collaboration. Group work teaches you how to communicate, handle disagreements, and divide responsibilities. Sure, it can be frustrating sometimes, especially when not everyone pulls their weight. But navigating that is itself a valuable skill. The earlier students learn to work with others, the better equipped they'll be later on."
+        },
+        {
+          "q": "What group tasks are there in schools?",
+          "a": "There's actually quite a variety. Project presentations are probably the most common — students research a topic together and present their findings to the class. Science experiments often involve teamwork too, since there are different roles to divide up. Then there are things like debate competitions, drama performances, or even sports events that require real coordination. Some schools also do community service projects as a group. These activities all teach something slightly different, which is what makes them useful."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p2-a-plan-that-you-had-to-change-recently-9",
+      "part": 2,
+      "category": "事件",
+      "status": "保留题",
+      "month": 9,
+      "title": "Describe a plan that you had to change recently",
+      "titleCn": "描述一个最近被迫改变的计划",
+      "card": "You should say:\n· When this happened\n· What made you change the plan\n· What the new plan was\n· And how you felt about the change",
+      "sampleAnswer": "Oh, this actually happened pretty recently — just a few weeks ago, and it was one of those annoying situations where everything falls apart at the last minute. So basically, I'd been planning a short trip with two of my friends for almost a month. We were going to take a train to a nearby city for the weekend, had already looked up places to eat, even made a rough list of things we wanted to do. I was genuinely looking forward to it — you know that feeling when you've been busy for ages and you finally have something fun to look forward to? That was me. And then, two days before we were supposed to leave, one of my friends suddenly came down with a fever and the other one had some family thing come up out of nowhere. So just like that, the whole trip was off. We ended up just meeting at a café near campus instead, having coffee, and chatting for a few hours. Which, um, was fine — actually it was really nice — but it definitely wasn't what I'd been picturing in my head for the past month. Honestly, I was more disappointed than I expected to be. But I think what helped was just accepting it pretty quickly and not making a big deal out of it. Sometimes plans just fall through, and the café ended up being a pretty good afternoon anyway. Just a slightly less exciting one.",
+      "part3": [
+        {
+          "q": "Do people often change their plans?",
+          "a": "Pretty often, I'd say. Life is unpredictable — something unexpected always comes up, whether it's a work emergency, bad weather, or just a change of mood. I think some people are naturally more flexible and don't mind adjusting on the go, while others find it really stressful. Honestly, the ability to adapt is probably more useful than sticking rigidly to a plan. Things rarely go exactly as expected anyway, so a bit of flexibility goes a long way."
+        },
+        {
+          "q": "Would you tell others if you change your plan?",
+          "a": "It really depends on who's involved. If the change affects other people — like canceling plans with a friend or rescheduling a meeting — then yeah, absolutely, you should let them know as soon as possible out of basic respect. But if it's something personal that only affects yourself, there's no real obligation to inform anyone. I think communication matters most when others have already arranged their time around your original plan."
+        },
+        {
+          "q": "Why do you think parents still make plans for their children nowadays?",
+          "a": "I think it comes from a place of love, but also anxiety. Parents want to give their kids every possible advantage — extra classes, structured activities, mapped-out futures. There's also a lot of social pressure involved, especially in competitive cultures where falling behind feels like a real risk. The tricky part is that over-planning can actually backfire, leaving kids with no space to discover their own interests. Good intentions don't always translate into good outcomes."
+        },
+        {
+          "q": "How does technology help people make plans?",
+          "a": "Massively, I think. Calendar apps and reminders mean you basically never forget anything these days. Tools like Google Maps help you figure out timing and routes in advance, which takes a lot of guesswork out of travel plans. For group planning, apps like WhatsApp or shared documents make coordinating so much easier. And AI assistants are getting pretty good at suggesting schedules too. Overall, technology just removes a lot of the friction that used to make planning feel like a chore."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p2-an-important-decision-you-made-in-life-9",
+      "part": 2,
+      "category": "事件",
+      "status": "保留题",
+      "month": 9,
+      "title": "Describe an important decision you made in life",
+      "titleCn": "描述一个人生中的重要决定",
+      "card": "You should say:\n· What the decision was\n· Why you made this decision\n· How you made this decision\n· And explain why this decision was important",
+      "sampleAnswer": "An important decision I made in my life was a few years ago. I made the decision to study in Chengdu, my home city, at university, and not take up a place at university in Beijing. This was a tough decision to make because a huge part of me wanted to go to live in Beijing and study there, and some people said it would be a great opportunity for me as the university that offered me a place there was more prestigious than the one in my home city - at least 'on paper', as they say. However, I wanted to stay close to my parents because my father is really sick and I am an only child, and I wanted to stay around and help my mother take care of him while he recovers – if he recovers, which I hope he does. So, I took the place in Chengdu and not Beijing. Actually, I do not regret my decision at all. I am quite close to my family, and I feel that I want to be around them, especially as my dad is not well. Also, I believe that the expense and the stress of living in the big city would be quite overwhelming and possibly a distraction from my studies. So, all in all, I think I made a good decision and I don't feel in the slightest bit remorseful about having made this decision. It's an important decision, because, as you know, the university you choose to study in can have a big impact on your future career path and your life in general. But, I am someone who always looks to the future and doesn't look back with regrets, so I am not particularly worried about this, and I'm loving my course and enjoying my classmates and teachers, and also able to do a bit of work on the side, save money and be with my parents, especially my dad, and help around the home. So, I'm happy with my decision and feel assured it was the right decision to make.",
+      "part3": [
+        {
+          "q": "What important decisions do young people need to make after graduation?",
+          "a": "Young people have to make a number of important decisions after graduation. At least traditionally or typically speaking. Firstly, they might have to have a serious think about the kind of career they would like to pursue, or at least the kind of job they might do while they are thinking about their career. Secondly, they may also be getting towards the age when they must start thinking about marriage, if they have already found a girlfriend or boyfriend, especially if their parents are really conventional and putting pressure on them. Parents tend to do this where I'm from. So, there are the two main big life decisions that usually come at some point in the year or two after graduation, I'd say."
+        },
+        {
+          "q": "Who can children turn to for help when making decisions?",
+          "a": "Children can ideally turn to teachers and parents. Probably parents, mainly, as teachers are very busy with thousands of other children they have to think about and very busy. But there are some teachers who take time to give kids advice on things like making small or large decisions in life, depending on where the school is, what the environment is like and what kind of school culture exists there. And, of course, the personality and inclinations of the teachers themselves. But, for the most part, the people that kids can turn to are usually their parents or perhaps their aunts and uncles and even grandparents sometimes."
+        },
+        {
+          "q": "Do you think children sometimes have to make important decisions?",
+          "a": "Children need to make less important decisions in the grand scheme of things, but still the decisions they have to make are important to them at the time, and that must be remembered. Children, at least where I am from, have to decide things like which after-school club they want to join, which kinds of sports or leisure activities they might like to do on the weekend and stuff like this. Some parents today give their children more free choice about these things than we had in the past – also because there are more options today than there used to be. So, children are being brought up to be a little more autonomous and make more decisions themselves about this kind of thing, most certainly."
+        },
+        {
+          "q": "Do you think advertisements influence our decisions on shopping?",
+          "a": "Adverts most certainly have a strong influence on our shopping habits. Perhaps we underestimate that influence a lot of the time. I mean, we don't necessarily realise the power of advertising as adverts are so ubiquitous we almost take them for granted and don't even realise (or admit) that the ideas being marketed to us are actually going into our heads and influencing our choices of what to buy. I think that this is the insidious side of some marketing – it is designed to make us feel we need to buy certain products in order to make our lives better, or in order to compete with other people or maintain certain social standards and not look like we are \"behind the times\" or \"not keeping up with our peers\". Advertising plays on these human tendencies and weaknesses sometimes, and therefore does have an influence on our buying habits."
+        },
+        {
+          "q": "What are the benefits of advertising?",
+          "a": "Well, I think the biggest benefit is that it connects people with products they actually need but might never find on their own. It also creates competition between companies, which usually means better quality and lower prices for consumers. And on a broader level, advertising funds a lot of free content we enjoy every day — like social media and news websites. So yeah, it's more useful than people give it credit for, honestly."
+        },
+        {
+          "q": "How do people usually make important decisions?",
+          "a": "Hmm, I think most people start by gathering information — asking friends, reading reviews, or just doing some research online. Then there's usually a gut feeling involved at some point, you know? Like, even after all the research, people often go with what feels right. I think the really big decisions — career changes, moving cities — often involve talking things through with family too. It's rarely a purely logical process for most people."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p2-a-live-sports-event-you-watched-before-9",
+      "part": 2,
+      "category": "事件",
+      "status": "保留题",
+      "month": 9,
+      "title": "Describe a live sports event you watched before.",
+      "titleCn": "描述一场看过的体育现场赛",
+      "card": "You should say:\n· When it happened\n· Where it took place\n· Who you watched it with\n· And explain how you felt about this experience",
+      "sampleAnswer": "I have seen a lot of live sports, actually, because I'm a big sports fan. But the live event that I liked the most was a football game I saw at the stadium in Beijing. It was a huge game, and lots of people went to see it. It was an especially exciting atmosphere, and it was the first time I had been in the crowd at a proper football match. Usually the live sports I go to see are mainly basketball and martial arts contests. Football is a whole different atmosphere and the crowds go really wild with excitement – that's a key part of football culture really. I went with a few classmates from university and my brother. We got really into the spirit of the game. I have often enjoyed the whole atmosphere of games like football, and to be honest, though I am not a huge fan of the game itself, I came to understand after watching this game live in the stadium, just why so many people follow football and get really really into it. There's a very strong fan-culture associated with the game, and people get incredibly passionate about it, chanting football songs, cheering on their team, shouting at the opposition players and things like this. Sometimes it can get a bit too passionate and quite aggressive in a way, too. I'm not sure it's really my kind of game, really, but it was a very exciting experience and one that I might repeat from time to time, especially if there is a big match on and my friends are also going. We went to a nice restaurant afterwards, ate lots of great food, drank a few beers and talked about the game. It was definitely an occasion I remember very fondly. I'd love to see a game in the UK, like Liverpool United, or a big team like that.",
+      "part3": [
+        {
+          "q": "Why do some people like to watch sports events?",
+          "a": "Live sports contests are far more exciting than sports contests on TV, mainly because you're part of a live audience, and you can see the game right in front of you, not just on a screen. Some people are really into this atmosphere and the sense of unity with the crowd that you're with and the team you are supporting. It's a very fundamental human desire – to be part of something big and exciting and feel part of the action. So, in many ways I see it as a very natural thing, well, for people who like noise and excitement and crowds, that is."
+        },
+        {
+          "q": "Where do people normally watch sports events?",
+          "a": "Well, it really depends on the person. A lot of people watch at home on TV or their phone — it's convenient and you don't have to deal with crowds. Sports bars and cafes are popular too, especially for big games like the World Cup, because the atmosphere is just way more exciting with a group. And of course, some people go to the stadium in person. That's a totally different experience — the energy there is something you really can't replicate at home."
+        },
+        {
+          "q": "What are the advantages of watching sports events online?",
+          "a": "Honestly, convenience is the biggest one. You can watch from anywhere, pause and rewind if you miss something, and often choose from multiple camera angles. There's no travel, no expensive tickets, and no queuing. A lot of platforms also offer live stats and commentary alongside the stream, which adds to the experience. And for people in different time zones, you know, being able to catch a replay at a reasonable hour makes a huge difference."
+        },
+        {
+          "q": "What sports matches are suitable for children to attend?",
+          "a": "I think events that are family-friendly and not too intense are the best fit. Things like local football matches, tennis tournaments, or athletics events work really well — the atmosphere is fun but not overwhelming. I'd probably avoid high-contact sports or matches where crowd behavior can get a bit rowdy, you know? The key is that children feel safe and engaged. Smaller, community-level events are often perfect because kids can actually follow what's happening."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p2-an-occasion-you-had-a-special-cake-9",
+      "part": 2,
+      "category": "事件",
+      "status": "保留题",
+      "month": 9,
+      "title": "Describe an occasion you had a special cake",
+      "titleCn": "描述一次吃特别蛋糕的经历",
+      "card": "You should say:\n· When this happened\n· Where this happened\n· Who gave you the cake\n· And explain why it was a special cake",
+      "sampleAnswer": "Well, there's a few occasions I've had a special cake - almost every birthday over the past ten or fifteen years. You see, we have a strong tradition of giving people cakes on their birthdays, and in more recent years there's a lot of fantastic and quite amazing cake companies in China. The last time I had a fantastic cake was my last birthday. I had a dinner with my girl friends in a Japanese restaurant, and after the dinner they presented a huge box with ribbons tied around it. I opened it and inside was this amazing, tall, peach-coloured cake. The cake was decorated with the most incredible flowers and designs all made from different coloured icing and cream. It was probably the most fancy cake I've ever seen, actually. It's hard to explain or describe, but it must have been done by a real expert in cake design, as it was almost a work of art! The cake came with candles, which we put in it, and I lit them, made a wish - of course, they turned the lights off for my wish - and the whole restaurant joined in as we sang happy birthday. I enjoy this birthday tradition, and I like the fact that everyone seems to follow it each year. Though it becomes a little difficult because when it's your friend's birthday you have to try to find an equally nice cake, or even better cake to surprise them with! So, it can get quite hard to keep up!",
+      "part3": [
+        {
+          "q": "What's the difference between special food in China and foreign countries?",
+          "a": "Well, that's quite a difficult question to answer, really. Special food is different in all countries. And China is a huge country, with many different types of cuisine, which all differ from each other, and all have their more or less 'special' dishes. So, it's not really easy to say, in short, what the main differences are between special food in China and in other countries. Most Chinese people think their food is the best in the world – so – maybe they would say the difference is that Chinese food is simply all way more special than food anywhere else! I'm not sure."
+        },
+        {
+          "q": "Do Chinese people usually cook special food in traditional festivals?",
+          "a": "Yes, I would say that every family has a number of dishes that they make for traditional festivals, that are special for those occasions. It's not that they do not eat them at other times of year, but that they make all their favourite special dishes on festivals."
+        },
+        {
+          "q": "Do Chinese families like to eat together during traditional holidays?",
+          "a": "Yes, absolutely. It's our main occasion during the Spring Festival really. Chinese love to dine together and have a lot of different dishes to share. And most people invite a lot of family members to the house for festivals, so there's always a huge meal, lots of snacks, wine and conversation. The dinner is in some ways the focal point of the festival."
+        },
+        {
+          "q": "Why do people spend more on special food on special occasions?",
+          "a": "People like to be generous and celebrate their lives on special occasions, and so they always buy all the best foods and wines and fruits. It's quite normal, I think everywhere in the world, that festivals are special and therefore feature all the best things that a family can afford. It marks the occasion and sets it apart from normal everyday life."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p2-a-challenging-technological-problem-you-faced-9",
+      "part": 2,
+      "category": "事件",
+      "status": "保留题",
+      "month": 9,
+      "title": "Describe a challenging technological problem you faced",
+      "titleCn": "描述一个遇到的技术难题",
+      "card": "You should say:\n· What the problem was\n· When and where you faced it\n· How challenging it was\n· And explain how you solved it",
+      "sampleAnswer": "Right, so the problem I want to talk about happened maybe half a year ago, and it was actually to do with using an AI tool for the first time — which sounds straightforward, but trust me, it really wasn't. I was working on a fairly big research assignment and a friend recommended I try using an AI writing assistant to help me organise my ideas. So I signed up, got everything set up, and started using it — and at first it seemed great. Like, genuinely impressive. It was pulling things together way faster than I could on my own. But then I started noticing that some of the information it was giving me was just... wrong. Not obviously wrong, which was the scary part — it sounded completely confident and convincing, but when I actually went and checked the sources it claimed to be referencing, either the sources didn't exist or the details were totally off. And by that point I'd already built quite a bit of my draft around that information. So I had to go back through everything line by line, fact-check it manually, and basically rewrite a big chunk of what I'd done. It took way longer than if I'd just done the research myself from the start, which was, um, a little humbling. What I took away from it though was actually pretty useful — AI tools are genuinely helpful, but you can't just switch your brain off when you're using them. You still have to think critically about what they're giving you. Learned that one the hard way.",
+      "part3": [
+        {
+          "q": "What are the advantages and disadvantages of AI?",
+          "a": "Well, the benefits are pretty clear — AI saves time, reduces human error, and can handle tasks that would take people hours. It's already transforming healthcare, education, and loads of other fields. But the downsides are real too. Job displacement is a genuine concern, and there are big questions around privacy and how data gets used. I think the technology itself isn't the problem — it's more about whether we're using it responsibly or not."
+        },
+        {
+          "q": "Do you think people today should learn about AI technology?",
+          "a": "Honestly, I think it's becoming essential, yeah. AI is already part of so many things we use daily — from search engines to customer service. Understanding basically how it works helps people make smarter decisions and avoid being misled by it. You don't need to become an expert, but having some general awareness is really important. I think people who ignore it completely will find themselves at a disadvantage pretty quickly, especially in the workplace."
+        },
+        {
+          "q": "Should children learn to use AI?",
+          "a": "I think so, but with proper guidance. AI tools are going to be a normal part of their future, so learning to use them early makes sense. The key is teaching kids how to use AI as a helper rather than a replacement for their own thinking. If children just rely on it for everything without understanding what they're doing, that's where problems start. So yeah — introduce it early, but make sure critical thinking comes first."
+        },
+        {
+          "q": "How can AI help in our lives?",
+          "a": "In so many ways, honestly. On a daily level, it helps with things like navigation, recommendations, and managing schedules. In more serious areas, AI is helping doctors diagnose diseases earlier and making education more personalized. For people with disabilities, it can be genuinely life-changing. I think the most exciting thing is that AI handles the repetitive, time-consuming stuff so people can focus on more creative and meaningful work instead."
+        },
+        {
+          "q": "Do you think students are overly reliant on AI?",
+          "a": "Um, quite a few are, yeah. It's just too easy to type a question and get a full answer instantly — there's almost no reason to struggle through something yourself anymore. The problem is that real learning comes from that struggle, you know? If students skip that process, they might get good grades but miss out on actually developing skills. I think a lot of students aren't even aware of how dependent they've become, which is probably the bigger issue."
+        },
+        {
+          "q": "What can teachers do to stop students relying too much on AI?",
+          "a": "I think the most effective approach is changing how students are assessed. If everything is a take-home essay, of course people will use AI. But in-class discussions, oral presentations, and hands-on projects are much harder to fake. Teachers can also be more open about AI — explaining its limitations and showing students where it actually gets things wrong. Making critical thinking a core part of lessons, rather than just finding correct answers, would probably make the biggest difference long-term."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p2-a-time-when-you-had-a-problem-with-using-an-electronic-device-9",
+      "part": 2,
+      "category": "事件",
+      "status": "保留题",
+      "month": 9,
+      "title": "Describe a time when you had a problem with using an electronic device",
+      "titleCn": "描述一次电子设备出问题的经历",
+      "card": "You should say:\n· When it happened\n· Where it happened\n· What the problem was\n· And explain how you solved the problem at last",
+      "sampleAnswer": "I'd like to talk about a rather frustrating experience I had with a computer. It was a few months ago actually when I was working on an important project for my job. The problem arose late in the evening when I was at home in my home office. The issue I encountered was with my computer's operating system. Out of nowhere, it started to freeze intermittently, making it nearly impossible to continue working. This was a particularly stressful time because I had a looming deadline. I decided to start troubleshooting right away. I began by rebooting the computer, hoping that a simple restart would resolve the issue. Unfortunately, the problem persisted. I then checked for any recent software updates, thinking that a bug might be causing the problem. After updating, the issue still persisted. Growing increasingly frustrated, I reached out to a colleague for assistance. They suggested I try running a diagnostic scan to identify any hardware issues. This scan took quite some time, and to my dismay, it didn't reveal any specific hardware problems. Finally, after several hours of trial and error, I decided to restore my computer to a previous state using a system backup. This proved to be the solution, and my computer returned to its normal, reliable state. Reflecting on this experience, I felt a mix of relief and frustration. While I was relieved that I managed to resolve the issue and meet my deadline, I was frustrated by the hours of productivity lost due to the computer problem. It also made me realize the importance of regularly backing up important work to prevent such situations in the future. Overall, it was a valuable learning experience, albeit a challenging one.",
+      "part3": [
+        {
+          "q": "Why are people keen on buying new electronic devices?",
+          "a": "I think a big part of it is just the excitement of something new, honestly. Tech companies are really good at making each new release feel like a massive upgrade — better camera, faster processor, sleeker design. There's also a social element, you know? Having the latest phone or gadget can feel like a status thing, especially among younger people. And sometimes the upgrade is genuinely useful. But I think for a lot of people, it's more about the feeling of buying something new than actual need."
+        },
+        {
+          "q": "What impact do electronic devices have on people?",
+          "a": "Well, the positive side is pretty obvious — they keep us connected, make information instantly accessible, and honestly make daily life a lot more convenient. But the downsides are real too. A lot of people struggle with screen addiction without even realizing it, and sleep quality takes a hit when you're on your phone right before bed. Face-to- face communication feels like it's suffering as well. I think devices themselves aren't the problem — it's more about whether people can find a healthy balance with them."
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p2-a-time-when-you-received-a-message-or-email-and-it-took-you-a-lo-9",
+      "part": 2,
+      "category": "事件",
+      "status": "保留题",
+      "month": 9,
+      "title": "Describe a time when you received a message or email and it took you a long time to reply.",
+      "titleCn": "描述一次拖很久才回消息/邮件的经历",
+      "card": "You should say:\n· Who this person was\n· What the message/email was about\n· Why you spent a lot of time replying\n· And explain how you felt about the experience",
+      "sampleAnswer": "Okay so this is actually something I feel a little guilty about even now. About six months ago, a friend of mine from high school sent me this really long WeChat message — and I mean really long, like the kind that takes up your whole screen and you have to scroll down to see the end of it. She was basically opening up about some stuff she'd been going through — feeling lost about her future, not sure if she was on the right path, that kind of thing. Very honest, very personal. And I could tell it had taken her a lot of courage to send it. The thing is, I read it pretty much straight away. But then I just... didn't reply. Not because I didn't care — I genuinely did — but because I had no idea what to say. Like, she'd shared something so real and so vulnerable that I was terrified of saying the wrong thing or coming across as dismissive. So I kept thinking, I'll reply when I have the right words. And then a day passed, and then another, and suddenly it had been almost two weeks. I finally sat down one evening, put my phone on do not disturb, and just wrote back as honestly as I could. No perfect words, just genuine ones. She replied almost immediately saying she was really glad I did. Which made me feel both relieved and a bit silly for waiting so long. I think sometimes we overthink these things when the other person really just needs to know you're there.",
+      "part3": [
+        {
+          "q": "When do people spend a long time responding to others' messages?",
+          "a": "Well, I think the most common reason is just being genuinely busy — in a meeting, focused on work, or simply away from their phone. But sometimes people take longer because the message requires a thoughtful response and they don't want to reply with something half-baked, you know? Emotionally difficult messages are another one — if someone sends something sensitive or confrontational, people often need time to figure out how to respond without saying the wrong thing."
+        },
+        {
+          "q": "In what situations do people not respond to messages right away?",
+          "a": "Honestly, it happens all the time for different reasons. Some people are just bad at checking their phone regularly. Others see the message but feel like it's not urgent enough to reply immediately and then completely forget about it. Social situations are a big one too — it feels rude to be on your phone when you're with other people. And sometimes, if the conversation feels awkward or uncomfortable, people just put it off without really meaning to."
+        },
+        {
+          "q": "What would you do if you haven't received a reply after sending out a message?",
+          "a": "I'd probably just wait a bit first, honestly. Most of the time there's a perfectly normal reason — people get busy. If it's something important and a day or two has passed, I'd send a gentle follow-up, nothing pushy. And if it's urgent, I'd just call instead. I think getting anxious over unanswered messages is pretty common these days, but most of the time it's really not personal. People have a lot going on, you know?"
+        }
+      ],
+      "date": "2026-09-04"
+    },
+    {
+      "id": "p2-a-time-when-you-organized-a-happy-event-successfully-9",
+      "part": 2,
+      "category": "事件",
+      "status": "保留题",
+      "month": 9,
+      "title": "Describe a time when you organized a happy event successfully.",
+      "titleCn": "描述一次成功组织欢乐活动的经历",
+      "card": "You should say:\n· What the event was\n· How you prepared for it\n· Who helped you to organize it\n· And explain why you think it was a successful event",
+      "sampleAnswer": "A really happy event that I organized was a birthday celebration for my friend and classmate, Jean. It was going to be a surprise party, but that was too hard to arrange, as she shared a dorm with us and she would catch on while we were planning it and buying things for it. So, we discussed the birthday idea with her, and told her we would plan it… She seemed quite touched with that. Also, we all wanted a good excuse to have some fun. We didn't just have a party – we made a whole day of it. We arranged to go to a theme park, Happy Valley, outside the city, for about 5 hours. Then we had a dinner in a fantastic hot pot restaurant in the city, then we went to a cocktail bar, and then we all went to KTV! So, we had a really action-packed day. At the dinner we presented her with a great birthday cake that we had bought online from a specialist cake-making company. We also gave her gifts at the dinner. At the cocktail bar we got the bartender to prepare special drinks for her and give us all a group deal. And at KTV we made sure that we selected all the songs she liked. It was a very tiring day, and took some organization and planning, but all turned out well in the end. We had a fantastic time. I and my friend Mary were the main organisers, but everyone helped a little bit, and another friend, Mike, organized the minibus from place to place throughout the day, so we could all travel together. It was a truly amazing day and I think the best birthday Jean has had in a long time.",
+      "part3": [
+        {
+          "q": "How can parents help children to be organized?",
+          "a": "Parents can start teaching kids to be organized at quite a young age. They can get them to clear their toys away in an orderly fashion, fold their clothes after taking them off... and teach them where things go in the house and how to put things back properly after use. These are the first things you might try to start teaching a toddler. And as the children grow up, they should teach them more about time-keeping and scheduling tasks."
+        },
+        {
+          "q": "On what occasions do people need to be organized?",
+          "a": "People need to be organized with work, with studies, with household tasks and with responsibilities and things that need to get done for the family. In terms of occasions, people need to be especially organized when they are arranging meetings, planning things like weddings and events, or organizing trips and holidays. These are some examples that spring to mind of when organizational skills are essential."
+        },
+        {
+          "q": "Do people need others' help when organizing things?",
+          "a": "Sometimes it's easier to organise something yourself, rather than involve other people. But with other things, it's best to get help from others. It totally depends on the type of things that you need to arrange. You usually need help from others if you are organizing something like an event – a wedding for example, which involves multiple different types of tasks in order for the whole event to go well. If different people are allocated with different tasks in an orderly and clear manner, then this will make the planning and the event itself go smoothly."
+        }
+      ],
+      "date": "2026-09-04"
     }
   ]
 };
