@@ -411,3 +411,50 @@ body{
 }
 .ud-btn:hover{filter:brightness(1.08)}
 .ud-list li.ud-more{color:var(--ink-3);font-size:12.5px;justify-content:center}
+
+/* 右上角「使用说明」按钮 */
+.help-btn{
+  display:inline-flex;align-items:center;gap:5px;margin-left:10px;
+  padding:5px 12px;border:1px solid var(--line);background:var(--card);
+  color:var(--ink-2);border-radius:999px;font-size:12.5px;font-family:inherit;
+  cursor:pointer;white-space:nowrap;transition:all .15s;
+}
+.help-btn:hover{border-color:var(--brand-line);color:var(--brand)}
+.help-btn svg{flex:none}
+@media (max-width:640px){.help-label{display:none}.help-btn{padding:6px 9px;margin-left:8px}}
+
+/* 使用说明弹层 */
+.help-mask{
+  position:fixed;inset:0;background:rgba(15,30,60,.45);backdrop-filter:blur(2px);
+  display:flex;align-items:center;justify-content:center;z-index:210;
+}
+.help-mask[hidden]{display:none}
+.help-dialog{
+  position:relative;width:min(430px,calc(100vw - 44px));
+  background:var(--card);border:1px solid var(--line);border-radius:16px;
+  padding:24px 22px 18px;box-shadow:0 24px 70px rgba(15,30,60,.3);
+  animation:pop .22s ease;
+}
+.dlg-x{
+  position:absolute;top:8px;right:10px;width:26px;height:26px;padding:0;
+  border:none;background:transparent;font-size:20px;line-height:1;
+  color:var(--ink-3);cursor:pointer;border-radius:50%;font-family:inherit;
+}
+.dlg-x:hover{background:var(--tint);color:var(--ink)}
+.help-title{font-size:16.5px;font-weight:700;margin:0 0 14px;color:var(--ink)}
+.help-list{list-style:none;margin:0 0 16px;padding:0;display:flex;flex-direction:column;gap:12px}
+.help-list li{
+  font-size:13.5px;line-height:1.7;color:var(--ink-2);
+  padding-left:16px;position:relative;
+}
+.help-list li::before{
+  content:"";position:absolute;left:2px;top:9px;width:6px;height:6px;
+  border-radius:50%;background:var(--brand);
+}
+.help-list em{font-style:normal;color:var(--brand);font-weight:600}
+.help-ok{
+  width:100%;padding:8px 0;border:none;border-radius:10px;
+  background:var(--brand);color:#fff;font-size:14.5px;font-weight:600;
+  cursor:pointer;font-family:inherit;transition:filter .15s;
+}
+.help-ok:hover{filter:brightness(1.08)}
