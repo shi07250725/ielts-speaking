@@ -563,6 +563,15 @@
   $("#backBtn").addEventListener("click", () => { location.hash = ""; });
   $("#brand").addEventListener("click", () => { location.hash = ""; });
 
+  // 右上角「使用说明」弹层
+  const helpMask = $("#helpMask");
+  const openHelp = () => { helpMask.hidden = false; };
+  const closeHelp = () => { helpMask.hidden = true; };
+  $("#helpBtn").addEventListener("click", () => { track("使用说明", "打开"); openHelp(); });
+  $("#helpClose").addEventListener("click", closeHelp);
+  $("#helpOk").addEventListener("click", closeHelp);
+  helpMask.addEventListener("click", (e) => { if (e.target === helpMask) closeHelp(); });
+
   window.addEventListener("hashchange", route);
   route();
 })();
