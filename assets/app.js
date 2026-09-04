@@ -572,6 +572,38 @@
   $("#helpOk").addEventListener("click", closeHelp);
   helpMask.addEventListener("click", (e) => { if (e.target === helpMask) closeHelp(); });
 
+  // ---------- PDF 资料下载（登记后下载；资料出新版需重新登记，与题库更新互不影响） ----------
+  const DL = {
+    enabled: false,          // 有 PDF 文件后改为 true
+    file: "",                // PDF 路径，如 downloads/ielts-guide.pdf
+    ver: "2026-09-04",       // 资料版本号：只有 PDF 更新时才改（题库更新不动它）
+    formUrl: ""              // 金数据登记表单的 iframe 地址
+  };
+  const toast = $("#toast");
+  let toastTimer = null;
+  const showToast = (msg) => {
+    toast.textContent = msg;
+    toast.classList.add("show");
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => toast.classList.remove("show"), 2600);
+  };
+  const dlMask = $("#dlMask");
+  $("#dlBtn").addEventListener("click", () => {
+    track("资料下载", "点击");
+    if (!DL.enabled) { showToast("PDF 资料整理中，敬请期待～"); return; }
+    if (store.get("ielts-dl-ver") === DL.ver) {
+      track("资料下载", "同版本直下");
+      window.open(DL.file, "_blank", "noopener");
+      return;
+    }
+    $("#dlFrame").innerHTML = DL.formUrl
+      ? `<iframe src="${escapeHtml(DL.formUrl)}" loading="lazy" title="下载登记"></iframe>`
+      : `<p style="margin:0;padding:60px 20px;text-align:center;color:#98a0ab;font-size:13.5px">登记表单准备中，请稍后再试～</p>`;
+    dlMask.hidden = false;
+  });
+  $("#dlClose").addEventListener("click", () => { dlMask.hidden = true; });
+  dlMask.addEventListener("click", (e) => { if (e.target === dlMask) dlMask.hidden = true; });
+
   window.addEventListener("hashchange", route);
   route();
 })();
