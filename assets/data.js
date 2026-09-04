@@ -50,6 +50,10 @@ window.QUESTION_BANK = {
   ],
   "updates": [
     {
+      "date": "2026-09-04",
+      "text": "新增 3 个话题（Part 2&3 3 个）"
+    },
+    {
       "date": "2026-09-03",
       "text": "为 6 个话题补充了范例答案"
     },
@@ -4221,6 +4225,81 @@ window.QUESTION_BANK = {
         },
         {
           "q": "What kinds of books do Chinese people like reading?"
+        }
+      ]
+    },
+    {
+      "id": "p2-a-film-you-didn-t-like",
+      "part": 2,
+      "category": "物品",
+      "status": "新题",
+      "month": 9,
+      "date": "2026-09-04",
+      "title": "Describe a film you didn't like.",
+      "titleCn": "不喜欢的电影",
+      "card": "You should say:\n· When you watched it\n· Where you watched it\n· What it was about\n· And explain why you don't like it",
+      "part3": [
+        {
+          "q": "What kinds of movie are the most popular in China?"
+        },
+        {
+          "q": "What are the differences between watching movies at home and in a cinema?"
+        },
+        {
+          "q": "Are movies more likely to help people become more creative than books?"
+        },
+        {
+          "q": "Can movies help people better understand the cultural background of a country?"
+        }
+      ]
+    },
+    {
+      "id": "p2-a-short-trip-you-often-do-but-you-don-t-like",
+      "part": 2,
+      "category": "事件",
+      "status": "保留题",
+      "month": 9,
+      "date": "2026-09-04",
+      "title": "Describe a short trip you often do but you don't like.",
+      "titleCn": "不喜欢的短途旅行",
+      "card": "You should say:\n· Where you travel to\n· How often you do this trip\n· Why you need to do this trip\n· And explain why you don't like this trip",
+      "part3": [
+        {
+          "q": "Who prefer travelling abroad? Youngsters or old people?"
+        },
+        {
+          "q": "Do you think Chinese people like travelling abroad?"
+        },
+        {
+          "q": "Which one is more helpful to learn about a country? Reading literature works about this country or travelling to this country in person?"
+        }
+      ]
+    },
+    {
+      "id": "p2-a-person-who-taught-you-something",
+      "part": 2,
+      "category": "人物",
+      "status": "保留题",
+      "month": 9,
+      "date": "2026-09-04",
+      "title": "Describe a person who taught you something.",
+      "titleCn": "教导你的人",
+      "card": "You should say:\n· Who the person was\n· Where you met him or her\n· What this person taught you\n· And explain how you felt about what he or she taught you",
+      "part3": [
+        {
+          "q": "Why should children learn new skills?"
+        },
+        {
+          "q": "How can parents and teachers teach children new skills?"
+        },
+        {
+          "q": "How do adults learn a new skill?"
+        },
+        {
+          "q": "What are the differences between learning from a teacher and learning by oneself?"
+        },
+        {
+          "q": "Why is self-discipline important when learning a new skill?"
         }
       ]
     }
