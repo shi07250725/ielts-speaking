@@ -17,22 +17,22 @@
     "必备题": "st-must", "新题": "st-new", "保留题": "st-keep"
   };
 
-  // 时间段：来自 data.js 的 periods，月份归属据此判断
+  // 时间段：来自 data.js 的 periods（约定：数组从新到旧排列，最新季度在前），月份归属据此判断
   const PERIODS = (BANK.periods && BANK.periods.length) ? BANK.periods : [
-    { label: "5-8月", months: [5, 6, 7, 8] },
-    { label: "9-12月", months: [9, 10, 11, 12] }
+    { label: "9-12月", months: [9, 10, 11, 12] },
+    { label: "5-8月", months: [5, 6, 7, 8] }
   ];
   const YEAR = BANK.year || new Date().getFullYear();
   const periodOf = (m) => {
     const p = PERIODS.find((x) => x.months.indexOf(Number(m)) > -1);
-    return p ? p.label : PERIODS[PERIODS.length - 1].label;
+    return p ? p.label : PERIODS[0].label;
   };
-  // 默认时段：定位到「最近一个有内容的时间段」，都没有则取最后一个
+  // 默认时段：最新的有内容的时段（PERIODS 从新到旧，取第一个有内容的）
   const defaultPeriod = () => {
-    for (let i = PERIODS.length - 1; i >= 0; i--) {
+    for (let i = 0; i < PERIODS.length; i++) {
       if (TOPICS.some((t) => periodOf(t.month) === PERIODS[i].label)) return PERIODS[i].label;
     }
-    return PERIODS[PERIODS.length - 1].label;
+    return PERIODS[0].label;
   };
 
   const state = {
@@ -203,8 +203,8 @@
     const seg = $("#periodSeg");
     seg.innerHTML = PERIODS.map((p) => {
       const n = TOPICS.filter((t) => periodOf(t.month) === p.label).length;
-      // 最后一个时间段标为「当季题库」
-      const hot = p === PERIODS[PERIODS.length - 1]
+      // 最新季度（数组第一个）标「当季题库」
+      const hot = p === PERIODS[0]
         ? `<span class="hot-tag">当季题库</span>` : "";
       return `<button class="sbtn${state.period === p.label ? " active" : ""}" data-period="${escapeHtml(p.label)}">
         ${escapeHtml(p.label)}${hot}<span class="cnt">${n}</span>
