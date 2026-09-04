@@ -11,8 +11,8 @@
     set(k, v) { try { localStorage.setItem(k, v); } catch (e) { /* 忽略 */ } }
   };
 
-  // 题目身份：顺序即筛选 pills 的顺序（也是排序优先级）
-  const STATUS = ["必备题", "新题", "保留题"];
+  // 题目身份：顺序即筛选 pills / 统计行 / 列表排序的优先级
+  const STATUS = ["新题", "保留题", "必备题"];
   const STATUS_CLS = {
     "必备题": "st-must", "新题": "st-new", "保留题": "st-keep"
   };
@@ -249,7 +249,7 @@
       .join("");
   }
 
-  // 排序：新题 → 改编题 → 保留题，同档内保持 data.js 里的书写顺序
+  // 排序：新题 → 保留题 → 必备题，同档内保持 data.js 里的书写顺序
   const rank = (t) => {
     const i = STATUS.indexOf(t.status);
     return i === -1 ? 99 : i;
