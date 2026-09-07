@@ -6066,7 +6066,7 @@ window.QUESTION_BANK = {
       "id": "p1-feeling-bored",
       "part": 1,
       "category": "日常生活",
-      "status": "保留题",
+      "status": "新题",
       "month": 9,
       "date": "2026-09-07",
       "title": "Feeling bored",
