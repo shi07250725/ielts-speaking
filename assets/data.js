@@ -50,6 +50,10 @@ window.QUESTION_BANK = {
   ],
   "updates": [
     {
+      "date": "2026-09-07",
+      "text": "新增 5 个话题（Part 1 1 个 · Part 2&3 4 个）"
+    },
+    {
       "date": "2026-09-04",
       "text": "更新 41 个话题的范例答案（9.1-9.4 每日新题收集）"
     },
@@ -6057,6 +6061,142 @@ window.QUESTION_BANK = {
         }
       ],
       "date": "2026-09-04"
+    },
+    {
+      "id": "p1-feeling-bored",
+      "part": 1,
+      "category": "日常生活",
+      "status": "保留题",
+      "month": 9,
+      "date": "2026-09-07",
+      "title": "Feeling bored",
+      "titleCn": "无聊感",
+      "questions": [
+        {
+          "q": "Do you often feel bored?"
+        },
+        {
+          "q": "What kinds of things would make you feel bored?"
+        },
+        {
+          "q": "What will you do when you feel bored?"
+        },
+        {
+          "q": "Do you think childhood is boring or adulthood is boring?"
+        }
+      ]
+    },
+    {
+      "id": "p2-a-person-whose-health-and-fitness-you-have-helped-to-improve",
+      "part": 2,
+      "category": "人物",
+      "status": "新题",
+      "month": 9,
+      "date": "2026-09-07",
+      "title": "Describe a person whose health and fitness you have helped to improve",
+      "titleCn": "帮别人提升健康",
+      "card": "You should say:\n· Who this person was\n· Why you helped him/her\n· How you helped him/her\n· And explain whether it was easy or difficult",
+      "part3": [
+        {
+          "q": "Which group says more attention to health, young people or old people?"
+        },
+        {
+          "q": "What effect does stress have on health?"
+        }
+      ]
+    },
+    {
+      "id": "p2-a-party-you-enjoyed",
+      "part": 2,
+      "category": "事件",
+      "status": "新题",
+      "month": 9,
+      "date": "2026-09-07",
+      "title": "Describe a party you enjoyed",
+      "titleCn": "你享受的聚会",
+      "card": "You should say:\n· When you went to this party\n· Where the party was held\n· What kind of party it was\n· And explain why you enjoyed this party",
+      "part3": [
+        {
+          "q": "What will you do if you are disturbed by your neighbor's party?"
+        },
+        {
+          "q": "Do you think music and dance are a must at a party?"
+        },
+        {
+          "q": "What are the differences between party at home and those held in public places?"
+        },
+        {
+          "q": "When do people like to hold a party?"
+        },
+        {
+          "q": "What special events are celebrated in your country?"
+        }
+      ]
+    },
+    {
+      "id": "p2-a-building-you-like",
+      "part": 2,
+      "category": "物品",
+      "status": "新题",
+      "month": 9,
+      "date": "2026-09-07",
+      "title": "Describe a building you like",
+      "titleCn": "喜欢的建筑",
+      "card": "You should say:\n· Where it is\n· What it looks like\n· What it is used for\n· And explain why you like it",
+      "part3": [
+        {
+          "q": "Do you think old buildings should be preserved?"
+        },
+        {
+          "q": "Do you prefer tall buildings or short buildings?"
+        },
+        {
+          "q": "What kinds of buildings do young people like to live in?"
+        },
+        {
+          "q": "Do you think it's good to have all the buildings in a city look the same?"
+        },
+        {
+          "q": "Do you think all old buildings should be demolished?"
+        }
+      ]
+    },
+    {
+      "id": "p2-an-athlete-sports-team-you-admire",
+      "part": 2,
+      "category": "人物",
+      "status": "新题",
+      "month": 9,
+      "date": "2026-09-07",
+      "title": "Describe an athlete/ sports team you admire",
+      "titleCn": "欣赏的运动员",
+      "card": "You should say:\n· Who/What the athlete/sports team is\n· Where/How you got to know the athlete/sports team\n· How often you watch their sports games\n· And explain why you admire the athlete/sports team",
+      "part3": [
+        {
+          "q": "Should students have physical education adn do sports at school?"
+        },
+        {
+          "q": "What qualities should an athlete have?"
+        },
+        {
+          "q": "Is talent important in sports?"
+        },
+        {
+          "q": "Is it easy to identify children's talents?"
+        },
+        {
+          "q": "What's the most popular sport in your country?"
+        },
+        {
+          "q": "Do you think children should learn different kinds of sports?"
+        },
+        {
+          "q": "What can children learn from doing sports?"
+        },
+        {
+          "q": "How is technology used in sports?"
+        }
+      ]
     }
   ]
 };
