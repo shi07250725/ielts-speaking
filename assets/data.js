@@ -50,6 +50,10 @@ window.QUESTION_BANK = {
   ],
   "updates": [
     {
+      "date": "2026-09-08",
+      "text": "新增 3 个话题（Part 2&3 3 个）"
+    },
+    {
       "date": "2026-09-07",
       "text": "新增 5 个话题（Part 1 1 个 · Part 2&3 4 个）"
     },
@@ -6195,6 +6199,75 @@ window.QUESTION_BANK = {
         },
         {
           "q": "How is technology used in sports?"
+        }
+      ]
+    },
+    {
+      "id": "p2-an-occasion-when-you-lost-something-in-a-public-place",
+      "part": 2,
+      "category": "事件",
+      "status": "新题",
+      "month": 9,
+      "date": "2026-09-08",
+      "title": "Describe an occasion when you lost something in a public place.",
+      "titleCn": "公共场所丢东西",
+      "card": "You should say:\n· What you lost\n· When and where you lost it\n· What you did to find it\n· And explain how you feel about this experience",
+      "part3": [
+        {
+          "q": "What kinds of things do people usually lose?"
+        },
+        {
+          "q": "What do people often do when they lose personal belongings?"
+        },
+        {
+          "q": "What kinds of people often lose things?"
+        }
+      ]
+    },
+    {
+      "id": "p2-somwhere-near-a-natural-place-that-you-have-been-to",
+      "part": 2,
+      "category": "地点",
+      "status": "新题",
+      "month": 9,
+      "date": "2026-09-08",
+      "title": "Describe somwhere near a natural place that you have been to.",
+      "titleCn": "靠近自然的地方",
+      "card": "You should say:\n· Where this place is\n· Who you went there with\n· Why you went there\n· And explain how you feel about the place",
+      "part3": [
+        {
+          "q": "Are there any natural attractions that are great to visit?"
+        },
+        {
+          "q": "Do you think it is necessary to include natural spaces in a city?"
+        },
+        {
+          "q": "Do you think people who live in natural places are more likely to protect it?"
+        }
+      ]
+    },
+    {
+      "id": "p2-a-popular-person",
+      "part": 2,
+      "category": "人物",
+      "status": "新题",
+      "month": 9,
+      "date": "2026-09-08",
+      "title": "Describe a popular person.",
+      "titleCn": "受欢迎的人",
+      "card": "You should say:\n· Who he/she is\n· What he/she has done\n· Why he/she is popular\n· And explain how you feel about him/her",
+      "part3": [
+        {
+          "q": "Why do some students want to become popular?"
+        },
+        {
+          "q": "What kinds of people are more popular at school?"
+        },
+        {
+          "q": "Do you think a good teacher should become popular?"
+        },
+        {
+          "q": "Why are some celebrities not popular?"
         }
       ]
     }
