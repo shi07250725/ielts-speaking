@@ -267,12 +267,17 @@ body{
   font-size:12px;font-weight:600;color:var(--brand);
   letter-spacing:.5px;line-height:1.4;
 }
+/* 公众号二维码：文案较长，卡片加宽、字距收紧 */
+.float-qr.qr-wide{width:178px}
+.float-qr.qr-wide .qr-caption{font-size:11.5px;letter-spacing:0;line-height:1.5}
 @media (max-width: 768px){
   .float-col{right:8px;top:auto;bottom:14px;transform:none;gap:8px}
   .float-dl{width:150px;padding:8px 8px}
   .float-dl .dl-l1{font-size:14px}
   .float-dl .dl-l2{font-size:12px}
   .float-qr{width:150px;padding:6px 8px 10px}
+  .float-qr.qr-wide{width:162px}
+  .float-qr.qr-wide .qr-caption{font-size:11px}
   .qr-img-wrap{width:126px;height:126px}
 }
 
