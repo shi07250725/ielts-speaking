@@ -602,22 +602,27 @@
   };
 
   const dlMask = $("#dlMask");
-  $("#dlBtn").addEventListener("click", () => {
-    track("资料下载", "点击");
-    if (!DL.enabled) { showToast("PDF 资料整理中，敬请期待～"); return; }
-    // formUrl 为空 → 暂不登记，所有用户直接下载；
-    // 配上 formUrl 后：未登记用户先看到登记弹窗，登记过一次记住 ver，同版本后续直下。
-    if (!DL.formUrl || store.get("ielts-dl-ver") === DL.ver) {
-      track("资料下载", !DL.formUrl ? "直接下载（暂未登记）" : "同版本直下");
-      downloadFile(DL.file, DL.name);
-      if (DL.formUrl) store.set("ielts-dl-ver", DL.ver);
-      return;
-    }
-    $("#dlFrame").innerHTML = `<iframe src="${escapeHtml(DL.formUrl)}" loading="lazy" title="下载登记"></iframe>`;
-    dlMask.hidden = false;
-  });
-  $("#dlClose").addEventListener("click", () => { dlMask.hidden = true; });
-  dlMask.addEventListener("click", (e) => { if (e.target === dlMask) dlMask.hidden = true; });
+  const dlBtn = $("#dlBtn");
+  // 站内下载入口已下线（PDF 改为「关注公众号 → 回复口语题库」领取），
+  // 这段逻辑先留着：以后要恢复站内下载，把 #dlBtn 按钮加回 index.html 即可生效。
+  if (dlBtn && dlMask) {
+    dlBtn.addEventListener("click", () => {
+      track("资料下载", "点击");
+      if (!DL.enabled) { showToast("PDF 资料整理中，敬请期待～"); return; }
+      // formUrl 为空 → 暂不登记，所有用户直接下载；
+      // 配上 formUrl 后：未登记用户先看到登记弹窗，登记过一次记住 ver，同版本后续直下。
+      if (!DL.formUrl || store.get("ielts-dl-ver") === DL.ver) {
+        track("资料下载", !DL.formUrl ? "直接下载（暂未登记）" : "同版本直下");
+        downloadFile(DL.file, DL.name);
+        if (DL.formUrl) store.set("ielts-dl-ver", DL.ver);
+        return;
+      }
+      $("#dlFrame").innerHTML = `<iframe src="${escapeHtml(DL.formUrl)}" loading="lazy" title="下载登记"></iframe>`;
+      dlMask.hidden = false;
+    });
+    $("#dlClose").addEventListener("click", () => { dlMask.hidden = true; });
+    dlMask.addEventListener("click", (e) => { if (e.target === dlMask) dlMask.hidden = true; });
+  }
 
   // 登记页提交成功后 postMessage 通知本页 → 记下版本 + 自动开始下载
   window.addEventListener("message", (e) => {
@@ -625,7 +630,7 @@
     if (!e.data || e.data.type !== "ielts-dl-ok") return;
     track("资料下载", "登记完成，触发下载");
     store.set("ielts-dl-ver", DL.ver);
-    dlMask.hidden = true;
+    if (dlMask) dlMask.hidden = true;
     downloadFile(DL.file, DL.name);
   });
 
