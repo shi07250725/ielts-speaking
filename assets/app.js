@@ -572,12 +572,13 @@
   $("#helpOk").addEventListener("click", closeHelp);
   helpMask.addEventListener("click", (e) => { if (e.target === helpMask) closeHelp(); });
 
-  // ---------- PDF 资料下载（暂未启用登记：所有用户都能直接下载；以后接金数据时再启用） ----------
+  // ---------- PDF 资料下载（未登记 → 弹窗；已登记同版本 → 直接下载） ----------
   const DL = {
     enabled: true,                                              // 资料已就绪
     file: "assets/downloads/ielts-speaking-q3-2026.pdf",        // PDF 路径
+    name: "2026年第三季度雅思口语机经库-题目版.pdf",              // 保存到本机时的文件名
     ver: "2026-Q3",                                             // 资料版本号：只有 PDF 更新时才改（题库更新不动它）
-    formUrl: ""                                                 // 金数据登记表单的 iframe 地址；空 = 直接下载（暂不登记）
+    formUrl: ""                                                 // 金数据登记表单的 iframe 地址；空 = 跳过登记直接下载
   };
   const toast = $("#toast");
   let toastTimer = null;
@@ -587,15 +588,28 @@
     clearTimeout(toastTimer);
     toastTimer = setTimeout(() => toast.classList.remove("show"), 2600);
   };
+
+  // 用 <a download> 触发「保存文件」；若用 window.open，浏览器会直接预览 PDF 而不是下载
+  const downloadFile = (url, name) => {
+    const a = document.createElement("a");
+    a.href = url;
+    if (name) a.download = name;
+    a.rel = "noopener";
+    a.style.display = "none";
+    document.body.appendChild(a);
+    a.click();
+    setTimeout(() => a.remove(), 0);
+  };
+
   const dlMask = $("#dlMask");
   $("#dlBtn").addEventListener("click", () => {
     track("资料下载", "点击");
     if (!DL.enabled) { showToast("PDF 资料整理中，敬请期待～"); return; }
-    // 暂未配置登记表单（formUrl 空）→ 所有用户都直接下载；
-    // 以后配上 formUrl 后，未登记用户会先看到登记 iframe，登记过一次记下 ver，后续直接下载。
+    // formUrl 为空 → 暂不登记，所有用户直接下载；
+    // 配上 formUrl 后：未登记用户先看到登记弹窗，登记过一次记住 ver，同版本后续直下。
     if (!DL.formUrl || store.get("ielts-dl-ver") === DL.ver) {
       track("资料下载", !DL.formUrl ? "直接下载（暂未登记）" : "同版本直下");
-      window.open(DL.file, "_blank", "noopener");
+      downloadFile(DL.file, DL.name);
       if (DL.formUrl) store.set("ielts-dl-ver", DL.ver);
       return;
     }
@@ -604,6 +618,16 @@
   });
   $("#dlClose").addEventListener("click", () => { dlMask.hidden = true; });
   dlMask.addEventListener("click", (e) => { if (e.target === dlMask) dlMask.hidden = true; });
+
+  // 登记页提交成功后 postMessage 通知本页 → 记下版本 + 自动开始下载
+  window.addEventListener("message", (e) => {
+    if (e.origin !== location.origin) return;
+    if (!e.data || e.data.type !== "ielts-dl-ok") return;
+    track("资料下载", "登记完成，触发下载");
+    store.set("ielts-dl-ver", DL.ver);
+    dlMask.hidden = true;
+    downloadFile(DL.file, DL.name);
+  });
 
   window.addEventListener("hashchange", route);
   route();
