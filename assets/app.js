@@ -572,12 +572,12 @@
   $("#helpOk").addEventListener("click", closeHelp);
   helpMask.addEventListener("click", (e) => { if (e.target === helpMask) closeHelp(); });
 
-  // ---------- PDF 资料下载（登记后下载；资料出新版需重新登记，与题库更新互不影响） ----------
+  // ---------- PDF 资料下载（暂未启用登记：所有用户都能直接下载；以后接金数据时再启用） ----------
   const DL = {
-    enabled: false,          // 有 PDF 文件后改为 true
-    file: "",                // PDF 路径，如 downloads/ielts-guide.pdf
-    ver: "2026-09-04",       // 资料版本号：只有 PDF 更新时才改（题库更新不动它）
-    formUrl: ""              // 金数据登记表单的 iframe 地址
+    enabled: true,                                              // 资料已就绪
+    file: "assets/downloads/ielts-speaking-q3-2026.pdf",        // PDF 路径
+    ver: "2026-Q3",                                             // 资料版本号：只有 PDF 更新时才改（题库更新不动它）
+    formUrl: ""                                                 // 金数据登记表单的 iframe 地址；空 = 直接下载（暂不登记）
   };
   const toast = $("#toast");
   let toastTimer = null;
@@ -591,14 +591,15 @@
   $("#dlBtn").addEventListener("click", () => {
     track("资料下载", "点击");
     if (!DL.enabled) { showToast("PDF 资料整理中，敬请期待～"); return; }
-    if (store.get("ielts-dl-ver") === DL.ver) {
-      track("资料下载", "同版本直下");
+    // 暂未配置登记表单（formUrl 空）→ 所有用户都直接下载；
+    // 以后配上 formUrl 后，未登记用户会先看到登记 iframe，登记过一次记下 ver，后续直接下载。
+    if (!DL.formUrl || store.get("ielts-dl-ver") === DL.ver) {
+      track("资料下载", !DL.formUrl ? "直接下载（暂未登记）" : "同版本直下");
       window.open(DL.file, "_blank", "noopener");
+      if (DL.formUrl) store.set("ielts-dl-ver", DL.ver);
       return;
     }
-    $("#dlFrame").innerHTML = DL.formUrl
-      ? `<iframe src="${escapeHtml(DL.formUrl)}" loading="lazy" title="下载登记"></iframe>`
-      : `<p style="margin:0;padding:60px 20px;text-align:center;color:#98a0ab;font-size:13.5px">登记表单准备中，请稍后再试～</p>`;
+    $("#dlFrame").innerHTML = `<iframe src="${escapeHtml(DL.formUrl)}" loading="lazy" title="下载登记"></iframe>`;
     dlMask.hidden = false;
   });
   $("#dlClose").addEventListener("click", () => { dlMask.hidden = true; });
