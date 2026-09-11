@@ -50,6 +50,10 @@ window.QUESTION_BANK = {
   ],
   "updates": [
     {
+      "date": "2026-09-10",
+      "text": "新增 2 个话题（Part 1 1 个 · Part 2&3 1 个）"
+    },
+    {
       "date": "2026-09-08",
       "text": "新增 3 个话题（Part 2&3 3 个）"
     },
@@ -6268,6 +6272,55 @@ window.QUESTION_BANK = {
         },
         {
           "q": "Why are some celebrities not popular?"
+        }
+      ]
+    },
+    {
+      "id": "p1-friends",
+      "part": 1,
+      "category": "日常生活",
+      "status": "新题",
+      "month": 9,
+      "date": "2026-09-10",
+      "title": "Friends",
+      "titleCn": "朋友",
+      "questions": [
+        {
+          "q": "What makes a good friend?"
+        },
+        {
+          "q": "What do you usually do with your friends?"
+        },
+        {
+          "q": "How do you make friends?"
+        },
+        {
+          "q": "Do you have many friends?"
+        },
+        {
+          "q": "Are you a good friend to others?"
+        }
+      ]
+    },
+    {
+      "id": "p2-a-recent-change-in-life-that-helps-you-save-a-lot-of-time",
+      "part": 2,
+      "category": "事件",
+      "status": "新题",
+      "month": 9,
+      "date": "2026-09-10",
+      "title": "Describe a recent change in life that helps you save a lot of time.",
+      "titleCn": "节约时间的改变",
+      "card": "You should say:\n· What it is\n· What you have done\n· How it helps you save time\n· And explain how you feel about this change",
+      "part3": [
+        {
+          "q": "Do you think technology helps people to save time?"
+        },
+        {
+          "q": "Do you think parents and schools should be responsible for teaching children to save time?"
+        },
+        {
+          "q": "Do you think it will be easier for people who can manage time well to become successful?"
         }
       ]
     }
