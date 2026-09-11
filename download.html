@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>登记成功 · 雅思口语题库</title>
+<style>
+  *{box-sizing:border-box}
+  body{
+    margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;
+    background:#fffcf9;color:#191a1d;
+    font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    padding:28px 20px;
+  }
+  .box{text-align:center;max-width:340px}
+  .tick{
+    width:56px;height:56px;margin:0 auto 16px;border-radius:50%;
+    background:#e6f6ee;display:flex;align-items:center;justify-content:center;
+  }
+  .tick svg{width:28px;height:28px}
+  h1{font-size:17px;margin:0 0 8px;font-weight:600;letter-spacing:.2px}
+  p{margin:0;font-size:13.5px;line-height:1.7;color:#5a5f6b}
+  .manual{
+    display:inline-block;margin-top:18px;padding:10px 20px;border-radius:999px;
+    background:#ff6a00;color:#fff;text-decoration:none;font-size:13.5px;font-weight:600;
+  }
+  .manual:active{transform:scale(.98)}
+  .hint{margin-top:14px;font-size:12px;color:#9aa0ae}
+  .spin{
+    display:inline-block;width:13px;height:13px;margin-right:6px;vertical-align:-1px;
+    border:2px solid #ffc191;border-top-color:#ff6a00;border-radius:50%;
+    animation:sp .7s linear infinite;
+  }
+  @keyframes sp{to{transform:rotate(360deg)}}
+</style>
+</head>
+<body>
+  <div class="box">
+    <div class="tick">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#00a35a" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4.5 12.5l5 5 10-11"/>
+      </svg>
+    </div>
+    <h1>登记成功</h1>
+    <p><span class="spin"></span>正在为你开始下载…</p>
+    <a class="manual" href="assets/downloads/ielts-speaking-q3-2026.pdf" download="2026年第三季度雅思口语机经库-题目版.pdf">没有自动开始？点这里下载</a>
+    <p class="hint">资料出新版时会提示重新登记</p>
+  </div>
+
+  <script>
+    (function () {
+      var PDF = "assets/downloads/ielts-speaking-q3-2026.pdf";
+      var NAME = "2026年第三季度雅思口语机经库-题目版.pdf";
+
+      // 在题库页弹窗（iframe）内打开时，通知父页面：登记完成，可以下载了
+      try {
+        if (window.parent && window.parent !== window) {
+          window.parent.postMessage({ type: "ielts-dl-ok" }, "*");
+        }
+      } catch (e) { /* 跨域等异常忽略 */ }
+
+      // 兜底：若 1.5 秒后仍未脱离 iframe（父页面未接管），本页自己触发一次下载
+      setTimeout(function () {
+        if (window.parent && window.parent !== window) return;
+        var a = document.createElement("a");
+        a.href = PDF;
+        a.download = NAME;
+        a.style.display = "none";
+        document.body.appendChild(a);
+        a.click();
+        setTimeout(function () { a.remove(); }, 0);
+      }, 1500);
+    })();
+  </script>
+</body>
+</html>
