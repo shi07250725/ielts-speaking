@@ -27,7 +27,7 @@
 
 window.QUESTION_BANK = {
   "year": 2026,
-  "updated": "2026-09-01",
+  "updated": "2026-09-14",
   "periods": [
     {
       "label": "9-12月",
@@ -49,6 +49,10 @@ window.QUESTION_BANK = {
     }
   ],
   "updates": [
+    {
+      "date": "2026-09-14",
+      "text": "新增 2 个话题（Part 2&3 2 个）· 为 8 个话题补充了范例回答"
+    },
     {
       "date": "2026-09-10",
       "text": "新增 2 个话题（Part 1 1 个 · Part 2&3 1 个）"
@@ -2973,6 +2977,18 @@ window.QUESTION_BANK = {
         {
           "q": "Did you ever go on a long journey with your family when you were a child?",
           "a": "Yes, I did. When I was a child, my family sometimes took long road trips during holidays. I remember sitting in the back seat, listening to music and looking out of the window. It could get a bit tiring, but overall, I really enjoyed those trips because we spent a lot of time together."
+        },
+        {
+          "q": "What do you usually do during a long journey?",
+          "a": "Well, I usually listen to music or watch something on my phone, especially if the journey is several hours long. Sometimes I also sleep for a while because long trips can be quite tiring. If I’m travelling with friends, we’ll probably chat, play some games, or just look out of the window together."
+        },
+        {
+          "q": "Do you prefer travelling alone or with other people?",
+          "a": "I definitely prefer travelling with other people, especially my friends. I think the journey feels much shorter when you have someone to talk to, and it’s also more fun to share the experience with someone else. Travelling alone can be peaceful sometimes, but if the trip is really long, I’d probably get bored quite quickly."
+        },
+        {
+          "q": "What is the longest journey you have ever taken?",
+          "a": "The longest journey I’ve ever taken was probably a long-haul flight between China and the UK. It took many hours, and honestly, I felt pretty exhausted by the end of it. I mostly watched films, listened to music and tried to sleep. It was tiring, but I was also quite excited because I was travelling somewhere completely different."
         }
       ]
     },
@@ -3205,6 +3221,18 @@ window.QUESTION_BANK = {
         {
           "q": "Do you think being polite is very important?",
           "a": "Yes, definitely. I think basic manners can make everyday communication much easier. Even small things, like saying thank you or listening when someone is talking, can make people feel respected. It doesn’t take much effort, but it can leave a really good impression."
+        },
+        {
+          "q": "What kind of person do you think is polite?",
+          "a": "I think a polite person is someone who's considerate of others — like holding the door open, not interrupting, saying please and thank you. But more than just manners, I think it's about genuinely making people around you feel respected and comfortable. That's what real politeness is, I think."
+        },
+        {
+          "q": "Have you met someone who is polite recently?",
+          "a": "Yeah, actually! There was a guy on the subway last week who gave up his seat for an elderly passenger without hesitating. It was such a small thing but it really stood out. You don't always see that kind of thoughtfulness in a busy city, so it was really nice to witness."
+        },
+        {
+          "q": "When should people show respect to others?",
+          "a": "I think people should show respect to others all the time, not only in formal situations. For example, we should listen when someone is speaking, avoid interrupting them and respect different opinions, even if we don’t agree. It’s especially important when talking to older people, teachers or colleagues, but respect should really go both ways. I think simple things like being polite and considering other people’s feelings can make communication much easier."
         }
       ]
     },
@@ -3832,8 +3860,8 @@ window.QUESTION_BANK = {
           "a": "Yeah, I have. I used to make simple paper crafts at school, like paper flowers and little animals. I wasn’t particularly good at it, but I found it quite fun, especially when I did it with my classmates. I think we usually made them for art classes or school activities."
         },
         {
-          "q": "Do you still write handwritten letters?",
-          "a": "To be honest, I hardly ever write letters by hand now that I'm older. I guess it just feels a bit old-fashioned these days — and it can take ages to write one properly. So instead I just send emails or messages to keep in touch with friends and colleagues. It's so much quicker and easier. That said, I do sometimes miss the feeling of actually writing something out on paper."
+          "q": "Do you still write physical letters?",
+          "a": "Not really. I usually just text people because it’s much quicker and more convenient. I can’t even remember the last time I wrote a proper letter by hand. I might write a birthday card sometimes, but apart from that, I hardly ever send handwritten letters anymore."
         },
         {
           "q": "Do people still keep handwritten letters today?",
@@ -6081,16 +6109,20 @@ window.QUESTION_BANK = {
       "titleCn": "无聊感",
       "questions": [
         {
-          "q": "Do you often feel bored?"
+          "q": "Do you often feel bored?",
+          "a": "I rarely feel bored, actually. I’m always quite busy – I’ve got my studies, sporting activities and a fairly busy social calendar. I’m a very active person and I never seem to have time for all the things I want to do – so I’ve certainly no time to get bored."
         },
         {
-          "q": "What kinds of things would make you feel bored?"
+          "q": "What kinds of things would make you feel bored?",
+          "a": "When I feel bored it’s usually when I’m commuting and stuck in traffic. I find travelling by car quite frustrating in the big city, and it really affects my mood when there are big traffic jams. So, getting stuck in traffic or moving really slowly in traffic makes me feel both frustrated and bored."
         },
         {
-          "q": "What will you do when you feel bored?"
+          "q": "What will you do when you feel bored?",
+          "a": "If I feel bored I usually get quite annoyed, and that makes me want to talk to friends to get things off my chest. So, usually I will message my friends or give them a call and talk about my feelings, ask them about their day, gossip about daily life... things like this. This kind of thing usually relieves my boredom and frustration temporarily."
         },
         {
-          "q": "Do you think childhood is boring or adulthood is boring?"
+          "q": "Do you think childhood is boring or adulthood is boring?",
+          "a": "I believe both childhood and adulthood have their share of interesting and mundane moments. Childhood might seem simpler, but adulthood offers diverse experiences and responsibilities. Boredom is subjective, varying from person to person."
         }
       ]
     },
@@ -6111,7 +6143,8 @@ window.QUESTION_BANK = {
         {
           "q": "What effect does stress have on health?"
         }
-      ]
+      ],
+      "sampleAnswer": "A person whose health and fitness I helped to improve was one of my close friends from school. She wasn’t really unhealthy, but she barely exercised and often complained that she felt tired after sitting in class for the whole day. So I suggested that we start doing some simple exercise together after school. And for why I wanted to help her, I guess it was mainly because I was already exercising quite regularly, and I thought it would be easier for her if she had someone to do it with. We didn’t do anything too intense. At first, we just went for fast walks and stretched a bit, and later we started jogging for short periods. I also reminded her not to push herself too hard because I knew she might give up if she felt exhausted every time. After a few weeks, she became much more active and said she was sleeping better as well. And for whether it was easy or difficult, I’d say it was a bit difficult at the beginning because she sometimes wanted to cancel our plans, especially when she was tired. But once she started noticing the changes, she became much more motivated, so after that, it was actually pretty easy to keep going."
     },
     {
       "id": "p2-a-party-you-enjoyed",
@@ -6167,7 +6200,8 @@ window.QUESTION_BANK = {
         {
           "q": "Do you think all old buildings should be demolished?"
         }
-      ]
+      ],
+      "sampleAnswer": "A building I really like is the main library at my university. It’s right in the centre of the campus, so I pass by it almost every day. From the outside, it looks quite modern, with a lot of glass and a simple design, and inside it’s bright and spacious. There are several floors, with study areas, bookshelves, computers, and some quieter corners where students can work on their own. And for what it is used for, obviously people go there to borrow books and study, but it’s also a place where students prepare for exams, work on group projects, or just sit for a while between classes. I personally like going there in the afternoon because the atmosphere is usually calm, but not completely silent, so it doesn’t feel too stressful. And for why I like this building, I’d say it’s because I connect it with a lot of ordinary but meaningful moments from university life. I’ve studied there with friends, rushed to finish assignments there, and sometimes just gone there when I needed a quiet place to think. So even though it isn’t a famous landmark or anything, it feels very familiar and comfortable to me."
     },
     {
       "id": "p2-an-athlete-sports-team-you-admire",
@@ -6204,7 +6238,8 @@ window.QUESTION_BANK = {
         {
           "q": "How is technology used in sports?"
         }
-      ]
+      ],
+      "sampleAnswer": "I'd like to talk about Lang Ping, also known as \"Iron Hammer,\" who is one of the most influential figures in volleyball history. She's a former Chinese volleyball player who later became a highly successful coach, famously leading both the Chinese and American national women's teams. I first learned about Lang Ping during a physical education class in middle school. Our teacher showed us a documentary about the 1984 Olympics where she led China to their first gold medal. Since then, I've been fascinated by her career both as a player and coach. I don't watch her coach regularly now since she retired from coaching the Chinese national team after the Tokyo Olympics, but during her coaching years, I would watch every major tournament her team participated in. I've also watched several documentaries and interviews featuring her remarkable career journey. I admire Lang Ping tremendously because she broke so many barriers. She was not only an exceptional athlete but also became the first person to win Olympic gold as both a player and a coach with different countries. What impresses me most is her courage to take the unconventional path, even accepting the controversial position of coaching the US team despite criticism from some Chinese fans. Her leadership style combines strict discipline with genuine care for her players. She's honest, straightforward, and prioritizes growth over immediate results. Lang Ping's willingness to embrace challenges and her constant pursuit of excellence make her truly inspirational, not just in sports but in life."
     },
     {
       "id": "p2-an-occasion-when-you-lost-something-in-a-public-place",
@@ -6248,7 +6283,8 @@ window.QUESTION_BANK = {
         {
           "q": "Do you think people who live in natural places are more likely to protect it?"
         }
-      ]
+      ],
+      "sampleAnswer": "So, the place I want to talk about is a small mountain area not too far outside my city — about an hour and a half by car. It's not famous at all, honestly. It's the kind of place locals know about but you'd never find on a travel list. I went there with two of my friends last autumn. And the reason we went was actually pretty simple — we'd all been stuck indoors for weeks, staring at screens, and one of them just said one evening, \"I think we need to go somewhere with trees.\" Which sounds a bit dramatic, but at the time it made complete sense to all of us. We drove up early on a Saturday morning, and the whole area was covered in this really thick mist because it had rained the night before. There's a small river running through it, and a rough path that goes up along the side of the hill. We walked for about three hours, stopped a few times to just sit on rocks and not say anything, and ate the terrible sandwiches we'd packed at six in the morning. What I remember most is how quiet it was. Like, properly quiet — no traffic, no notifications, nothing. At one point I realised I hadn't looked at my phone in over an hour, which almost never happens. I think that's why the place stayed with me. It wasn't spectacular or impressive in any obvious way. It just gave my brain a break, which turned out to be exactly what I needed."
     },
     {
       "id": "p2-a-popular-person",
@@ -6323,6 +6359,30 @@ window.QUESTION_BANK = {
           "q": "Do you think it will be easier for people who can manage time well to become successful?"
         }
       ]
+    },
+    {
+      "id": "p2-a-person-who-did-something-difficult-and-succeeded",
+      "part": 2,
+      "category": "人物",
+      "status": "新题",
+      "month": 9,
+      "date": "2026-09-14",
+      "title": "Describe a person you know who did something difficult and was successful.",
+      "titleCn": "做困难事情并成功的人",
+      "card": "You should say:\n· Who this person is\n· What difficult thing this person did\n· Why this person was successful\n· And explain how you feel about this person",
+      "sampleAnswer": "A person I know who did something really difficult and was successful is one of my close friends from high school. She used to be quite afraid of water, but one summer she decided that she wanted to learn how to swim. At the beginning, even putting her face in the water made her nervous, so learning to swim was definitely not easy for her. And honestly, I thought she might give up after a few lessons, but she didn’t. She kept practising every week and slowly became more comfortable in the pool. I think the main reason she was successful was that she was very patient with herself. She didn’t expect to improve immediately, and even when she made very little progress, she still kept going. Her swimming coach also encouraged her a lot, which probably helped as well. After a few months, she could finally swim on her own, and I remember she was extremely excited about it. And for how I feel about her, I’d say I really admire her because she faced something she was genuinely afraid of instead of avoiding it. I think that experience showed me that success doesn’t always mean doing something huge. Sometimes, overcoming a personal fear can already be a really big achievement."
+    },
+    {
+      "id": "p2-a-time-when-you-watched-a-famous-person-being-interviewed",
+      "part": 2,
+      "category": "事件",
+      "status": "新题",
+      "month": 9,
+      "date": "2026-09-14",
+      "title": "Describe a time you watched a famous person being interviewed.",
+      "titleCn": "看过的名人采访",
+      "card": "You should say:\n· Who the famous person was\n· What the interview was about\n· When and where you watched the interview\n· And explain how you felt about the experience",
+      "sampleAnswer": "So, the interview I want to talk about was with Jensen Huang, the CEO of Nvidia — the chip company that basically everyone in tech talks about these days. I watched it maybe eight months ago, late at night in my bedroom, because it kept showing up in my recommendations and I was curious enough to finally click on it. The whole interview was about AI, obviously, and where he thinks it's all heading. But what surprised me was that he didn't do the thing I expected — he didn't spend the whole time hyping everything up or making dramatic predictions about robots taking over the world. He was actually pretty measured about it. The part that stuck with me most was when the interviewer asked him whether AI would replace people's jobs, and instead of giving a straight yes or no, he said something like, you probably won't lose your job to AI, but you might lose it to someone who knows how to use AI properly. And I remember pausing the video for a second because that felt like a genuinely useful way to think about it, rather than just something designed to scare people. I came away feeling a bit less anxious about the whole thing, honestly. Like, I'd been reading a lot of doom-and-gloom articles about AI at the time, and hearing someone who actually builds this stuff talk about it so calmly was weirdly reassuring. I think that's the mark of a good interview — you walk away thinking differently than when you started."
     }
   ]
 };
